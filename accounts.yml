@@ -1,87 +1,87 @@
 locale: th-TH
 translations:
   - key: accounts.error_incorrect_password
-    t: Incorrect password
+    t: รหัสผ่านไม่ถูกต้อง
   - key: accounts.error_email_required
-    t: Email required
+    t: ต้องระบุอีเมล
   - key: accounts.error_email_already_exists
-    t: Email already exists
+    t: อีเมลนี้มีถูกใช้งานอยู่แล้ว
   - key: accounts.error_invalid_email
-    t: Invalid email
+    t: อีเมลไม่ถูกต้อง
   - key: accounts.error_minchar
-    t: Your password is too short
+    t: รหัสผ่านของคุณสั้นเกินไป
   - key: accounts.error_unknown
-    t: Unknown error
+    t: เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ
   - key: accounts.error_user_not_found
-    t: User not found
+    t: ไม่พบผู้ใช้
   - key: accounts.error_username_already_exists
-    t: Username already exists
+    t: ชื่อผู้ใช้นี้มีอยู่แล้ว
   - key: accounts.enter_username_or_email
-    t: Enter username or email
+    t: กรุณากรอกชื่อผู้ใช้หรืออีเมล
   - key: accounts.error_internal_server_error
-    t: Internal server error
+    t: ข้อผิดพลาดของเซิร์ฟเวอร์ภายใน
   - key: accounts.error_token_expired
-    t: Invalid password reset token
+    t: โทเค็นรีเซ็ตรหัสผ่านหมดอายุแล้ว
   - key: accounts.username_or_email
-    t: Username or email
+    t: ชื่อผู้ใช้หรืออีเมล
   - key: accounts.enter_username
-    t: Enter username
+    t: กรุณากรอกชื่อผู้ใช้
   - key: accounts.username
-    t: Username
+    t: ชื่อผู้ใช้
   - key: accounts.enter_email
-    t: Enter email
+    t: กรุณากรอกอีเมล
   - key: accounts.email
-    t: Email
+    t: อีเมล
   - key: accounts.enter_password
-    t: Enter password
+    t: กรุณากรอกรหัสผ่าน
   - key: accounts.password
-    t: Password
+    t: รหัสผ่าน
   - key: accounts.choose_password
-    t: Choose password
+    t: เลือกรหัสผ่าน
   - key: accounts.change_password
-    t: Change password
+    t: เปลี่ยนรหัสผ่าน
   - key: accounts.reset_your_password
-    t: Reset your password
+    t: รีเซ็ตรหัสผ่านของคุณ
   - key: accounts.set_password
-    t: Set password
+    t: ตั้งรหัสผ่าน
   - key: accounts.enter_new_password
-    t: Enter new password
+    t: กรุณากรอกรหัสผ่านใหม่
   - key: accounts.new_password
-    t: New password
+    t: รหัสผ่านใหม่
   - key: accounts.forgot_password
-    t: Forgot password
+    t: ลืมรหัสผ่าน
   - key: accounts.sign_up
-    t: Sign up
+    t: สมัครสมาชิก
   - key: accounts.sign_in
-    t: Log in
+    t: เข้าสู่ระบบ
   - key: accounts.switch_to_sign_up
-    t: Don't have an account ? Sign up
+    t: ยังไม่มีบัญชีใช่ไหม? สมัครสมาชิก
   - key: accounts.switch_to_sign_in
-    t: Already have an account? Log in
+    t: มีบัญชีอยู่แล้ว? เข้าสู่ระบบ
   - key: accounts.sign_out
-    t: Sign out
+    t: ออกจากระบบ
   - key: accounts.cancel
-    t: Cancel
+    t: ยกเลิก
   - key: accounts.info_email_sent
-    t: Email sent.
+    t: ส่งอีเมลแล้ว
   - key: accounts.info_password_changed
-    t: Password changed.
+    t: เปลี่ยนรหัสผ่านแล้ว
   - key: accounts.please_pick_password
-    t: Please pick a new password to continue.
+    t: กรุณาเลือกรหัสผ่านใหม่เพื่อดำเนินการต่อ
   - key: accounts.please_log_in
-    t: Please log in or sign up to begin.
+    t: กรุณาเข้าสู่ระบบหรือสมัครสมาชิกเพื่อเริ่มต้น
   - key: accounts.logged_in_as
-    t: Logged in using your email address
+    t: เข้าสู่ระบบโดยใช้อีเมลของคุณแล้ว
   - key: accounts.logged_in_as_guest
-    t: Logged in as Guest
+    t: เข้าสู่ระบบในฐานะผู้เยี่ยมชมแล้ว
   - key: accounts.questions
     t: >
-      If you have any questions about how we use your data, or would like
-      us to remove your data from our records,
-      please <a href="mailto:hello@stateofjs.com">get in touch</a>.
+      หากคุณมีคำถามเกี่ยวกับการใช้งานข้อมูลของคุณ หรือหากต้องการ
+      ให้เราลบข้อมูลของคุณจากบันทึกของเรา
+      กรุณา <a href="mailto:hello@stateofjs.com">ติดต่อเรา</a>
 
   - key: accounts.token_verified
-    t: Token verification successful, redirecting…
+    t: ตรวจสอบโทเค็นสำเร็จ กำลังเปลี่ยนหน้า…
 
   - key: accounts.your_surveys
-    t: Your Surveys
+    t: แบบสำรวจของคุณ
