@@ -445,33 +445,33 @@ translations:
 
   # opinions
   - key: options.opinions.0
-    t: Disagree Strongly
+    t: ไม่เห็นด้วยอย่างยิ่ง
   - key: options.opinions.1
-    t: Disagree
+    t: ไม่เห็นด้วย
   - key: options.opinions.2
-    t: Neutral
+    t: เฉยๆ
   - key: options.opinions.3
-    t: Agree
+    t: เห็นด้วย
   - key: options.opinions.4
-    t: Agree Strongly
+    t: เห็นด้วยอย่างยิ่ง
 
   # age
   - key: options.age.range_less_than_10
-    t: 10 years old or under
+    t: 10 ปีหรือน้อยกว่า
   - key: options.age.range_10_18
-    t: 11-18 years old
+    t: 11-18 ปี
   - key: options.age.range_18_24
-    t: 19-24 years old
+    t: 19-24 ปี
   - key: options.age.range_25_34
-    t: 25-34 years old
+    t: 25-34 ปี
   - key: options.age.range_35_44
-    t: 35-44 years old
+    t: 35-44 ปี
   - key: options.age.range_45_54
-    t: 45-54 years old
+    t: 45-54 ปี
   - key: options.age.range_55_64
-    t: 55-64 years old
+    t: 55-64 ปี
   - key: options.age.range_more_than_65
-    t: 65 years or older
+    t: 65 ปีขึ้นไป
 
   # age (short versions)
   - key: options.age.range_less_than_10.short
@@ -493,51 +493,51 @@ translations:
 
   # years of experience
   - key: options.years_of_experience.range_less_than_1
-    t: Less than one year
+    t: น้อยกว่าหนึ่งปี
   - key: options.years_of_experience.range_1_2
-    t: 1 to 2 years
+    t: 1 ถึง 2 ปี
   - key: options.years_of_experience.range_2_5
-    t: 3 to 5 years
+    t: 3 ถึง 5 ปี
   - key: options.years_of_experience.range_5_10
-    t: 6 to 10 years
+    t: 6 ถึง 10 ปี
   - key: options.years_of_experience.range_10_20
-    t: 11 to 20 years
+    t: 11 ถึง 20 ปี
   - key: options.years_of_experience.range_more_than_20
-    t: More than 20 years
+    t: มากกว่า 20 ปี
 
   # years of experience (short versions)
   - key: options.years_of_experience.range_less_than_1.short
-    t: "<1 years"
+    t: "<1 ปี"
   - key: options.years_of_experience.range_1_2.short
-    t: 1-2 years
+    t: 1-2 ปี
   - key: options.years_of_experience.range_2_5.short
-    t: 3-5 years
+    t: 3-5 ปี
   - key: options.years_of_experience.range_5_10.short
-    t: 6-10 years
+    t: 6-10 ปี
   - key: options.years_of_experience.range_10_20.short
-    t: 11-20 years
+    t: 11-20 ปี
   - key: options.years_of_experience.range_more_than_20.short
-    t: ">20 years"
+    t: ">20 ปี"
 
   # company size
   - key: options.company_size.na
-    t: 🚫 Not Applicable
+    t: 🚫 ไม่เกี่ยวข้อง
   - key: options.company_size.range_1
-    t: Just me
+    t: มีฉันคนเดียว
   - key: options.company_size.range_1_5
-    t: 2 to 5 people
+    t: 2 ถึง 5 คน
   - key: options.company_size.range_5_10
-    t: 6 to 10 people
+    t: 6 ถึง 10 คน
   - key: options.company_size.range_10_20
-    t: 11 to 20 people
+    t: 11 ถึง 20 คน
   - key: options.company_size.range_20_50
-    t: 21 to 50 people
+    t: 21 ถึง 50 คน
   - key: options.company_size.range_50_100
-    t: 51 to 100 people
+    t: 51 ถึง 100 คน
   - key: options.company_size.range_100_1000
-    t: 101 to 1000 people
+    t: 101 ถึง 1000 คน
   - key: options.company_size.range_more_than_1000
-    t: More than 1000 people
+    t: มากกว่า 1000 คน
 
   # company size (short versions)
   - key: options.company_size.na.short
@@ -561,36 +561,36 @@ translations:
 
   # salary
   - key: options.yearly_salary.na
-    t: 🚫 Not Applicable
+    t: 🚫 ไม่เกี่ยวข้อง
   - key: options.yearly_salary.range_work_for_free
-    t: I work for free
+    t: ฉันทำงานฟรี
   - key: options.yearly_salary.range_0_10
-    t: $0k-$10k
+    t: $0k-$10k (ประมาณ 0-330,000 บาท)
   - key: options.yearly_salary.range_10_30
-    t: $10k-$30k
+    t: $10k-$30k (ประมาณ 330,000-1,000,000 บาท)
   - key: options.yearly_salary.range_30_50
-    t: $30k-$50k
+    t: $30k-$50k (ประมาณ 1,000,000-1,600,000 บาท)
   - key: options.yearly_salary.range_50_100
-    t: $50k-$100k
+    t: $50k-$100k (ประมาณ 1,600,000-3,300,000 บาท)
   - key: options.yearly_salary.range_100_200
-    t: $100k-$200k
+    t: $100k-$200k (ประมาณ 3,300,000-6,600,000 บาท)
   - key: options.yearly_salary.range_more_than_200
-    t: More than $200k
+    t: มากกว่า $200k (ประมาณ 6,600,000 บาท)
 
   - key: options.yearly_salary.range_0_20
-    t: $0k-$20k
+    t: $0k-$20k (ประมาณ 0-660,000 บาท)
   - key: options.yearly_salary.range_20_40
-    t: $20k-$40k
+    t: $20k-$40k (ประมาณ 660,000-1,300,000 บาท)
   - key: options.yearly_salary.range_40_60
-    t: $40k-$60k
+    t: $40k-$60k (ประมาณ 1,300,000-2,000,000 บาท)
   - key: options.yearly_salary.range_60_80
-    t: $60k-$80k
+    t: $60k-$80k (ประมาณ 2,000,000-2,600,000 บาท)
   - key: options.yearly_salary.range_80_100
-    t: $80k-$100k
+    t: $80k-$100k (ประมาณ 2,600,000-3,300,000 บาท)
   - key: options.yearly_salary.range_100_150
-    t: $100k-$150k
+    t: $100k-$150k (ประมาณ 3,300,000-5,000,000 บาท)
   - key: options.yearly_salary.range_150_200
-    t: $150k-$200k
+    t: $150k-$200k (ประมาณ 5,000,000-6,600,000 บาท)
 
   # salary (short versions)
   - key: options.yearly_salary.na.short
@@ -598,29 +598,29 @@ translations:
   - key: options.yearly_salary.range_work_for_free.short
     t: $0
   - key: options.yearly_salary.range_0_10.short
-    t: $0-$10k
+    t: $0-$10k (ประมาณ 0-330,000 บาท)
   - key: options.yearly_salary.range_10_30.short
-    t: $10k-$30k
+    t: $10k-$30k (ประมาณ 330,000-1,000,000 บาท)
   - key: options.yearly_salary.range_30_50.short
-    t: $30k-$50k
+    t: $30k-$50k (ประมาณ 1,000,000-1,600,000 บาท)
   - key: options.yearly_salary.range_50_100.short
-    t: $50k-$100k
+    t: $50k-$100k (ประมาณ 1,600,000-3,300,000 บาท)
   - key: options.yearly_salary.range_100_200.short
-    t: $100k-$200k
+    t: $100k-$200k (ประมาณ 3,300,000-6,600,000 บาท)
   - key: options.yearly_salary.range_more_than_200.short
-    t: ">$200k"
+    t: ">$200k (ประมาณ 6,600,000 บาท)"
 
   # Proficiency (generic versions)
   - key: options.proficiency.0
-    t: None
+    t: ไม่มี
   - key: options.proficiency.1
-    t: Beginner
+    t: เริ่มต้น
   - key: options.proficiency.2
-    t: Intermediate
+    t: ระดับกลาง
   - key: options.proficiency.3
-    t: Advanced
+    t: ระดับสูง
   - key: options.proficiency.4
-    t: Expert
+    t: เชี่ยวชาญ
 
   # Gender
 
