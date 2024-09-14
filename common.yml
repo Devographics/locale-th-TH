@@ -41,75 +41,75 @@ translations:
 
   # surveys
   - key: general.open_surveys
-    t: Open Surveys
+    t: แบบสำรวจที่เปิดอยู่
   - key: general.no_open_surveys
-    t: No surveys are currently open.
+    t: ขณะนี้ไม่มีแบบสำรวจที่เปิดอยู่
   - key: general.closed_surveys
-    t: Closed Surveys
+    t: แบบสำรวจที่ปิดแล้ว
   - key: general.no_closed_surveys
-    t: No surveys are currently closed.
+    t: ขณะนี้ไม่มีแบบสำรวจที่ปิดแล้ว
   - key: general.preview_surveys
-    t: Preview Surveys
+    t: แบบสำรวจตัวอย่าง
   - key: general.no_preview_surveys
-    t: No surveys available to preview.
+    t: ไม่มีแบบสำรวจตัวอย่างให้ดู
   - key: general.start_survey
-    t: Start Survey »
+    t: เริ่มทำแบบสำรวจ »
   - key: general.continue_survey
-    t: Continue Survey »
+    t: ทำแบบสำรวจต่อ »
   - key: general.completion
-    t: "{completion}% completed"
+    t: "เสร็จสิ้นไป {completion}%"
   - key: general.started_on
-    t: Started on {createdAt}
+    t: เริ่มเมื่อ {createdAt}
   - key: general.last_modified_on
-    t: Last modified on {updatedAt}
+    t: แก้ไขล่าสุดเมื่อ {updatedAt}
   - key: general.review_survey
-    t: Review Survey »
+    t: ตรวจสอบแบบสำรวจ »
   - key: general.review_answers
-    t: Review Answers »
+    t: ตรวจสอบคำตอบ »
   - key: general.preview_survey
-    t: Preview Survey »
+    t: ดูตัวอย่างแบบสำรวจ »
   - key: general.finish_survey
-    t: Finish Survey
+    t: เสร็จสิ้นแบบสำรวจ
   - key: general.next_section
-    t: Next section
+    t: ส่วนถัดไป
   - key: general.previous_section
-    t: Previous section
+    t: ส่วนก่อนหน้า
   - key: general.survey_closed
-    t: This survey is now closed.
+    t: แบบสำรวจนี้ปิดแล้ว
   - key: general.survey_closed_on
-    t: This survey closed on {endedAt}.
+    t: แบบสำรวจนี้ปิดเมื่อ {endedAt}
   - key: general.survey_results
-    t: View Survey Results »
+    t: ดูผลลัพธ์ของแบบสำรวจ »
   - key: general.surveys_available_languages
-    t: "Surveys available in:"
+    t: "แบบสำรวจจะมีเปิดใช้งานใน:"
   - key: general.help_us_translate
-    t: Help us translate the surveys »
+    t: ช่วยเราแปลแบบสำรวจ »
   - key: general.translators
-    t: Translators
+    t: ผู้แปล
   - key: general.translation_help
-    t: Translation Help
+    t: ความช่วยเหลือในการแปล
   - key: general.newly_added
-    t: Newly added this year
+    t: เพิ่มใหม่ในปีนี้
   - key: general.new
-    t: New
+    t: ใหม่
   - key: general.devographics_banner
-    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> is the new name of the collective running the State of JavaScript, CSS, and GraphQL surveys.
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> คือชื่อใหม่ของกลุ่มที่จัดทำแบบสำรวจ State of JavaScript, CSS และ GraphQL
 
-  # credits
+# credits
   - key: credits.thanks
-    t: Special Thanks
+    t: ขอขอบคุณเป็นพิเศษ
   - key: credits.contributors
-    t: Contributors
+    t: ผู้มีส่วนร่วม
   - key: credits.contributors.description
-    t: Special thanks to the following people for helping us design the survey.
+    t: ขอขอบคุณบุคคลต่อไปนี้สำหรับการช่วยออกแบบแบบสำรวจ
   - key: credits.accessibility
-    t: Accessibility Consulting
+    t: คำปรึกษาด้านการเข้าถึง
   - key: credits.survey_design
-    t: Survey Design
+    t: การออกแบบแบบสำรวจ
   - key: credits.logo_design
-    t: Logo Design
+    t: การออกแบบโลโก้
   - key: credits.mobile_testing
-    t: Mobile Testing
+    t: การทดสอบบนมือถือ
   - key: credits.data_visualizations
     t: Data Visualizations
   - key: credits.repo_architecture
@@ -121,39 +121,40 @@ translations:
   - key: credits.back_end_development
     t: Back-End Developement
   - key: credits.survey_review
-    t: Survey Review
+    t: การตรวจสอบ/ทบทวนแบบสำรวจ
 
-  # support
+# support
   - key: general.support_from
-    t: With Support From
+    t: ด้วยการสนับสนุนจาก
 
-  # footer
+# footer
   - key: general.privacy_policy
-    t: Privacy Policy
+    t: นโยบายความเป็นส่วนตัว
   - key: general.leave_issue
-    t: Questions? Found a bug? <a href="{link}" target="_blank">Leave an issue</a>.
+    t: มีคำถาม? พบข้อบกพร่อง? <a href="{link}" target="_blank">แจ้งปัญหา</a>.
   - key: general.leave_issue2
     aliasFor: homepage.leave_issue
   - key: general.emoji_icons
-    t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+    t: ไอคอนอิโมจิโดย <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
-  # navigation
+# navigation
   - key: general.table_of_contents
     t: >
-      {sectionCount} sections ({completion}% completed)
+      {sectionCount} ส่วน (เสร็จสิ้นไป {completion}%)
   - key: general.all_questions_optional
     t: >
-      Note: all questions are optional, reaching 100% completion is not required.
+      หมายเหตุ: คำถามทั้งหมดจะทำหรือไม่ทำก็ได้ ไม่จำเป็นต้องทำให้ครบ 100%
   - key: general.data_is_saved
-    t: Your data is saved whenever you navigate to the previous or next section.
+    t: ข้อมูลของคุณจะถูกบันทึกเมื่อคุณไปยังส่วนก่อนหน้าหรือส่วนถัดไป
   - key: general.close_nav
-    t: Close menu
+    t: ปิดเมนู
   - key: general.open_nav
-    t: Open menu
+    t: เปิดเมนู
   - key: general.more_actions
-    t: More actions
+    t: ตัวเลือกเพิ่มเติม
   - key: general.skip_to_content
-    t: Skip to content
+    t: ข้ามไปยังเนื้อหา
+
 
   # thanks
   - key: general.back
