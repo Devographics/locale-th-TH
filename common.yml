@@ -6,38 +6,38 @@ translations:
 
   # homepage
   - key: general.why_create_account
-    t: Why do I need to create an account?
+    t: ทำไมฉันต้องสร้างบัญชี?
   - key: general.create_account_reasons
     t: >
-      We ask you to create an account in order to:
+      เราขอให้คุณสร้างบัญชีเพื่อ:
 
-      - Avoid duplicate responses
+      - ป้องกันการทำแบบสำรวจซ้ำ
 
-      - Give you access to your data
+      - ให้คุณเข้าถึงข้อมูลของคุณได้
 
-      - Save your session as you go
+      - บันทึกคำตอบของคุณในขณะที่ทำแบบสำรวจ
 
-      - Notify you when results are live
+      - แจ้งให้คุณทราบเมื่อผลลัพธ์พร้อมแล้ว
   - key: general.survey_closed_detailed
     t: >
-      Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
+      ขออภัย แบบสำรวจนี้ปิดแล้ว! คุณยังสามารถตรวจสอบข้อมูลของคุณได้ แต่จะไม่สามารถแก้ไขได้
   - key: general.survey_read_only
     t: >
-      You are currently viewing this survey in read-only mode.
+      คุณกำลังดูแบบสำรวจนี้ในโหมดอ่านอย่างเดียว
   - key: general.survey_preview
     t: >
-      This survey is in **preview mode**. Its questions are subject to change, and any data you input now **will be deleted** when the survey actually starts.
+      แบบสำรวจนี้อยู่ใน **โหมดตัวอย่าง** คำถามอาจมีการเปลี่ยนแปลง และข้อมูลที่คุณกรอกในตอนนี้ **จะถูกลบ** เมื่อแบบสำรวจเริ่มต้นจริง
   - key: general.survey_feedback
-    t: Leave feedback
+    t: ส่งข้อเสนอแนะ
 
   - key: general.survey_read_only_back
     t: >
-      <a href="{link}">Go back</a> to the main survey page to start or resume a session.
+      <a href="{link}">กลับไป</a> ยังหน้าแบบสำรวจหลักเพื่อเริ่มต้นหรือทำต่อ
   - key: general.take_survey
-    t: Take the {name} survey
+    t: ทำแบบสำรวจ {name}
 
   - key: options.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
 
   # surveys
   - key: general.open_surveys
