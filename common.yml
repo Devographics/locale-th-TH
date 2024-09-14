@@ -156,163 +156,161 @@ translations:
     t: ข้ามไปยังเนื้อหา
 
 
-  # thanks
+# thanks
   - key: general.back
-    t: Back
+    t: กลับ
   - key: general.back_to_survey
-    t: Back to survey
+    t: กลับไปยังแบบสำรวจ
   - key: general.thanks
     t: >
-      Thanks for filling out the survey! Your data is saved.
+      ขอบคุณที่ทำแบบสำรวจ! ข้อมูลของคุณถูกบันทึกแล้ว
 
-
-      Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
-      more representative:
-
+      คุณสามารถช่วยเราได้ด้วยการแชร์แบบสำรวจนี้ ทุกๆแชร์มีความหมาย และจะช่วยให้ข้อมูลของเราครอบคลุมและตรงความเป็นจริงมากขึ้น:
   - key: general.thanks1
     t: >
-      Thanks for filling out the survey! Your data is saved.
+      ขอบคุณที่ทำแบบสำรวจ! ข้อมูลของคุณถูกบันทึกแล้ว
   - key: general.thanks2
     t: >
-      Help us get the word out by sharing this survey! Every bit counts, and it'll help make our data even
-      more representative.
+      คุณช่วยเราได้โดยการแชร์แบบสำรวจนี้ ทุกๆแชร์มีความหมาย และจะช่วยให้ข้อมูลของเราครอบคลุมและตรงความเป็นจริงมากขึ้น:
   - key: thanks.learn_more_about
-    t: "Some of the features you might want to learn more about:"
+    t: "คุณอาจสนใจเรียนรู้เพิ่มเติมเกี่ยวกับฟีเจอร์เหล่านี้:"
   - key: thanks.knowledge_score
-    t: Knowledge Score
+    t: คะแนนความรู้
   - key: thanks.features_score
-    t: Features Score
+    t: คะแนนฟีเจอร์
   - key: thanks.quiz_score
-    t: Quiz Score
+    t: คะแนนแบบทดสอบ
   - key: thanks.score_statistics
     t: >
-      Of the {total} features mentioned in the survey,
-      you have used {usage_count} and heard of {awareness_count} more,
-      which puts you in the top {knowledgeRankingFromTop} of all respondents.
-      Well done!
+      จาก {total} ฟีเจอร์ที่ระบุในแบบสำรวจนี้
+      คุณได้ใช้ {usage_count} ฟีเจอร์และรู้จัก {awareness_count} ฟีเจอร์เพิ่มขึ้น
+      ทำให้คุณอยู่ในอันดับที่ {knowledgeRankingFromTop} จากผู้ตอบแบบสอบถามทั้งหมด
+      เจ๋งมาก!
   - key: thanks.score_statistics_noranking
     t: >
-      Of the {total} features mentioned in the survey,
-      you have used {usage_count} and heard of {awareness_count} more.
-      Well done!
+      จาก {total} ฟีเจอร์ที่ระบุในแบบสำรวจนี้
+      คุณได้ใช้ {usage_count} ฟีเจอร์และรู้จัก {awareness_count} ฟีเจอร์เพิ่มขึ้น
+      สุดยอด!
   - key: thanks.points
     t: >
-      points
+      คะแนน
   - key: thanks.score_awareness_explanation
     t: >
-      For fairness, this percentage is calculated over only the {awareness_total} features you could express you knew
+      เพื่อความยุติธรรม เปอร์เซ็นต์นี้คำนวณจาก {awareness_total} ฟีเจอร์ที่คุณรู้จักเท่านั้น
   - key: thanks.share_on_twitter
-    t: Share on Twitter
+    t: แชร์บน Twitter
   - key: thanks.share_score_message
     t: >
-      I got a {score} points knowledge score on this year’s #{hashtag} survey!
-      I have used {usage_count} features, and knew {awareness_count} more,
-      placing me in the top {rank}% of all respondents.
-      Can you beat my score? {shareUrl}
+      ฉันได้คะแนนความรู้ {score} คะแนนจากแบบสำรวจ #{hashtag} ของปีนี้!
+      ฉันได้ใช้ {usage_count} ฟีเจอร์และรู้จัก {awareness_count} ฟีเจอร์เพิ่มขึ้น
+      ทำให้ฉันอยู่ในอันดับ top {rank}% ของผู้ตอบแบบสอบถามทั้งหมด
+      คิดว่าเก่งก็เข้ามาเลย! {shareUrl}
+
   # share
   - key: general.share_subject
     t: >
-      {surveyName} survey
+      แบบสำรวจ {surveyName}
   - key: general.share_text
     t: >
-      This year's {surveyName} survey is now open! {link}
+      แบบสำรวจ {surveyName} ของปีนี้เปิดแล้ว! {link}
 
-  # forms
+# forms
   - key: forms.select_option
-    t: Select option
+    t: เลือกตัวเลือก
   - key: forms.clear_field
-    t: Clear question
+    t: ล้างคำถาม
   - key: forms.more_options
-    t: Show more…
+    t: แสดงเพิ่มเติม…
   - key: forms.less_options
-    t: Show less
+    t: แสดงน้อยลง
 
-  # partners & sponsors
+# partners & sponsors
   - key: sponsors.with_support_from
-    t: With Special Support From
+    t: ด้วยการสนับสนุนพิเศษจาก
   - key: sponsors.our_partners
-    t: Our Partners
+    t: พาร์ทเนอร์ของเรา
   - key: sponsors.become_partner
-    t: Become a partner
+    t: ร่วมเป็นพาร์ทเนอร์กับเรา
 
-  # 404
+# 404
   - key: notfound.title
     t: 404 Not Found
   - key: notfound.description
-    t: Sorry, we couldn't find what you were looking for.
+    t: ขออภัย ไม่พบสิ่งที่คุณค้นหา
 
-  # other
+# other
   - key: general.join_discord
-    t: Join us on <a href="{link}">Discord</a>.
+    t: มาเป็นส่วนหนึ่งกับเราทาง <a href="{link}">Discord</a>.
   - key: general.translator_mode
-    t: Press option/alt to enable translator mode.
+    t: กดปุ่ม option/alt เพื่อเปิดโหมดผู้แปล
   - key: general.charts_nivo
-    t: Charts built with <a href="{link}">Nivo</a>.
+    t: กราฟโดย <a href="{link}">Nivo</a>.
   - key: general.made_by_devographics
-    t: Made by <a href="{link}">Devographics</a>
+    t: สร้างโดย <a href="{link}">Devographics</a>
   - key: general.view_code_example
-    t: View Code Example
+    t: ดูตัวอย่างโค้ด
   - key: general.feature_code_example
-    t: "**{featureName}** Code Example"
+    t: "ตัวอย่างโค้ด **{featureName}**"
   - key: general.code_example
-    t: Code Example
+    t: ตัวอย่างโค้ด
   - key: general.language_code
     t: |
-      {language} Code
+      โค้ดภาษา {language}
 
-  ###########################################################################
-  # Nav
-  ###########################################################################
+###########################################################################
+# Nav
+###########################################################################
 
   - key: nav.surveys
-    t: Surveys
+    t: แบบสำรวจ
   - key: nav.account
-    t: Account
+    t: บัญชี
 
-  ###########################################################################
-  # Sections
-  ###########################################################################
+###########################################################################
+# Sections
+###########################################################################
 
   - key: sections.user_info.title
-    t: About You
+    t: เกี่ยวกับคุณ
   - key: sections.user_info.description
-    t: Let's get to know the real you.
+    t: มาทำความรู้จักตัวตนที่แท้จริงของคุณกันเถอะ
 
   - key: sections.features.title
-    t: Features
+    t: ฟีเจอร์
   - key: sections.features.description
-    t: Syntax, keywords, and other language features.
+    t: Syntax, คีย์เวิร์ด และฟีเจอร์ของภาษาต่างๆ
 
   - key: sections.resources.title
-    t: Resources
+    t: แหล่งข้อมูล
   - key: sections.resources.description
-    t: What resources do you consult?
+    t: คุณปรึกษา/เข้าหาแหล่งข้อมูลใดบ้าง?
 
   - key: sections.opinions.title
-    t: Opinions
+    t: ความคิดเห็น
   - key: sections.opinions.description
-    t: How do you feel about the state of things?
+    t: คุณรู้สึกอย่างไรกับสิ่งต่างๆในปัจจุบัน?
 
   - key: sections.other_tools.title
-    t: Other Tools
+    t: เครื่องมืออื่นๆ
   - key: sections.other_tools.description
-    t: For these tools & technologies, just check the ones that you use regularly.
+    t: สำหรับเครื่องมือและเทคโนโลยีเหล่านี้ ให้คุณเลือกที่คุณใช้เป็นประจำ
   - key: section.tools_others.title
     aliasFor: section.other_tools.title
   - key: section.tools_others.description
     aliasFor: section.other_tools.description
 
   - key: sections.report.title
-    t: Trend Report
+    t: รายงานแนวโน้ม
 
   - key: sections.usage.title
-    t: Usage
+    t: การใช้งาน
 
   - key: sections.finish.title
-    t: Finish Survey
+    t: เสร็จสิ้นแบบสำรวจ
 
   - key: sections.finish.description
-    t: Finish the survey
+    t: เสร็จสิ้นแบบสำรวจ
+
 
   ###########################################################################
   # Options
