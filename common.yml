@@ -318,129 +318,130 @@ translations:
 
   # other answer
   - key: options.other
-    t: Other…
+    t: อื่นๆ…
   - key: options.other.placeholder
-    t: Other items not mentioned above, comma-separated
+    t: รายการอื่นๆที่ไม่ได้ระบุข้างต้น คั่นด้วยเครื่องหมายจุลภาค (คอมม่า)
 
-  # features
+# features
   - key: options.features.never_heard
-    t: <span aria-hidden="true">🤷</span> Never heard of it/Not sure what it is
+    t: <span aria-hidden="true">🤷</span> ไม่เคยได้ยิน/ไม่แน่ใจว่าคืออะไร
   - key: options.features.heard
-    t: <span aria-hidden="true">✅</span> Know what it is, but haven't used it
+    t: <span aria-hidden="true">✅</span> รู้จัก แต่ยังไม่เคยใช้
   - key: options.features.used
-    t: <span aria-hidden="true">👍</span> I've used it
+    t: <span aria-hidden="true">👍</span> เคยใช้แล้ว
 
-  # features v2
+# features v2
   - key: options.features2.never_heard
-    t: <span class="option-chip option-main option-main-never_heard">Never heard of it/Not sure what it is</option>
+    t: <span class="option-chip option-main option-main-never_heard">ไม่เคยได้ยิน/ไม่แน่ใจว่าคืออะไร</option>
   - key: options.features2.interested
     t: |
-      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-positive">Interested</span>
+      <span class="option-chip option-main option-main-heard">เคยได้ยิน</span> » <span class="option-chip option-positive">สนใจ</span>
   - key: options.features2.not_interested
     t: |
-      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-negative">Not interested</span>
+      <span class="option-chip option-main option-main-heard">เคยได้ยิน</span> » <span class="option-chip option-negative">ไม่สนใจ</span>
   - key: options.features2.used_positive
     t: |
-      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-positive">Positive experience</span>
+      <span class="option-chip option-main option-main-used">เคยใช้</span> » <span class="option-chip option-positive">ประสบการณ์ดี</span>
   - key: options.features2.used_negative
     t: |
-      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-negative">Negative experience</span>
+      <span class="option-chip option-main option-main-used">เคยใช้</span> » <span class="option-chip option-negative">ประสบการณ์ไม่ดี</span>
 
-  # features (short)
+# features (short)
   - key: options.features.never_heard.short
-    t: <span aria-hidden="true">🤷</span> Never heard of it
+    t: <span aria-hidden="true">🤷</span> ไม่เคยได้ยิน
   - key: options.features.heard.short
-    t: <span aria-hidden="true">👀</span> Heard of it
+    t: <span aria-hidden="true">👀</span> เคยได้ยิน
   - key: options.features.used.short
-    t: <span aria-hidden="true">🤓</span> Used it
+    t: <span aria-hidden="true">🤓</span> เคยใช้
 
-  # features (no emoji)
+# features (no emoji)
   - key: options.features.never_heard.label
-    t: Never heard of it/Not sure what it is
+    t: ไม่เคยได้ยิน/ไม่แน่ใจว่าคืออะไร
   - key: options.features.heard.label
-    t: Know what it is, but haven't used it
+    t: รู้จัก แต่ยังไม่เคยใช้
   - key: options.features.used.label
-    t: Used it
+    t: เคยใช้แล้ว
 
-  # features (no emoji, short versions)
+# features (no emoji, short versions)
   - key: options.features.never_heard.label.short
-    t: Never heard of it
+    t: ไม่เคยได้ยิน
   - key: options.features.heard.label.short
-    t: Heard of it
+    t: เคยได้ยิน
   - key: options.features.used.label.short
-    t: Used it
+    t: เคยใช้แล้ว
 
-  # patterns
+# patterns
   - key: options.patterns.use_never
-    t: Almost always avoid
+    t: หลีกเลี่ยงเกือบตลอดเวลา
   - key: options.patterns.use_sparingly
-    t: Use sparingly
+    t: ใช้เท่าที่จำเป็น
   - key: options.patterns.use_neutral
-    t: Neutral
+    t: กลางๆ
   - key: options.patterns.use_frequently
-    t: Use frequently
+    t: ใช้บ่อย
   - key: options.patterns.use_always
-    t: Use as much as I can
+    t: ใช้ทุกครั้งที่ทำได้
 
-  # tools experience
+# tools experience
   - key: options.tools.never_heard
-    t: <span aria-hidden="true">🤷</span> Never heard of it/Not sure what it is
+    t: <span aria-hidden="true">🤷</span> ไม่เคยได้ยิน/ไม่แน่ใจว่าคืออะไร
   - key: options.tools.interested
-    t: <span aria-hidden="true">✅</span> Heard of it > Would like to learn
+    t: <span aria-hidden="true">✅</span> เคยได้ยิน > อยากเรียนรู้เพิ่มเติม
   - key: options.tools.not_interested
-    t: <span aria-hidden="true">🚫</span> Heard of it > Not interested
+    t: <span aria-hidden="true">🚫</span> เคยได้ยิน > ไม่สนใจ
   - key: options.tools.would_use
-    t: <span aria-hidden="true">👍</span> Used it > Would use again
+    t: <span aria-hidden="true">👍</span> เคยใช้ > จะใช้อีก
   - key: options.tools.would_not_use
-    t: <span aria-hidden="true">👎</span> Used it > Would not use again
+    t: <span aria-hidden="true">👎</span> เคยใช้ > จะไม่ใช้อีก
 
-  # tools experience (no emoji)
+# tools experience (no emoji)
   - key: options.tools.never_heard.legend
-    t: Never heard of it/Not sure what it is
+    t: ไม่เคยได้ยิน/ไม่แน่ใจว่าคืออะไร
   - key: options.tools.interested.legend
-    t: Heard of it > Would like to learn
+    t: เคยได้ยิน > อยากเรียนรู้เพิ่มเติม
   - key: options.tools.not_interested.legend
-    t: Heard of it > Not interested
+    t: เคยได้ยิน > ไม่สนใจ
   - key: options.tools.would_use.legend
-    t: Used it > Would use again
+    t: เคยใช้ > จะใช้อีก
   - key: options.tools.would_not_use.legend
-    t: Used it > Would not use again
+    t: เคยใช้ > จะไม่ใช้อีก
 
-  # tools experience (short versions)
+# tools experience (short versions)
   - key: options.tools.never_heard.short
-    t: Never heard
+    t: ไม่เคยได้ยิน
   - key: options.tools.interested.short
-    t: Interested
+    t: สนใจ
   - key: options.tools.not_interested.short
-    t: Not interested
+    t: ไม่สนใจ
   - key: options.tools.would_use.short
-    t: Would use again
+    t: จะใช้อีก
   - key: options.tools.would_not_use.short
-    t: Would not use
+    t: จะไม่ใช้
 
-  # happiness
+# happiness
   - key: options.happiness.0
-    t: Very Unhappy
+    t: ไม่พอใจอย่างมาก
   - key: options.happiness.1
-    t: Unhappy
+    t: ไม่พอใจ
   - key: options.happiness.2
-    t: Neutral
+    t: กลางๆ
   - key: options.happiness.3
-    t: Happy
+    t: พอใจ
   - key: options.happiness.4
-    t: Very Happy
+    t: พอใจมาก
 
-  # happiness (short version)
+# happiness (short version)
   - key: options.happiness.0.short
-    t: Very Unhappy
+    t: ไม่พอใจอย่างมาก
   - key: options.happiness.1.short
-    t: Unhappy
+    t: ไม่พอใจ
   - key: options.happiness.2.short
-    t: Neutral
+    t: กลางๆ
   - key: options.happiness.3.short
-    t: Happy
+    t: พอใจ
   - key: options.happiness.4.short
-    t: Very Happy
+    t: พอใจมาก
+
 
   # opinions
   - key: options.opinions.0
