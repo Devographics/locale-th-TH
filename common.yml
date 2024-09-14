@@ -625,95 +625,95 @@ translations:
   # Gender
 
   - key: options.gender.female
-    t: Woman
+    t: ผู้หญิง
   - key: options.gender.male
-    t: Man
+    t: ผู้ชาย
   - key: options.gender.non_binary
-    t: Non-Binary or Gender Non-Conforming
+    t: Non-Binary หรือไม่เป็นไปตามเพศวิถี
   - key: options.gender.questioning
-    t: Questioning
+    t: กำลังค้นหาตัวเอง
   - key: options.gender.prefer_not_to_say
-    t: Prefer Not to Say
+    t: ไม่ขอตอบ
   - key: options.gender.not_listed
-    t: Not Listed
+    t: ไม่มีในรายการ
 
-  # Gender (short)
+# Gender (short)
 
   - key: options.gender.female.short
-    t: Woman
+    t: หญิง
   - key: options.gender.male.short
-    t: Man
+    t: ชาย
   - key: options.gender.non_binary.short
-    t: Non-Binary or GNC
+    t: Non-Binary หรือไม่ตามเพศวิถี
   - key: options.gender.questioning.short
-    t: Questioning
+    t: กำลังค้นหา
   - key: options.gender.prefer_not_to_say.short
-    t: Prefer Not to Say
+    t: ไม่ขอตอบ
   - key: options.gender.not_listed.short
-    t: Not Listed
+    t: ไม่มีในรายการ
 
   # Race & Ethnicity
 
   - key: options.race_ethnicity.white_european
-    t: White
+    t: คนขาว/ฝรั่ง
   - key: options.race_ethnicity.south_asian
-    t: South Asian
+    t: ชาวเอเชียใต้
   - key: options.race_ethnicity.south_east_asian
-    t: South East Asian
+    t: ชาวเอเชียตะวันออกเฉียงใต้
   - key: options.race_ethnicity.hispanic_latin
-    t: Hispanic or Latino/Latina/Latinx
+    t: ชาวฮิสแปนิกหรือลาติน
   - key: options.race_ethnicity.east_asian
-    t: East Asian
+    t: ชาวเอเชียตะวันออก
   - key: options.race_ethnicity.middle_eastern
-    t: Middle Eastern
+    t: ชาวตะวันออกกลาง
   - key: options.race_ethnicity.black_african
-    t: Black or of African descent
+    t: คนผิวดำหรือเชื้อสายแอฟริกัน
   - key: options.race_ethnicity.multiracial
-    t: Multiracial
+    t: หลายชาติพันธุ์
   - key: options.race_ethnicity.biracial
-    t: Biracial
+    t: สองชาติพันธุ์
   - key: options.race_ethnicity.native_american_islander_australian
-    t: Native American, Pacific Islander, or Indigenous Australian
+    t: ชาวอเมริกันพื้นเมือง, ชาวเกาะแปซิฟิก, หรือชนพื้นเมืองออสเตรเลีย
   - key: options.race_ethnicity.not_listed
-    t: Not listed
+    t: ไม่มีในรายการ
 
   - key: options.race_ethnicity.european
-    t: European
+    t: ชาวยุโรป
   - key: options.race_ethnicity.indian
-    t: Indian
+    t: ชาวอินเดีย
   - key: options.race_ethnicity.human
-    t: Human
+    t: มนุษย์
   - key: options.race_ethnicity.slav
-    t: Slav
+    t: ชาวสลาฟ
   - key: options.race_ethnicity.north_african
-    t: North African
+    t: ชาวแอฟริกาเหนือ
   - key: options.race_ethnicity.jewish
-    t: Jewish
+    t: ชาวยิว
 
   # Race & Ethnicity (short)
 
   - key: options.race_ethnicity.white_european.short
-    t: White
+    t: คนขาว/ฝรั่ง
   - key: options.race_ethnicity.south_asian.short
-    t: South Asian
+    t: เอเชียใต้
   - key: options.race_ethnicity.south_east_asian.short
-    t: SE Asian
+    t: เอเชียตะวันออกเฉียงใต้
   - key: options.race_ethnicity.hispanic_latin.short
-    t: Hispanic/Latin
+    t: ฮิสแปนิก/ลาติน
   - key: options.race_ethnicity.east_asian.short
-    t: East Asian
+    t: เอเชียตะวันออก
   - key: options.race_ethnicity.middle_eastern.short
-    t: Middle Eastern
+    t: ตะวันออกกลาง
   - key: options.race_ethnicity.black_african.short
-    t: Black/African Descent
+    t: คนผิวดำ/แอฟริกัน
   - key: options.race_ethnicity.multiracial.short
-    t: Multiracial
+    t: หลายชาติพันธุ์
   - key: options.race_ethnicity.biracial.short
-    t: Biracial
+    t: สองชาติพันธุ์
   - key: options.race_ethnicity.native_american_islander_australian.short
-    t: Nat. American/Pac. Islander/Ind. Australian
+    t: อเมริกันพื้นเมือง/เกาะแปซิฟิก/พื้นเมืองออสเตรเลีย
   - key: options.race_ethnicity.not_listed.short
-    t: Not listed
+    t: ไม่มีในรายการ
 
   # Disability Status
   - key: options.disability_status.na
