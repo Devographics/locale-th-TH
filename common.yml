@@ -717,163 +717,163 @@ translations:
 
   # Disability Status
   - key: options.disability_status.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: options.disability_status.visual_impairments
     t: >
-      Visual impairments (such as: blindness, color blindness, etc.)
+      ความบกพร่องทางการมองเห็น (เช่น ตาบอด ตาบอดสี ฯลฯ)
   - key: options.disability_status.hearing_impairments
     t: >
-      Hearing impairments (such as: deafness, tinnitus, etc.)
+      ความบกพร่องทางการได้ยิน (เช่น หูหนวก หูอื้อ ฯลฯ)
   - key: options.disability_status.mobility_impairments
     t: >
-      Mobility impairments (such as: arthritis, carpal tunnel, etc.)
+      ความบกพร่องทางการเคลื่อนไหว (เช่น ข้ออักเสบ โรคเส้นประสาทกดทับ ฯลฯ)
   - key: options.disability_status.cognitive_impairments
     t: >
-      Cognitive impairments (such as: anxiety, dyslexia, ADHD, etc.)
+      ความบกพร่องในการรู้ (เช่น ความวิตกกังวล ดิสเล็กเซีย ADHD ฯลฯ)
   - key: options.disability_status.not_listed
     t: >
-      Not Listed
+      ไม่มีในรายการ
 
   # Disability Status (short)
   - key: options.disability_status.visual_impairments.short
     t: >
-      Visual impairments
+      ความบกพร่องทางการมองเห็น
   - key: options.disability_status.hearing_impairments.short
     t: >
-      Hearing impairments
+      ความบกพร่องทางการได้ยิน
   - key: options.disability_status.mobility_impairments.short
     t: >
-      Mobility impairments
+      ความบกพร่องทางการเคลื่อนไหว
   - key: options.disability_status.cognitive_impairments.short
     t: >
-      Cognitive impairments
+      ความบกพร่องในการรู้
   - key: options.disability_status.not_listed.short
     t: >
-      Not Listed
+      ไม่มีในรายการ
 
   # Form Factors
   - key: options.form_factors.desktop
-    t: Desktop
+    t: คอมพิวเตอร์ตั้งโต๊ะ
   - key: options.form_factors.keyboard_only
-    t: Desktop with keyboard only
+    t: คอมพิวเตอร์ตั้งโต๊ะ (ใช้แป้นพิมพ์เท่านั้น)
   - key: options.form_factors.smartphone
-    t: Smartphone
+    t: สมาร์ทโฟน
   - key: options.form_factors.feature_phone
-    t: Feature phone
+    t: ฟีเจอร์โฟน
   - key: options.form_factors.tablet
-    t: Tablet
+    t: แท็บเล็ต
   - key: options.form_factors.smart_watch
-    t: Smartwatch
+    t: สมาร์ทวอทช์
   - key: options.form_factors.tv
-    t: TV
+    t: โทรทัศน์
   - key: options.form_factors.gaming_console
     t: Gaming console
   - key: options.form_factors.screen_reader
-    t: Screen reader
+    t: เครื่องอ่านหน้าจอ
   - key: options.form_factors.print
     t: Print
   - key: options.form_factors.testing_tools
-    t: Testing Tools (Axe, Lighthouse, etc.)
+    t: เครื่องมือทดสอบ (Axe, Lighthouse ฯลฯ)
   - key: options.form_factors.vision_simulator
-    t: Altered Vision Simulator (color blindness, etc.)
+    t: เครื่องจำลองการมองเห็นที่บกพร่อง (ตาบอดสี ฯลฯ)
 
   # Industry Sector
   - key: options.industry_sector.ecommerce
-    t: Ecommerce & Retail
+    t: อีคอมเมิร์ซและค้าปลีก
   - key: options.industry_sector.news_media
-    t: News, Media, & Blogging
+    t: ข่าว, สื่อ, และการบล็อก
   - key: options.industry_sector.healthcare
-    t: Healthcare
+    t: บริการสุขภาพ
   - key: options.industry_sector.finance
-    t: Finance
+    t: การเงิน
   - key: options.industry_sector.programming_tools
-    t: Programming & Technical Tools
+    t: การเขียนโปรแกรมและเครื่องมือทางเทคนิค
   - key: options.industry_sector.socialmedia
-    t: Social Media
+    t: โซเชียลมีเดีย
   - key: options.industry_sector.marketing_tools
-    t: Marketing/Sales/Analytics Tools
+    t: เครื่องมือด้านการตลาด/การขาย/การวิเคราะห์
   - key: options.industry_sector.education
-    t: Education
+    t: การศึกษา
   - key: options.industry_sector.real_estate
-    t: Real Estate
+    t: อสังหาริมทรัพย์
   - key: options.industry_sector.government
-    t: Government
+    t: รัฐบาล
   - key: options.industry_sector.entertainment
-    t: Entertainment
+    t: บันเทิง
   - key: options.industry_sector.consulting
-    t: Consulting & Services
+    t: การปรึกษาและบริการ
   - key: options.industry_sector.travel
-    t: Travel
+    t: การเดินทาง
   - key: options.industry_sector.tourism
-    t: Tourism
+    t: การท่องเที่ยว
   - key: options.industry_sector.insurance
-    t: Insurance
+    t: ประกันภัย
   - key: options.industry_sector.logistics
-    t: Logistics
+    t: โลจิสติกส์
   - key: options.industry_sector.energy
-    t: Energy
+    t: พลังงาน
   - key: options.industry_sector.telecommunications
-    t: Telecommunications
+    t: โทรคมนาคม
   - key: options.industry_sector.student
-    t: Student
+    t: นักศึกษา
   - key: options.industry_sector.hospitality
-    t: Hospitality
+    t: การบริการ
   - key: options.industry_sector.cyber_security
-    t: Cyber Security
+    t: ความปลอดภัยทางไซเบอร์
   - key: options.industry_sector.construction
-    t: Construction
+    t: ก่อสร้าง
   - key: options.industry_sector.automotive
-    t: Automotive
+    t: ยานยนต์
   - key: options.industry_sector.agriculture
-    t: Agriculture
+    t: เกษตรกรรม
   - key: options.industry_sector.transport
-    t: Transport
+    t: การขนส่ง
   - key: options.industry_sector.manufacturing
-    t: Manufacturing
+    t: การผลิต
 
   - key: options.industry_sector.tech_it
-    t: Tech & IT
+    t: เทคโนโลยีและไอที
   - key: options.industry_sector.human_resources
-    t: Human Resources
+    t: ทรัพยากรบุคคล (HR)
   - key: options.industry_sector.sports
-    t: Sports
+    t: กีฬา
   - key: options.industry_sector.gaming
-    t: Gaming
+    t: เกม
   - key: options.industry_sector.research
-    t: Research
+    t: การวิจัย
   - key: options.industry_sector.law
-    t: Law
+    t: กฎหมาย
   - key: options.industry_sector.non_profit
-    t: Non-Profit
+    t: องค์กรไม่แสวงหาผลกำไร
   - key: options.industry_sector.art
-    t: Art
+    t: ศิลปะ
   - key: options.industry_sector.crypto
-    t: Crypto
+    t: คริปโต
   - key: options.industry_sector.aerospace
-    t: Aerospace
+    t: อวกาศ
   - key: options.industry_sector.web3
     t: Web3
   - key: options.industry_sector.iot
     t: IOT
   - key: options.industry_sector.gambling
-    t: Gambling
+    t: การพนัน
   - key: options.industry_sector.blockchain
     t: Blockchain
   - key: options.industry_sector.design
-    t: Design
+    t: การออกแบบ
   - key: options.industry_sector.unemployed
-    t: Unemployed
+    t: ว่างงาน
 
   - key: options.industry_sector.recruiting
-    t: Recruiting
+    t: การสรรหาบุคลากร
   - key: options.industry_sector.agency
-    t: Agency
+    t: เอเจนซี่
   - key: options.industry_sector.business
-    t: Business
+    t: ธุรกิจ
   - key: options.industry_sector.communication
-    t: Comunication
+    t: การสื่อสาร
   - key: options.industry_sector.security
-    t: Security
+    t: ความปลอดภัย
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
