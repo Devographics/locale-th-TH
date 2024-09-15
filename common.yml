@@ -877,101 +877,101 @@ translations:
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
-    t: Documentation
+    t: เอกสารประกอบ
   - key: options.tool_evaluation.learning_curve_documentation.description
-    t: Is it easy to learn and/or well-documented?
+    t: เรียนรู้ง่ายและ/หรือมีเอกสารอธิบายชัดเจนหรือไม่?
   - key: options.tool_evaluation.momentum_popularity
-    t: Hype & Momentum
+    t: ความนิยม & กระแส
   - key: options.tool_evaluation.momentum_popularity.description
-    t: Is it currently generating a lot of buzz?
+    t: มีการพูดถึงและเป็นที่นิยมในปัจจุบันหรือไม่?
   - key: options.tool_evaluation.user_base_size
-    t: User Base Size
+    t: ขนาดฐานผู้ใช้
   - key: options.tool_evaluation.user_base_size.description
-    t: Is it a well-established option with a long track record?
+    t: เป็นตัวเลือกที่มีผู้ใช้มากและมีประวัติยาวนานหรือไม่?
   - key: options.tool_evaluation.developer_experience_tooling
-    t: Developer Experience
+    t: ประสบการณ์นักพัฒนา
   - key: options.tool_evaluation.developer_experience_tooling.description
-    t: Does it have good developer tools, a large plugin ecosystem, etc.?
+    t: มีเครื่องมือนักพัฒนาที่ดี มีระบบนิเวศปลั๊กอินที่ใหญ่หรือไม่?
   - key: options.tool_evaluation.performance_user_experience
-    t: User Experience
+    t: ประสบการณ์ผู้ใช้
   - key: options.tool_evaluation.performance_user_experience.description
-    t: Does it help you create smooth, performant user experiences?
+    t: ช่วยสร้างประสบการณ์ผู้ใช้ที่ราบรื่นและมีประสิทธิภาพหรือไม่?
   - key: options.tool_evaluation.creator_team
-    t: Creator & Team
+    t: ผู้สร้าง & ทีมงาน
   - key: options.tool_evaluation.creator_team.description
-    t: Is it backed by a well-known, well-funded, or experienced team?
+    t: มีทีมงานที่มีชื่อเสียง/ประสบการณ์หรือได้รับเงินสนับสนุนที่ดีหรือไม่?
   - key: options.tool_evaluation.accessibility_features
-    t: Accessibility Features
+    t: ฟีเจอร์การเข้าถึง
   - key: options.tool_evaluation.accessibility_features.description
-    t: Is it good at creating accessible experiences for all users?
+    t: ช่วยสร้างประสบการณ์การเข้าถึงสำหรับผู้ใช้ทุกคนได้ดีหรือไม่?
   - key: options.tool_evaluation.community_inclusivity
-    t: Community & Inclusivity
+    t: ชุมชน & การมีส่วนร่วม
   - key: options.tool_evaluation.community_inclusivity.description
-    t: Does it have a welcoming, vibrant community built around it?
+    t: มีชุมชนที่เปิดกว้างและมีชีวิตชีวาหรือไม่?
 
   # accessibility features
   - key: options.accessibility_features.keyboard_navigation
-    t: Keyboard navigation
+    t: การนำทางด้วยแป้นพิมพ์
   - key: options.accessibility_features.compliant_contrast
-    t: WCAG-compliant contrast
+    t: ความคมชัดตามมาตรฐาน WCAG
   - key: options.accessibility_features.focus_indicators
-    t: Focus indicators
+    t: ตัวชี้ตำแหน่งโฟกัส
   - key: options.accessibility_features.skip_to_content_link
-    t: Skip-to-content link
+    t: ลิงก์ข้ามไปยังเนื้อหา
   - key: options.accessibility_features.color_themes
-    t: Color themes (dark mode, high-contrast mode, etc.)
+    t: ธีมสี (โหมดมืด, โหมดความคมชัดสูง ฯลฯ)
   - key: options.accessibility_features.prefers_reduced_motion
-    t: Prefers-reduced-motion
+    t: โหมดลดการเคลื่อนไหว
   - key: options.accessibility_features.alt_text
-    t: Alt texts
+    t: ข้อความแทนรูปภาพ
   - key: options.accessibility_features.semantic_markup
-    t: Semantic markup
+    t: Markup ที่มีความหมายตรงตัว
   - key: options.accessibility_features.aria_attributes
-    t: ARIA HTML attributes
+    t: ARIA Attributes ของ HTML
 
   # learning methods
   - key: options.first_steps.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: options.first_steps.books
-    t: Books
+    t: หนังสือ
   - key: options.first_steps.videos
-    t: Videos & screencasts
+    t: วิดีโอ & สกรีนแคสต์
   - key: options.first_steps.school
-    t: School & higher education
+    t: โรงเรียน & การศึกษาระดับสูง
   - key: options.first_steps.courses_free
-    t: Online courses (free)
+    t: หลักสูตรออนไลน์ (ฟรี)
   - key: options.first_steps.courses_paid
-    t: Online courses (paid)
+    t: หลักสูตรออนไลน์ (เสียเงิน)
   - key: options.first_steps.podcasts
-    t: Podcasts
+    t: พอดคาสต์
   - key: options.first_steps.bootcamp
-    t: Coding bootcamp
+    t: บูทแคมป์เขียนโค้ด
   - key: options.first_steps.on_the_job
-    t: On-the-job training
+    t: การเรียนรู้หน้างาน
   - key: options.first_steps.self_directed
-    t: Self-directed learning (Google, Stack Overflow, etc.)
+    t: การเรียนรู้ด้วยตนเอง (Google, Stack Overflow ฯลฯ)
   - key: options.first_steps.mentoring
-    t: Mentoring
+    t: การมีอาจารย์/ที่ปรึกษา
 
   - key: options.first_steps.documentation
-    t: Documentation
+    t: เอกสารประกอบ
   - key: options.first_steps.blogs
-    t: Blogs
+    t: บล็อก
   - key: options.first_steps.view_source
-    t: View Source
+    t: การดูต้นฉบับ
   - key: options.first_steps.trial_and_error
-    t: Trial & Error
+    t: การลองผิดลองถูก
   - key: options.first_steps.forums
-    t: Forums
+    t: ฟอรัม
   - key: options.first_steps.newsletters
-    t: Newsletters
+    t: จดหมายข่าว
   - key: options.first_steps.events
-    t: Events
+    t: งานกิจกรรม
 
   # learning methods
 
   - key: resources.learning_methods
-    t: Learning Methods
+    t: วิธีการเรียนรู้
 
   - key: options.learning_methods.na
     aliasFor: options.first_steps.na
@@ -1014,49 +1014,50 @@ translations:
 
   # degree
   - key: options.higher_education_degree.no_degree
-    t: No
+    t: ไม่มี
   - key: options.higher_education_degree.yes_related
-    t: Yes, in a field related to my current profession
+    t: มีในสาขาที่เกี่ยวข้องกับอาชีพปัจจุบัน
   - key: options.higher_education_degree.yes_unrelated
-    t: Yes, but in a field unrelated to my current profession
+    t: มีแต่ในสาขาที่ไม่เกี่ยวข้องกับอาชีพปัจจุบัน
 
   # degree (short versions)
   - key: options.higher_education_degree.no_degree.short
-    t: No
+    t: ไม่มี
   - key: options.higher_education_degree.yes_related.short
-    t: Yes, related field
+    t: มีสาขาที่เกี่ยวข้อง
   - key: options.higher_education_degree.yes_unrelated.short
-    t: Yes, unrelated field
+    t: มีสาขาที่ไม่เกี่ยวข้อง
 
   # employment_status
   - key: options.employment_status.full_time
-    t: Full-time
+    t: ทำงานเต็มเวลา
   - key: options.employment_status.student
-    t: Student
+    t: นักศึกษา
   - key: options.employment_status.self_employed
-    t: Self-employed
+    t: นายตัวเอง
   - key: options.employment_status.contractor
-    t: Contractor
+    t: รับงานเป็นสัญญา
   - key: options.employment_status.part_time
-    t: Part-time
+    t: ทำงานพาร์ทไทม์
   - key: options.employment_status.between_jobs
-    t: Between jobs
+    t: ระหว่างหางาน
   - key: options.employment_status.retired
-    t: Retired
+    t: เกษียณอายุ
 
   # bracket
   - key: options.bracket.round1
-    t: Round 1 wins
+    t: ชนะรอบที่ 1
   - key: options.bracket.round2
-    t: Round 2 wins
+    t: ชนะรอบที่ 2
   - key: options.bracket.round3
-    t: Round 3 wins
+    t: ชนะรอบที่ 3
   - key: options.bracket.combined
-    t: Combined
+    t: รวมผลการชนะ
 
   # email_temporary (receive updates?)
   - key: options.receive_notifications.yes
-    t: Yes, email me when the survey results are published
+    t: ใช่ ส่งอีเมลหาฉันเมื่อผลสำรวจถูกเผยแพร่
+
 
   # usage type
 
