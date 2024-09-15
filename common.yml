@@ -937,7 +937,7 @@ translations:
   - key: options.first_steps.videos
     t: วิดีโอ & สกรีนแคสต์
   - key: options.first_steps.school
-    t: โรงเรียน & การศึกษาระดับสูง
+    t: โรงเรียน & อุดมศึกษา
   - key: options.first_steps.courses_free
     t: หลักสูตรออนไลน์ (ฟรี)
   - key: options.first_steps.courses_paid
@@ -1265,43 +1265,42 @@ translations:
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: Where did you hear about this survey?
+    t: คุณรู้จักแบบสำรวจนี้จากที่ใด?
   - key: user_info.email
-    t: Your Email
+    t: อีเมลของคุณ
   - key: user_info.email.description
     t: >
-      You have filled out the survey anonymously. If you'd like, you can optionally enter your email to be able to access your data later on, and be notified when the survey results are published.
+      คุณได้ทำแบบสำรวจนี้โดยไม่ระบุชื่อ หากคุณต้องการ คุณสามารถกรอกอีเมลของคุณเพื่อให้สามารถเข้าถึงข้อมูลของคุณในภายหลัง
+      และได้รับการแจ้งเตือนเมื่อผลการสำรวจเผยแพร่
   - key: user_info.email.note
     t: >
-      We do not store any personal data, so after you fill in your email address we will use it to generate a unique anonymized identifier and then delete the address itself from our records.
+      เราจะไม่เก็บข้อมูลส่วนตัวใดๆ เมื่อคุณกรอกอีเมล เราจะใช้มันในการสร้างรหัสตัวตนแบบไม่ระบุชื่อ และลบอีเมลออกจากบันทึกของเรา
   - key: user_info.country
-    t: Country or Region
+    t: ประเทศหรือภูมิภาค
   - key: user_info.country.description
-    t: Where do you currently reside?
+    t: ขณะนี้คุณอาศัยอยู่ที่ไหน?
 
   - key: user_info.github_username
-    t: Your GitHub Username
+    t: ชื่อผู้ใช้ GitHub ของคุณ
   - key: user_info.github_username.description
     t: >
-      We might use GitHub usernames in the future to look at
-      repos and cross-reference publicly available information.
+      เราอาจใช้ชื่อผู้ใช้ GitHub ของคุณในอนาคตเพื่อตรวจสอบ Repo และเปรียบเทียบกับข้อมูลสาธารณะ
 
   - key: user_info.twitter_username
-    t: Your Twitter Username
+    t: ชื่อผู้ใช้ Twitter ของคุณ
   - key: user_info.twitter_username.description
     t: >
-      We might use Twitter usernames in the future to look at
-      Twitter activity and cross-reference publicly available information
-       (such as the list of people you're following).
+      เราอาจใช้ชื่อผู้ใช้ Twitter ของคุณในอนาคตเพื่อตรวจสอบกิจกรรมบน Twitter และเปรียบเทียบกับข้อมูลสาธารณะ
+      (เช่น รายชื่อคนที่คุณติดตาม)
 
   - key: user_info.industry_sector
-    t: Industry Sector
+    t: ภาคอุตสาหกรรม
   - key: user_info.industry_sector.question
-    t: Which industry sector(s) do you work in?
+    t: คุณทำงานในอุตสาหกรรมใดบ้าง?
   - key: user_info.industry_sector.others
-    t: Other Industry Sectors
+    t: ภาคอุตสาหกรรมอื่นๆ
   - key: user_info.industry_sector.others.description
-    t: Other industry sector(s) you work in not mentioned above.
+    t: ภาคอุตสาหกรรมอื่นๆที่คุณทำงานไม่ปรากฎในข้างต้น
 
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
@@ -1316,33 +1315,33 @@ translations:
 
   # degree
   - key: user_info.higher_education_degree
-    t: Higher Education Degree
+    t: วุฒิอุดมศึกษา
   - key: user_info.higher_education_degree.question
-    t: Do you have a higher education degree?
+    t: คุณมีวุฒิอุดมศึกษาหรือไม่?
 
   # employment status
   - key: user_info.employment_status
-    t: Employment Status
+    t: สถานะการจ้างงาน
   - key: user_info.employment_status.description
-    t: What's your employment status?
+    t: สถานะการจ้างงานของคุณคืออะไร?
 
   # completion
   - key: user_info.completion_stats
-    t: Survey Completion
+    t: การทำแบบสำรวจให้เสร็จสมบูรณ์
   - key: user_info.completion_stats.description
-    t: Which proportion of the survey did respondents fill out?
+    t: ผู้ตอบแบบสำรวจทำในสัดส่วนเท่าใด?
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications
-    t: Do you want to be notified when the survey results are released?
+    t: คุณต้องการรับการแจ้งเตือนเมื่อผลการสำรวจถูกเผยแพร่หรือไม่?
   - key: user_info.receive_notifications.note
     t: >
-      We don't store any private data, so after your email address is sent to our
-      mailing list provider it will be deleted from our own records.
+      เราไม่เก็บข้อมูลส่วนตัวใดๆ หลังจากที่คุณส่งอีเมลไปยังผู้ให้บริการรายชื่ออีเมลของเรา
+      อีเมลของคุณจะถูกลบออกจากบันทึกของเรา
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
-    t: How could we improve this survey?
+    t: เราจะปรับปรุงแบบสำรวจนี้ได้อย่างไร?
 
   ###########################################################################
   # Usage
@@ -1354,103 +1353,101 @@ translations:
 
   # first steps
   - key: resources.first_steps
-    t: First Learning Methods
+    t: วิธีการเรียนรู้เบื้องต้น
   - key: resources.first_steps.question
-    t: When first starting out, how did you initially learn coding?
+    t: ในตอนแรก คุณเรียนรู้การเขียนโค้ดด้วยวิธีใด?
   - key: resources.first_steps.others
-    t: Other First Learning Methods
+    t: วิธีการเรียนรู้เบื้องต้นอื่นๆ
   - key: resources.first_steps.others.description
-    t: Other answers (freeform field).
+    t: คำตอบอื่นๆ (ช่องกรอกอิสระ)
 
   # blogs & magazines
   - key: resources.blogs_news_magazines
-    t: Blogs & Magazines
+    t: บล็อก & นิตยสาร
   - key: resources.blogs_news_magazines.question
-    t: Which blogs/magazines/newsletters/etc. do you read?
+    t: คุณอ่านบล็อก/นิตยสาร/จดหมายข่าวใดบ้าง?
   - key: resources.blogs_news_magazines.others
-    t: Other Blogs & Magazines
+    t: บล็อก & นิตยสารอื่นๆ
   - key: resources.blogs_news_magazines.others.description
-    t: Other answers (freeform field).
+    t: คำตอบอื่นๆ (ช่องกรอกอิสระ)
   - key: options.blogs_news_magazines.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: resources.blogs_news_magazines.placeholder
     t: |
-      Blog/newsletter #{index}…
+      บล็อก/จดหมายข่าว #{index}…
 
   # sites & courses
   - key: resources.sites_courses
-    t: Sites & Courses
+    t: เว็บไซต์ & หลักสูตร
   - key: resources.sites_courses.question
-    t: Which sites/courses/etc. do you consult to learn JavaScript?
+    t: คุณใช้เว็บไซต์/หลักสูตรใดเพื่อเรียนรู้ JavaScript?
   - key: resources.sites_courses.others
-    t: Other Sites & Courses
+    t: เว็บไซต์ & หลักสูตรอื่นๆ
   - key: resources.sites_courses.others.description
-    t: Other answers (freeform field).
+    t: คำตอบอื่นๆ (ช่องกรอกอิสระ)
   - key: options.sites_courses.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: resources.sites_courses.placeholder
     t: |
-      Site/course #{index}…
+      เว็บไซต์/หลักสูตร #{index}…
 
   # paid courses
   - key: resources.paid_courses
-    t: Paid Courses
+    t: หลักสูตรแบบชำระเงิน
   - key: resources.paid_courses.question
-    t: Which **paid resources** (courses, videos, books, etc.) have you used to learn JavaScript?
+    t: คุณเคยใช้แหล่งข้อมูลแบบชำระเงินใดบ้าง (หลักสูตร วิดีโอ หนังสือ ฯลฯ) เพื่อเรียนรู้ JavaScript?
   - key: options.paid_courses.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: resources.paid_courses.placeholder
     t: |
-      Course/book #{index}…
+      หลักสูตร/หนังสือ #{index}…
 
   # podcasts
   - key: resources.podcasts
-    t: Podcasts
+    t: พอดคาสต์
   - key: resources.podcasts.question
-    t: Which programming-related podcasts do you listen to?
+    t: คุณฟังพอดคาสต์ใดเกี่ยวกับโปรแกรมมิ่งบ้าง?
   - key: resources.podcasts.others
-    t: Other Podcasts
+    t: พอดคาสต์อื่นๆ
   - key: resources.podcasts.others.description
-    t: Other answers (freeform field).
+    t: คำตอบอื่นๆ (ช่องกรอกอิสระ)
   - key: options.podcasts.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: resources.podcasts.placeholder
     t: |
-      Podcast #{index}…
+      พอดคาสต์ #{index}…
 
   # people
   - key: resources.people
-    t: People
+    t: บุคคล
   - key: resources.people.question
-    t: Which individuals do you read, follow, or just want to highlight in the JavaScript community?
+    t: คุณติดตามหรืออยากแนะนำใครในชุมชน JavaScript?
   # - key: resources.people.others
   #   t: Other People
   # - key: resources.people.others.description
   #   t: Other answers (freeform field).
   - key: resources.people.others
-    t: People
+    t: บุคคล
   - key: resources.people.others.description
     t: >
-      People you read, follow, or just want to highlight for their work
-      (freeform field, comma-separated names).
+      บุคคลที่คุณติดตามหรืออยากแนะนำ (ช่องกรอกอิสระ แยกด้วยเครื่องหมายคอมม่า)
   - key: options.people.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: resources.people.placeholder
     t: |
-      Person #{index}…
+      บุคคล #{index}…
 
   # other surveys
   - key: resources.other_surveys
-    t: Other Surveys
+    t: แบบสำรวจอื่นๆ
   - key: resources.other_surveys.question
-    t: Which other developer surveys do you participate in?
+    t: คุณเข้าร่วมแบบสำรวจนักพัฒนาซอฟต์แวร์อื่นๆใดบ้าง?
   - key: resources.other_surveys.others
-    t: Additional surveys not mentioned above
+    t: แบบสำรวจเพิ่มเติมไม่ปรากฎในข้างต้น
   - key: options.other_surveys.na
-    t: 🚫 None
-    # TODO: temporary fix, this should not be needed in the first place
+    t: 🚫 ไม่มี
   - key: user_info.other_surveys.question
-    t: Which other developer surveys do you participate in?
+    t: คุณเข้าร่วมแบบสำรวจนักพัฒนาซอฟต์แวร์อื่นๆใดบ้าง?
 
   - key: user_info.other_surveys
     aliasFor: resources.other_surveys
@@ -1459,58 +1456,58 @@ translations:
 
   # video creators
   - key: resources.video_creators
-    t: Video Creators
+    t: Video Creator
   - key: resources.video_creators.question
-    t: Which programming-related video creators do you follow (on YouTube, Twitch, etc.)?
+    t: คุณติดตาม Video Creator เกี่ยวกับโปรแกรมมิ่งคนใดบ้าง (บน YouTube, Twitch ฯลฯ)?
   - key: resources.video_creators.others
-    t: Other Video Creators
+    t: Video Creator อื่นๆ
   - key: options.video_creators.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: resources.video_creators.placeholder
     t: |
-      Video creator #{index}…
+      ผู้สร้างวิดีโอ #{index}…
 
   ###########################################################################
   # Follow-Up Questions
   ###########################################################################
 
   - key: followups.button
-    t: Tell us more…
+    t: บอกเราเพิ่มเติม…
 
   - key: followups.description
     t: |
-      Optionally, you can tell us more about why you picked this answer:
+      คุณสามารถบอกเราเพิ่มเติมว่าเหตุใดคุณจึงเลือกคำตอบนี้:
 
   - key: followups.description.short
     t: |
-      Tell us more:
+      บอกเราเพิ่มเติม:
 
   - key: followups.placeholder
-    t: Other reason…
+    t: เหตุผลอื่นๆ…
 
   - key: followups.want_to_learn_more
-    t: I want to learn more
+    t: ฉันอยากศึกษาเพิ่มเติม
   - key: followups.not_interested
-    t: I'm not interested
+    t: ฉันไม่สนใจ
   - key: followups.insufficient_browser_support
-    t: Insufficient browser support
+    t: การสนับสนุนของเบราว์เซอร์ไม่เพียงพอ
   - key: followups.not_needed
-    t: I haven't needed it
+    t: ฉันไม่เคยต้องการมัน
   - key: followups.hard_to_use
-    t: It was hard to use
+    t: มันใช้งานยาก
   - key: followups.positive_experience
-    t: I had a positive experience
+    t: ฉันมีประสบการณ์ที่ดี
   - key: followups.not_powerful
-    t: It wasn't powerful enough
+    t: มันไม่ทรงพลังพอ
 
   - key: followups.sentiment_interested
-    t: Interested
+    t: สนใจ
   - key: followups.sentiment_not_interested
-    t: Not interested
+    t: ไม่สนใจ
   - key: followups.sentiment_positive_experience
-    t: Want to use again
+    t: อยากใช้อีก
   - key: followups.sentiment_negative_experience
-    t: Negative experience
+    t: ประสบการณ์ที่ไม่ดี
 
   # - key: followups.
   #   t:
@@ -1524,4 +1521,5 @@ translations:
   # entities info
 
   - key: entity.learn_more
-    t: Learn more…
+    t: เรียนรู้เพิ่มเติม…
+
