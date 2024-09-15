@@ -1062,14 +1062,14 @@ translations:
   # usage type
 
   - key: usage.usage_type
-    t: Usage Type
+    t: ประเภทการใช้งาน
 
   - key: options.usage_type.professionally
-    t: Professionally
+    t: ใช้ในฐานะมืออาชีพ
   - key: options.usage_type.student
-    t: As a student
+    t: ใช้ในฐานะนักเรียน
   - key: options.usage_type.hobby
-    t: As a hobby
+    t: ใช้เป็นงานอดิเรก
 
   - key: options.percentage_segments.range_0_10
     t: 0-10%
@@ -1136,17 +1136,17 @@ translations:
 
   # source
   - key: options.source.angular_community
-    t: Angular Community
+    t: ชุมชน Angular
   - key: options.source.work
-    t: Workplace
+    t: ที่ทำงาน
   - key: options.source.word_of_mouth
-    t: Word of Mouth
+    t: คำบอกเล่าปากต่อปาก
   - key: options.source.podcast
-    t: Podcasts
+    t: พอดคาสต์
   - key: options.source.other_online_sources
-    t: Other Online Sources
+    t: แหล่งข้อมูลออนไลน์อื่นๆ
   - key: options.source.blog
-    t: Blogs
+    t: บล็อก
   # - key: options.source.
   #   t:
   # - key: options.source.
@@ -1161,13 +1161,13 @@ translations:
   ###########################################################################
 
   - key: tools.other_tools
-    t: Other Options
+    t: ตัวเลือกอื่นๆ
   - key: tools.other_tools.description
-    t: Other options you use for the current section not mentioned in the list above.
+    t: ตัวเลือกอื่นๆที่คุณใช้ในส่วนนี้ไม่ปรากฎในรายการข้างต้น
   - key: tools.happiness
-    t: Overall Happiness
+    t: ความสุขโดยรวม
   - key: tools.happiness.question
-    t: How happy are you with the current state of things as it relates to the options listed above?
+    t: คุณมีความสุขกับสภาพของสิ่งต่างๆที่เกี่ยวข้องกับตัวเลือกข้างต้นแค่ไหน?
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -1175,95 +1175,91 @@ translations:
 
   # age
   - key: user_info.age
-    t: Age
+    t: อายุ
   - key: user_info.age.question
-    t: How old are you, in years?
+    t: อายุคุณเท่าไหร่ (เป็นปี)?
 
   # years of experience
   - key: user_info.years_of_experience
-    t: Years of Experience
+    t: ประสบการณ์นับเป็นปี
   - key: user_info.years_of_experience.question
-    t: How long have you been working or studying in this field, in years?
+    t: คุณทำงานหรือศึกษาด้านนี้มานานกี่ปี?
 
   # company size
   - key: user_info.company_size
-    t: Company Size
+    t: ขนาดบริษัท
   - key: user_info.company_size.question
-    t: How many people work at your organization, including yourself?
+    t: มีคนทำงานในองค์กรของคุณกี่คน รวมถึงตัวคุณเองด้วย?
 
   # salary ranges
   - key: user_info.yearly_salary
-    t: Yearly Income
+    t: รายได้ต่อปี
   - key: user_info.yearly_salary.question
-    t: Your yearly gross (pre-tax) income in U.S. dollar.
+    t: รายได้รวมต่อปีของคุณก่อนหักภาษีเป็นกี่ดอลลาร์สหรัฐ?
 
   # job title
   - key: user_info.job_title
-    t: Job Title
+    t: ตำแหน่งงาน
   - key: user_info.job_title.question
-    t: How do you introduce yourself to others?
+    t: คุณแนะนำตัวเองกับคนอื่นว่าอย่างไร?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
-    t: JavaScript Proficiency
+    t: ความเชี่ยวชาญ JavaScript
   - key: user_info.javascript_proficiency.question
-    t: How proficient are you at JavaScript?
+    t: คุณเชี่ยวชาญ JavaScript มากแค่ไหน?
 
   # css proficiency
   - key: user_info.css_proficiency
-    t: CSS Proficiency
+    t: ความเชี่ยวชาญ CSS
   - key: user_info.css_proficiency.question
-    t: How proficient are you at CSS?
+    t: คุณเชี่ยวชาญ CSS มากแค่ไหน?
 
   # backend proficiency
   - key: user_info.backend_proficiency
-    t: Back-end Proficiency
+    t: ความเชี่ยวชาญ Back-end
   - key: user_info.backend_proficiency.question
-    t: How proficient are you at back-end development?
+    t: คุณเชี่ยวชาญ Back-end มากแค่ไหน?
 
   # gender
   - key: user_info.gender
-    t: Gender
+    t: เพศ
   - key: user_info.gender.question
-    t: >
-      Which of the following options describes you, if any? Please pick one.
+    t: ตัวเลือกใดต่อไปนี้อธิบายคุณได้ดีที่สุด (หากมี) กรุณาเลือกหนึ่งข้อ
   - key: user_info.gender.note
     t: >
-      While we know collecting and publishing diversity data can be a sensitive issue,
-      we do think it's important to obtain this data to help measure and improve
-      the survey's efforts in terms of inclusivity and representativeness.
+      แม้เราจะทราบว่าการเก็บและเผยแพร่ข้อมูลความหลากหลายเป็นเรื่องละเอียดอ่อน
+      แต่เราคิดว่าสำคัญที่ต้องเก็บข้อมูลนี้เพื่อช่วยวัดและปรับปรุงการมีส่วนร่วมและการเป็นตัวแทนของคนแต่ละกลุ่ม
 
   # race & ethnicity
   - key: user_info.race_ethnicity
-    t: Race & Ethnicity
+    t: เชื้อชาติ & ชาติพันธุ์
   - key: user_info.race_ethnicity.question
-    t: >
-      Which of the following options describe you, if any? Please check all that apply.
+    t: ตัวเลือกใดต่อไปนี้อธิบายคุณได้ดีที่สุด (หากมี) กรุณาเลือกทั้งหมดที่เกี่ยวข้อง
   - key: user_info.race_ethnicity.note
     t: >
-      While we know collecting and publishing diversity data can be a sensitive issue,
-      we do think it's important to obtain this data to help measure and improve
-      the survey's efforts in terms of inclusivity and representativeness.
+      แม้เราจะทราบว่าการเก็บและเผยแพร่ข้อมูลความหลากหลายเป็นเรื่องละเอียดอ่อน
+      แต่เราคิดว่าสำคัญที่ต้องเก็บข้อมูลนี้เพื่อช่วยวัดและปรับปรุงการมีส่วนร่วมและการเป็นตัวแทนของคนแต่ละกลุ่ม
   - key: user_info.race_ethnicity.not_allowed
     t: >
-      In order to comply with local policies, the collection of race or ethnicity data has
-        been disabled for your country or region.
+      เพื่อปฏิบัติตามนโยบายท้องถิ่น การเก็บข้อมูลเชื้อชาติหรือชาติพันธุ์
+      ถูกปิดใช้งานสำหรับประเทศหรือภูมิภาคของคุณ
   - key: user_info.race_ethnicity.others
-    t: Other Races or Ethnicities
+    t: เชื้อชาติหรือชาติพันธุ์อื่นๆ
   - key: user_info.race_ethnicity_freeform
     aliasFor: user_info.race_ethnicity.others
 
   # disability status
   - key: user_info.disability_status
-    t: Disability Status
+    t: สถานะความพิการ
   - key: user_info.disability_status.question
     t: >
-      Which of the following disabilities do you experience, if any? Please check all that apply.
-      Note that this can include temporary disabilities or injuries.
+      คุณมีความพิการใดๆหรือไม่? กรุณาเลือกทั้งหมดที่เกี่ยวข้อง
+      ซึ่งอาจรวมถึงความพิการหรือการบาดเจ็บชั่วคราว
 
   # disability status (other)
   - key: user_info.disability_status.others
-    t: Other Disabilities
+    t: ความพิการอื่นๆ
   - key: user_info.disability_status_freeform
     aliasFor: user_info.disability_status.others
 
