@@ -7,64 +7,64 @@ translations:
   - key: homepage.hand_coded
     t: Hand-coded in Japan.
   - key: homepage.leave_issue
-    t: Leave an issue
+    t: แจ้งปัญหา
   - key: homepage.get_in_touch
-    t: Get in touch
+    t: ติดต่อเรา
 
   - key: homepage.previous_years
-    t: "Previous Years:"
+    t: "ปีก่อนหน้า:"
 
   - key: homepage.take_survey
-    t: Take Survey
+    t: ทำแบบสำรวจ
 
   - key: homepage.view_results
-    t: View Results
+    t: ดูผลลัพธ์
 
   - key: homepage.results_coming_soon
-    t: Results Coming Soon…
+    t: ผลลัพธ์จะมาในเร็วๆนี้…
 
   - key: share.help_spread
-    t: Help Spread the Word!
+    t: ร่วมด้วยช่วยกันบอกต่อ!
 
   - key: homepage.other_surveys
-    t: "Other Surveys:"
+    t: "แบบสำรวจอื่นๆ:"
 
   - key: homepage.survey_open_now
-    t: Currently Open
+    t: แบบสำรวจเปิดให้ทำอยู่ตอนนี้
 
   - key: homepage.survey_preview
-    t: Preview Survey
+    t: ดูตัวอย่างแบบสำรวจ
 
   - key: homepage.most_recent_survey
-    t: Most Recent
+    t: แบบสำรวจล่าสุด
 
   - key: homepage.current_survey
-    t: Current Survey
+    t: แบบสำรวจปัจจุบัน
 
   - key: homepage.past_surveys
-    t: Past Surveys
+    t: แบบสำรวจที่ผ่านมา
 
   - key: homepage.view_questions
-    t: View Questions
+    t: ดูคำถาม
 
   - key: homepage.preview_questions
-    t: Preview Questions
+    t: ดูตัวอย่างคำถาม
 
   # newsletter
   - key: newsletter.stay_tuned
-    t: Don't Miss the Next Survey
+    t: อย่าพลาดแบบสำรวจถัดไป
   - key: newsletter.leave_your_email
-    t: Leave us your email and we’ll let you know when the next survey takes place.
+    t: ทิ้งอีเมลไว้ แล้วเราจะแจ้งให้คุณทราบเมื่อมีแบบสำรวจครั้งต่อไป
   - key: newsletter.email
-    t: Your Email
+    t: อีเมลของคุณ
   - key: newsletter.submit
-    t: Notify Me
+    t: แจ้งเตือนฉัน
 
   # languages
   - key: languages.available_languages
-    t: "Available languages:"
+    t: "ภาษาที่ใช้งานได้:"
   - key: languages.help_us_translate
-    t: Help us translate the survey in your language →
+    t: ช่วยเราแปลแบบสำรวจเป็นภาษาของคุณ →
 
   # partners
   - key: homepage.with_support_from

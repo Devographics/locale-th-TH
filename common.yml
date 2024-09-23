@@ -6,110 +6,110 @@ translations:
 
   # homepage
   - key: general.why_create_account
-    t: Why do I need to create an account?
+    t: ทำไมฉันต้องสร้างบัญชี?
   - key: general.create_account_reasons
     t: >
-      We ask you to create an account in order to:
+      เราขอให้คุณสร้างบัญชีเพื่อ:
 
-      - Avoid duplicate responses
+      - ป้องกันการทำแบบสำรวจซ้ำ
 
-      - Give you access to your data
+      - ให้คุณเข้าถึงข้อมูลของคุณได้
 
-      - Save your session as you go
+      - บันทึกคำตอบของคุณในขณะที่ทำแบบสำรวจ
 
-      - Notify you when results are live
+      - แจ้งให้คุณทราบเมื่อผลลัพธ์พร้อมแล้ว
   - key: general.survey_closed_detailed
     t: >
-      Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
+      ขออภัย แบบสำรวจนี้ปิดแล้ว! คุณยังสามารถตรวจสอบข้อมูลของคุณได้ แต่จะไม่สามารถแก้ไขได้
   - key: general.survey_read_only
     t: >
-      You are currently viewing this survey in read-only mode.
+      คุณกำลังดูแบบสำรวจนี้ในโหมดอ่านอย่างเดียว
   - key: general.survey_preview
     t: >
-      This survey is in **preview mode**. Its questions are subject to change, and any data you input now **will be deleted** when the survey actually starts.
+      แบบสำรวจนี้อยู่ใน **โหมดตัวอย่าง** คำถามอาจมีการเปลี่ยนแปลง และข้อมูลที่คุณกรอกในตอนนี้ **จะถูกลบ** เมื่อแบบสำรวจเริ่มต้นจริง
   - key: general.survey_feedback
-    t: Leave feedback
+    t: ส่งข้อเสนอแนะ
 
   - key: general.survey_read_only_back
     t: >
-      <a href="{link}">Go back</a> to the main survey page to start or resume a session.
+      <a href="{link}">กลับไป</a> ยังหน้าแบบสำรวจหลักเพื่อเริ่มต้นหรือทำต่อ
   - key: general.take_survey
-    t: Take the {name} survey
+    t: ทำแบบสำรวจ {name}
 
   - key: options.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
 
   # surveys
   - key: general.open_surveys
-    t: Open Surveys
+    t: แบบสำรวจที่เปิดอยู่
   - key: general.no_open_surveys
-    t: No surveys are currently open.
+    t: ขณะนี้ไม่มีแบบสำรวจที่เปิดอยู่
   - key: general.closed_surveys
-    t: Closed Surveys
+    t: แบบสำรวจที่ปิดแล้ว
   - key: general.no_closed_surveys
-    t: No surveys are currently closed.
+    t: ขณะนี้ไม่มีแบบสำรวจที่ปิดแล้ว
   - key: general.preview_surveys
-    t: Preview Surveys
+    t: แบบสำรวจตัวอย่าง
   - key: general.no_preview_surveys
-    t: No surveys available to preview.
+    t: ไม่มีแบบสำรวจตัวอย่างให้ดู
   - key: general.start_survey
-    t: Start Survey »
+    t: เริ่มทำแบบสำรวจ »
   - key: general.continue_survey
-    t: Continue Survey »
+    t: ทำแบบสำรวจต่อ »
   - key: general.completion
-    t: "{completion}% completed"
+    t: "เสร็จสิ้นไป {completion}%"
   - key: general.started_on
-    t: Started on {createdAt}
+    t: เริ่มเมื่อ {createdAt}
   - key: general.last_modified_on
-    t: Last modified on {updatedAt}
+    t: แก้ไขล่าสุดเมื่อ {updatedAt}
   - key: general.review_survey
-    t: Review Survey »
+    t: ตรวจสอบแบบสำรวจ »
   - key: general.review_answers
-    t: Review Answers »
+    t: ตรวจสอบคำตอบ »
   - key: general.preview_survey
-    t: Preview Survey »
+    t: ดูตัวอย่างแบบสำรวจ »
   - key: general.finish_survey
-    t: Finish Survey
+    t: เสร็จสิ้นแบบสำรวจ
   - key: general.next_section
-    t: Next section
+    t: ส่วนถัดไป
   - key: general.previous_section
-    t: Previous section
+    t: ส่วนก่อนหน้า
   - key: general.survey_closed
-    t: This survey is now closed.
+    t: แบบสำรวจนี้ปิดแล้ว
   - key: general.survey_closed_on
-    t: This survey closed on {endedAt}.
+    t: แบบสำรวจนี้ปิดเมื่อ {endedAt}
   - key: general.survey_results
-    t: View Survey Results »
+    t: ดูผลลัพธ์ของแบบสำรวจ »
   - key: general.surveys_available_languages
-    t: "Surveys available in:"
+    t: "แบบสำรวจจะมีเปิดใช้งานใน:"
   - key: general.help_us_translate
-    t: Help us translate the surveys »
+    t: ช่วยเราแปลแบบสำรวจ »
   - key: general.translators
-    t: Translators
+    t: ผู้แปล
   - key: general.translation_help
-    t: Translation Help
+    t: ความช่วยเหลือในการแปล
   - key: general.newly_added
-    t: Newly added this year
+    t: เพิ่มใหม่ในปีนี้
   - key: general.new
-    t: New
+    t: ใหม่
   - key: general.devographics_banner
-    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> is the new name of the collective running the State of JavaScript, CSS, and GraphQL surveys.
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> คือชื่อใหม่ของกลุ่มที่จัดทำแบบสำรวจ State of JavaScript, CSS และ GraphQL
 
-  # credits
+# credits
   - key: credits.thanks
-    t: Special Thanks
+    t: ขอขอบคุณเป็นพิเศษ
   - key: credits.contributors
-    t: Contributors
+    t: ผู้มีส่วนร่วม
   - key: credits.contributors.description
-    t: Special thanks to the following people for helping us design the survey.
+    t: ขอขอบคุณบุคคลต่อไปนี้สำหรับการช่วยออกแบบแบบสำรวจ
   - key: credits.accessibility
-    t: Accessibility Consulting
+    t: คำปรึกษาด้านการเข้าถึง
   - key: credits.survey_design
-    t: Survey Design
+    t: การออกแบบแบบสำรวจ
   - key: credits.logo_design
-    t: Logo Design
+    t: การออกแบบโลโก้
   - key: credits.mobile_testing
-    t: Mobile Testing
+    t: การทดสอบบนมือถือ
   - key: credits.data_visualizations
     t: Data Visualizations
   - key: credits.repo_architecture
@@ -121,197 +121,196 @@ translations:
   - key: credits.back_end_development
     t: Back-End Developement
   - key: credits.survey_review
-    t: Survey Review
+    t: การตรวจสอบ/ทบทวนแบบสำรวจ
 
-  # support
+# support
   - key: general.support_from
-    t: With Support From
+    t: ด้วยการสนับสนุนจาก
 
-  # footer
+# footer
   - key: general.privacy_policy
-    t: Privacy Policy
+    t: นโยบายความเป็นส่วนตัว
   - key: general.leave_issue
-    t: Questions? Found a bug? <a href="{link}" target="_blank">Leave an issue</a>.
+    t: มีคำถาม? พบข้อบกพร่อง? <a href="{link}" target="_blank">แจ้งปัญหา</a>.
   - key: general.leave_issue2
     aliasFor: homepage.leave_issue
   - key: general.emoji_icons
-    t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+    t: ไอคอนอิโมจิโดย <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
-  # navigation
+# navigation
   - key: general.table_of_contents
     t: >
-      {sectionCount} sections ({completion}% completed)
+      {sectionCount} ส่วน (เสร็จสิ้นไป {completion}%)
   - key: general.all_questions_optional
     t: >
-      Note: all questions are optional, reaching 100% completion is not required.
+      หมายเหตุ: คำถามทั้งหมดจะทำหรือไม่ทำก็ได้ ไม่จำเป็นต้องทำให้ครบ 100%
   - key: general.data_is_saved
-    t: Your data is saved whenever you navigate to the previous or next section.
+    t: ข้อมูลของคุณจะถูกบันทึกเมื่อคุณไปยังส่วนก่อนหน้าหรือส่วนถัดไป
   - key: general.close_nav
-    t: Close menu
+    t: ปิดเมนู
   - key: general.open_nav
-    t: Open menu
+    t: เปิดเมนู
   - key: general.more_actions
-    t: More actions
+    t: ตัวเลือกเพิ่มเติม
   - key: general.skip_to_content
-    t: Skip to content
+    t: ข้ามไปยังเนื้อหา
 
-  # thanks
+
+# thanks
   - key: general.back
-    t: Back
+    t: กลับ
   - key: general.back_to_survey
-    t: Back to survey
+    t: กลับไปยังแบบสำรวจ
   - key: general.thanks
     t: >
-      Thanks for filling out the survey! Your data is saved.
+      ขอบคุณที่ทำแบบสำรวจ! ข้อมูลของคุณถูกบันทึกแล้ว
 
-
-      Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
-      more representative:
-
+      คุณสามารถช่วยเราได้ด้วยการแชร์แบบสำรวจนี้ ทุกๆแชร์มีความหมาย และจะช่วยให้ข้อมูลของเราครอบคลุมและตรงความเป็นจริงมากขึ้น:
   - key: general.thanks1
     t: >
-      Thanks for filling out the survey! Your data is saved.
+      ขอบคุณที่ทำแบบสำรวจ! ข้อมูลของคุณถูกบันทึกแล้ว
   - key: general.thanks2
     t: >
-      Help us get the word out by sharing this survey! Every bit counts, and it'll help make our data even
-      more representative.
+      คุณช่วยเราได้โดยการแชร์แบบสำรวจนี้ ทุกๆแชร์มีความหมาย และจะช่วยให้ข้อมูลของเราครอบคลุมและตรงความเป็นจริงมากขึ้น:
   - key: thanks.learn_more_about
-    t: "Some of the features you might want to learn more about:"
+    t: "คุณอาจสนใจเรียนรู้เพิ่มเติมเกี่ยวกับฟีเจอร์เหล่านี้:"
   - key: thanks.knowledge_score
-    t: Knowledge Score
+    t: คะแนนความรู้
   - key: thanks.features_score
-    t: Features Score
+    t: คะแนนฟีเจอร์
   - key: thanks.quiz_score
-    t: Quiz Score
+    t: คะแนนแบบทดสอบ
   - key: thanks.score_statistics
     t: >
-      Of the {total} features mentioned in the survey,
-      you have used {usage_count} and heard of {awareness_count} more,
-      which puts you in the top {knowledgeRankingFromTop} of all respondents.
-      Well done!
+      จาก {total} ฟีเจอร์ที่ระบุในแบบสำรวจนี้
+      คุณได้ใช้ {usage_count} ฟีเจอร์และรู้จัก {awareness_count} ฟีเจอร์เพิ่มขึ้น
+      ทำให้คุณอยู่ในอันดับที่ {knowledgeRankingFromTop} จากผู้ตอบแบบสอบถามทั้งหมด
+      เจ๋งมาก!
   - key: thanks.score_statistics_noranking
     t: >
-      Of the {total} features mentioned in the survey,
-      you have used {usage_count} and heard of {awareness_count} more.
-      Well done!
+      จาก {total} ฟีเจอร์ที่ระบุในแบบสำรวจนี้
+      คุณได้ใช้ {usage_count} ฟีเจอร์และรู้จัก {awareness_count} ฟีเจอร์เพิ่มขึ้น
+      สุดยอด!
   - key: thanks.points
     t: >
-      points
+      คะแนน
   - key: thanks.score_awareness_explanation
     t: >
-      For fairness, this percentage is calculated over only the {awareness_total} features you could express you knew
+      เพื่อความยุติธรรม เปอร์เซ็นต์นี้คำนวณจาก {awareness_total} ฟีเจอร์ที่คุณรู้จักเท่านั้น
   - key: thanks.share_on_twitter
-    t: Share on Twitter
+    t: แชร์บน Twitter
   - key: thanks.share_score_message
     t: >
-      I got a {score} points knowledge score on this year’s #{hashtag} survey!
-      I have used {usage_count} features, and knew {awareness_count} more,
-      placing me in the top {rank}% of all respondents.
-      Can you beat my score? {shareUrl}
+      ฉันได้คะแนนความรู้ {score} คะแนนจากแบบสำรวจ #{hashtag} ของปีนี้!
+      ฉันได้ใช้ {usage_count} ฟีเจอร์และรู้จัก {awareness_count} ฟีเจอร์เพิ่มขึ้น
+      ทำให้ฉันอยู่ในอันดับ top {rank}% ของผู้ตอบแบบสอบถามทั้งหมด
+      คิดว่าเก่งก็เข้ามาเลย! {shareUrl}
+
   # share
   - key: general.share_subject
     t: >
-      {surveyName} survey
+      แบบสำรวจ {surveyName}
   - key: general.share_text
     t: >
-      This year's {surveyName} survey is now open! {link}
+      แบบสำรวจ {surveyName} ของปีนี้เปิดแล้ว! {link}
 
-  # forms
+# forms
   - key: forms.select_option
-    t: Select option
+    t: เลือกตัวเลือก
   - key: forms.clear_field
-    t: Clear question
+    t: ล้างคำถาม
   - key: forms.more_options
-    t: Show more…
+    t: แสดงเพิ่มเติม…
   - key: forms.less_options
-    t: Show less
+    t: แสดงน้อยลง
 
-  # partners & sponsors
+# partners & sponsors
   - key: sponsors.with_support_from
-    t: With Special Support From
+    t: ด้วยการสนับสนุนพิเศษจาก
   - key: sponsors.our_partners
-    t: Our Partners
+    t: พาร์ทเนอร์ของเรา
   - key: sponsors.become_partner
-    t: Become a partner
+    t: ร่วมเป็นพาร์ทเนอร์กับเรา
 
-  # 404
+# 404
   - key: notfound.title
     t: 404 Not Found
   - key: notfound.description
-    t: Sorry, we couldn't find what you were looking for.
+    t: ขออภัย ไม่พบสิ่งที่คุณค้นหา
 
-  # other
+# other
   - key: general.join_discord
-    t: Join us on <a href="{link}">Discord</a>.
+    t: มาเป็นส่วนหนึ่งกับเราทาง <a href="{link}">Discord</a>.
   - key: general.translator_mode
-    t: Press option/alt to enable translator mode.
+    t: กดปุ่ม option/alt เพื่อเปิดโหมดผู้แปล
   - key: general.charts_nivo
-    t: Charts built with <a href="{link}">Nivo</a>.
+    t: กราฟโดย <a href="{link}">Nivo</a>.
   - key: general.made_by_devographics
-    t: Made by <a href="{link}">Devographics</a>
+    t: สร้างโดย <a href="{link}">Devographics</a>
   - key: general.view_code_example
-    t: View Code Example
+    t: ดูตัวอย่างโค้ด
   - key: general.feature_code_example
-    t: "**{featureName}** Code Example"
+    t: "ตัวอย่างโค้ด **{featureName}**"
   - key: general.code_example
-    t: Code Example
+    t: ตัวอย่างโค้ด
   - key: general.language_code
     t: |
-      {language} Code
+      โค้ดภาษา {language}
 
-  ###########################################################################
-  # Nav
-  ###########################################################################
+###########################################################################
+# Nav
+###########################################################################
 
   - key: nav.surveys
-    t: Surveys
+    t: แบบสำรวจ
   - key: nav.account
-    t: Account
+    t: บัญชี
 
-  ###########################################################################
-  # Sections
-  ###########################################################################
+###########################################################################
+# Sections
+###########################################################################
 
   - key: sections.user_info.title
-    t: About You
+    t: เกี่ยวกับคุณ
   - key: sections.user_info.description
-    t: Let's get to know the real you.
+    t: มาทำความรู้จักตัวตนที่แท้จริงของคุณกันเถอะ
 
   - key: sections.features.title
-    t: Features
+    t: ฟีเจอร์
   - key: sections.features.description
-    t: Syntax, keywords, and other language features.
+    t: Syntax, คีย์เวิร์ด และฟีเจอร์ของภาษาต่างๆ
 
   - key: sections.resources.title
-    t: Resources
+    t: แหล่งข้อมูล
   - key: sections.resources.description
-    t: What resources do you consult?
+    t: คุณปรึกษา/เข้าหาแหล่งข้อมูลใดบ้าง?
 
   - key: sections.opinions.title
-    t: Opinions
+    t: ความคิดเห็น
   - key: sections.opinions.description
-    t: How do you feel about the state of things?
+    t: คุณรู้สึกอย่างไรกับสิ่งต่างๆในปัจจุบัน?
 
   - key: sections.other_tools.title
-    t: Other Tools
+    t: เครื่องมืออื่นๆ
   - key: sections.other_tools.description
-    t: For these tools & technologies, just check the ones that you use regularly.
+    t: สำหรับเครื่องมือและเทคโนโลยีเหล่านี้ ให้คุณเลือกที่คุณใช้เป็นประจำ
   - key: section.tools_others.title
     aliasFor: section.other_tools.title
   - key: section.tools_others.description
     aliasFor: section.other_tools.description
 
   - key: sections.report.title
-    t: Trend Report
+    t: รายงานแนวโน้ม
 
   - key: sections.usage.title
-    t: Usage
+    t: การใช้งาน
 
   - key: sections.finish.title
-    t: Finish Survey
+    t: เสร็จสิ้นแบบสำรวจ
 
   - key: sections.finish.description
-    t: Finish the survey
+    t: เสร็จสิ้นแบบสำรวจ
+
 
   ###########################################################################
   # Options
@@ -319,159 +318,160 @@ translations:
 
   # other answer
   - key: options.other
-    t: Other…
+    t: อื่นๆ…
   - key: options.other.placeholder
-    t: Other items not mentioned above, comma-separated
+    t: รายการอื่นๆที่ไม่ได้ระบุข้างต้น คั่นด้วยเครื่องหมายจุลภาค (คอมม่า)
 
-  # features
+# features
   - key: options.features.never_heard
-    t: <span aria-hidden="true">🤷</span> Never heard of it/Not sure what it is
+    t: <span aria-hidden="true">🤷</span> ไม่เคยได้ยิน/ไม่แน่ใจว่าคืออะไร
   - key: options.features.heard
-    t: <span aria-hidden="true">✅</span> Know what it is, but haven't used it
+    t: <span aria-hidden="true">✅</span> รู้จัก แต่ยังไม่เคยใช้
   - key: options.features.used
-    t: <span aria-hidden="true">👍</span> I've used it
+    t: <span aria-hidden="true">👍</span> เคยใช้แล้ว
 
-  # features v2
+# features v2
   - key: options.features2.never_heard
-    t: <span class="option-chip option-main option-main-never_heard">Never heard of it/Not sure what it is</option>
+    t: <span class="option-chip option-main option-main-never_heard">ไม่เคยได้ยิน/ไม่แน่ใจว่าคืออะไร</option>
   - key: options.features2.interested
     t: |
-      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-positive">Interested</span>
+      <span class="option-chip option-main option-main-heard">เคยได้ยิน</span> » <span class="option-chip option-positive">สนใจ</span>
   - key: options.features2.not_interested
     t: |
-      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-negative">Not interested</span>
+      <span class="option-chip option-main option-main-heard">เคยได้ยิน</span> » <span class="option-chip option-negative">ไม่สนใจ</span>
   - key: options.features2.used_positive
     t: |
-      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-positive">Positive experience</span>
+      <span class="option-chip option-main option-main-used">เคยใช้</span> » <span class="option-chip option-positive">ประสบการณ์ดี</span>
   - key: options.features2.used_negative
     t: |
-      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-negative">Negative experience</span>
+      <span class="option-chip option-main option-main-used">เคยใช้</span> » <span class="option-chip option-negative">ประสบการณ์ไม่ดี</span>
 
-  # features (short)
+# features (short)
   - key: options.features.never_heard.short
-    t: <span aria-hidden="true">🤷</span> Never heard of it
+    t: <span aria-hidden="true">🤷</span> ไม่เคยได้ยิน
   - key: options.features.heard.short
-    t: <span aria-hidden="true">👀</span> Heard of it
+    t: <span aria-hidden="true">👀</span> เคยได้ยิน
   - key: options.features.used.short
-    t: <span aria-hidden="true">🤓</span> Used it
+    t: <span aria-hidden="true">🤓</span> เคยใช้
 
-  # features (no emoji)
+# features (no emoji)
   - key: options.features.never_heard.label
-    t: Never heard of it/Not sure what it is
+    t: ไม่เคยได้ยิน/ไม่แน่ใจว่าคืออะไร
   - key: options.features.heard.label
-    t: Know what it is, but haven't used it
+    t: รู้จัก แต่ยังไม่เคยใช้
   - key: options.features.used.label
-    t: Used it
+    t: เคยใช้แล้ว
 
-  # features (no emoji, short versions)
+# features (no emoji, short versions)
   - key: options.features.never_heard.label.short
-    t: Never heard of it
+    t: ไม่เคยได้ยิน
   - key: options.features.heard.label.short
-    t: Heard of it
+    t: เคยได้ยิน
   - key: options.features.used.label.short
-    t: Used it
+    t: เคยใช้แล้ว
 
-  # patterns
+# patterns
   - key: options.patterns.use_never
-    t: Almost always avoid
+    t: หลีกเลี่ยงเกือบตลอดเวลา
   - key: options.patterns.use_sparingly
-    t: Use sparingly
+    t: ใช้เท่าที่จำเป็น
   - key: options.patterns.use_neutral
-    t: Neutral
+    t: กลางๆ
   - key: options.patterns.use_frequently
-    t: Use frequently
+    t: ใช้บ่อย
   - key: options.patterns.use_always
-    t: Use as much as I can
+    t: ใช้ทุกครั้งที่ทำได้
 
-  # tools experience
+# tools experience
   - key: options.tools.never_heard
-    t: <span aria-hidden="true">🤷</span> Never heard of it/Not sure what it is
+    t: <span aria-hidden="true">🤷</span> ไม่เคยได้ยิน/ไม่แน่ใจว่าคืออะไร
   - key: options.tools.interested
-    t: <span aria-hidden="true">✅</span> Heard of it > Would like to learn
+    t: <span aria-hidden="true">✅</span> เคยได้ยิน > อยากเรียนรู้เพิ่มเติม
   - key: options.tools.not_interested
-    t: <span aria-hidden="true">🚫</span> Heard of it > Not interested
+    t: <span aria-hidden="true">🚫</span> เคยได้ยิน > ไม่สนใจ
   - key: options.tools.would_use
-    t: <span aria-hidden="true">👍</span> Used it > Would use again
+    t: <span aria-hidden="true">👍</span> เคยใช้ > จะใช้อีก
   - key: options.tools.would_not_use
-    t: <span aria-hidden="true">👎</span> Used it > Would not use again
+    t: <span aria-hidden="true">👎</span> เคยใช้ > จะไม่ใช้อีก
 
-  # tools experience (no emoji)
+# tools experience (no emoji)
   - key: options.tools.never_heard.legend
-    t: Never heard of it/Not sure what it is
+    t: ไม่เคยได้ยิน/ไม่แน่ใจว่าคืออะไร
   - key: options.tools.interested.legend
-    t: Heard of it > Would like to learn
+    t: เคยได้ยิน > อยากเรียนรู้เพิ่มเติม
   - key: options.tools.not_interested.legend
-    t: Heard of it > Not interested
+    t: เคยได้ยิน > ไม่สนใจ
   - key: options.tools.would_use.legend
-    t: Used it > Would use again
+    t: เคยใช้ > จะใช้อีก
   - key: options.tools.would_not_use.legend
-    t: Used it > Would not use again
+    t: เคยใช้ > จะไม่ใช้อีก
 
-  # tools experience (short versions)
+# tools experience (short versions)
   - key: options.tools.never_heard.short
-    t: Never heard
+    t: ไม่เคยได้ยิน
   - key: options.tools.interested.short
-    t: Interested
+    t: สนใจ
   - key: options.tools.not_interested.short
-    t: Not interested
+    t: ไม่สนใจ
   - key: options.tools.would_use.short
-    t: Would use again
+    t: จะใช้อีก
   - key: options.tools.would_not_use.short
-    t: Would not use
+    t: จะไม่ใช้
 
-  # happiness
+# happiness
   - key: options.happiness.0
-    t: Very Unhappy
+    t: ไม่พอใจอย่างมาก
   - key: options.happiness.1
-    t: Unhappy
+    t: ไม่พอใจ
   - key: options.happiness.2
-    t: Neutral
+    t: กลางๆ
   - key: options.happiness.3
-    t: Happy
+    t: พอใจ
   - key: options.happiness.4
-    t: Very Happy
+    t: พอใจมาก
 
-  # happiness (short version)
+# happiness (short version)
   - key: options.happiness.0.short
-    t: Very Unhappy
+    t: ไม่พอใจอย่างมาก
   - key: options.happiness.1.short
-    t: Unhappy
+    t: ไม่พอใจ
   - key: options.happiness.2.short
-    t: Neutral
+    t: กลางๆ
   - key: options.happiness.3.short
-    t: Happy
+    t: พอใจ
   - key: options.happiness.4.short
-    t: Very Happy
+    t: พอใจมาก
+
 
   # opinions
   - key: options.opinions.0
-    t: Disagree Strongly
+    t: ไม่เห็นด้วยอย่างยิ่ง
   - key: options.opinions.1
-    t: Disagree
+    t: ไม่เห็นด้วย
   - key: options.opinions.2
-    t: Neutral
+    t: เฉยๆ
   - key: options.opinions.3
-    t: Agree
+    t: เห็นด้วย
   - key: options.opinions.4
-    t: Agree Strongly
+    t: เห็นด้วยอย่างยิ่ง
 
   # age
   - key: options.age.range_less_than_10
-    t: 10 years old or under
+    t: 10 ปีหรือน้อยกว่า
   - key: options.age.range_10_18
-    t: 11-18 years old
+    t: 11-18 ปี
   - key: options.age.range_18_24
-    t: 19-24 years old
+    t: 19-24 ปี
   - key: options.age.range_25_34
-    t: 25-34 years old
+    t: 25-34 ปี
   - key: options.age.range_35_44
-    t: 35-44 years old
+    t: 35-44 ปี
   - key: options.age.range_45_54
-    t: 45-54 years old
+    t: 45-54 ปี
   - key: options.age.range_55_64
-    t: 55-64 years old
+    t: 55-64 ปี
   - key: options.age.range_more_than_65
-    t: 65 years or older
+    t: 65 ปีขึ้นไป
 
   # age (short versions)
   - key: options.age.range_less_than_10.short
@@ -493,51 +493,51 @@ translations:
 
   # years of experience
   - key: options.years_of_experience.range_less_than_1
-    t: Less than one year
+    t: น้อยกว่าหนึ่งปี
   - key: options.years_of_experience.range_1_2
-    t: 1 to 2 years
+    t: 1 ถึง 2 ปี
   - key: options.years_of_experience.range_2_5
-    t: 3 to 5 years
+    t: 3 ถึง 5 ปี
   - key: options.years_of_experience.range_5_10
-    t: 6 to 10 years
+    t: 6 ถึง 10 ปี
   - key: options.years_of_experience.range_10_20
-    t: 11 to 20 years
+    t: 11 ถึง 20 ปี
   - key: options.years_of_experience.range_more_than_20
-    t: More than 20 years
+    t: มากกว่า 20 ปี
 
   # years of experience (short versions)
   - key: options.years_of_experience.range_less_than_1.short
-    t: "<1 years"
+    t: "<1 ปี"
   - key: options.years_of_experience.range_1_2.short
-    t: 1-2 years
+    t: 1-2 ปี
   - key: options.years_of_experience.range_2_5.short
-    t: 3-5 years
+    t: 3-5 ปี
   - key: options.years_of_experience.range_5_10.short
-    t: 6-10 years
+    t: 6-10 ปี
   - key: options.years_of_experience.range_10_20.short
-    t: 11-20 years
+    t: 11-20 ปี
   - key: options.years_of_experience.range_more_than_20.short
-    t: ">20 years"
+    t: ">20 ปี"
 
   # company size
   - key: options.company_size.na
-    t: 🚫 Not Applicable
+    t: 🚫 ไม่เกี่ยวข้อง
   - key: options.company_size.range_1
-    t: Just me
+    t: มีฉันคนเดียว
   - key: options.company_size.range_1_5
-    t: 2 to 5 people
+    t: 2 ถึง 5 คน
   - key: options.company_size.range_5_10
-    t: 6 to 10 people
+    t: 6 ถึง 10 คน
   - key: options.company_size.range_10_20
-    t: 11 to 20 people
+    t: 11 ถึง 20 คน
   - key: options.company_size.range_20_50
-    t: 21 to 50 people
+    t: 21 ถึง 50 คน
   - key: options.company_size.range_50_100
-    t: 51 to 100 people
+    t: 51 ถึง 100 คน
   - key: options.company_size.range_100_1000
-    t: 101 to 1000 people
+    t: 101 ถึง 1000 คน
   - key: options.company_size.range_more_than_1000
-    t: More than 1000 people
+    t: มากกว่า 1000 คน
 
   # company size (short versions)
   - key: options.company_size.na.short
@@ -561,36 +561,36 @@ translations:
 
   # salary
   - key: options.yearly_salary.na
-    t: 🚫 Not Applicable
+    t: 🚫 ไม่เกี่ยวข้อง
   - key: options.yearly_salary.range_work_for_free
-    t: I work for free
+    t: ฉันทำงานฟรี
   - key: options.yearly_salary.range_0_10
-    t: $0k-$10k
+    t: $0k-$10k (ประมาณ 0-330,000 บาท)
   - key: options.yearly_salary.range_10_30
-    t: $10k-$30k
+    t: $10k-$30k (ประมาณ 330,000-1,000,000 บาท)
   - key: options.yearly_salary.range_30_50
-    t: $30k-$50k
+    t: $30k-$50k (ประมาณ 1,000,000-1,600,000 บาท)
   - key: options.yearly_salary.range_50_100
-    t: $50k-$100k
+    t: $50k-$100k (ประมาณ 1,600,000-3,300,000 บาท)
   - key: options.yearly_salary.range_100_200
-    t: $100k-$200k
+    t: $100k-$200k (ประมาณ 3,300,000-6,600,000 บาท)
   - key: options.yearly_salary.range_more_than_200
-    t: More than $200k
+    t: มากกว่า $200k (ประมาณ 6,600,000 บาท)
 
   - key: options.yearly_salary.range_0_20
-    t: $0k-$20k
+    t: $0k-$20k (ประมาณ 0-660,000 บาท)
   - key: options.yearly_salary.range_20_40
-    t: $20k-$40k
+    t: $20k-$40k (ประมาณ 660,000-1,300,000 บาท)
   - key: options.yearly_salary.range_40_60
-    t: $40k-$60k
+    t: $40k-$60k (ประมาณ 1,300,000-2,000,000 บาท)
   - key: options.yearly_salary.range_60_80
-    t: $60k-$80k
+    t: $60k-$80k (ประมาณ 2,000,000-2,600,000 บาท)
   - key: options.yearly_salary.range_80_100
-    t: $80k-$100k
+    t: $80k-$100k (ประมาณ 2,600,000-3,300,000 บาท)
   - key: options.yearly_salary.range_100_150
-    t: $100k-$150k
+    t: $100k-$150k (ประมาณ 3,300,000-5,000,000 บาท)
   - key: options.yearly_salary.range_150_200
-    t: $150k-$200k
+    t: $150k-$200k (ประมาณ 5,000,000-6,600,000 บาท)
 
   # salary (short versions)
   - key: options.yearly_salary.na.short
@@ -598,380 +598,380 @@ translations:
   - key: options.yearly_salary.range_work_for_free.short
     t: $0
   - key: options.yearly_salary.range_0_10.short
-    t: $0-$10k
+    t: $0-$10k (ประมาณ 0-330,000 บาท)
   - key: options.yearly_salary.range_10_30.short
-    t: $10k-$30k
+    t: $10k-$30k (ประมาณ 330,000-1,000,000 บาท)
   - key: options.yearly_salary.range_30_50.short
-    t: $30k-$50k
+    t: $30k-$50k (ประมาณ 1,000,000-1,600,000 บาท)
   - key: options.yearly_salary.range_50_100.short
-    t: $50k-$100k
+    t: $50k-$100k (ประมาณ 1,600,000-3,300,000 บาท)
   - key: options.yearly_salary.range_100_200.short
-    t: $100k-$200k
+    t: $100k-$200k (ประมาณ 3,300,000-6,600,000 บาท)
   - key: options.yearly_salary.range_more_than_200.short
-    t: ">$200k"
+    t: ">$200k (ประมาณ 6,600,000 บาท)"
 
   # Proficiency (generic versions)
   - key: options.proficiency.0
-    t: None
+    t: ไม่มี
   - key: options.proficiency.1
-    t: Beginner
+    t: เริ่มต้น
   - key: options.proficiency.2
-    t: Intermediate
+    t: ระดับกลาง
   - key: options.proficiency.3
-    t: Advanced
+    t: ระดับสูง
   - key: options.proficiency.4
-    t: Expert
+    t: เชี่ยวชาญ
 
   # Gender
 
   - key: options.gender.female
-    t: Woman
+    t: ผู้หญิง
   - key: options.gender.male
-    t: Man
+    t: ผู้ชาย
   - key: options.gender.non_binary
-    t: Non-Binary or Gender Non-Conforming
+    t: Non-Binary หรือไม่เป็นไปตามเพศวิถี
   - key: options.gender.questioning
-    t: Questioning
+    t: กำลังค้นหาตัวเอง
   - key: options.gender.prefer_not_to_say
-    t: Prefer Not to Say
+    t: ไม่ขอตอบ
   - key: options.gender.not_listed
-    t: Not Listed
+    t: ไม่มีในรายการ
 
-  # Gender (short)
+# Gender (short)
 
   - key: options.gender.female.short
-    t: Woman
+    t: หญิง
   - key: options.gender.male.short
-    t: Man
+    t: ชาย
   - key: options.gender.non_binary.short
-    t: Non-Binary or GNC
+    t: Non-Binary หรือไม่ตามเพศวิถี
   - key: options.gender.questioning.short
-    t: Questioning
+    t: กำลังค้นหา
   - key: options.gender.prefer_not_to_say.short
-    t: Prefer Not to Say
+    t: ไม่ขอตอบ
   - key: options.gender.not_listed.short
-    t: Not Listed
+    t: ไม่มีในรายการ
 
   # Race & Ethnicity
 
   - key: options.race_ethnicity.white_european
-    t: White
+    t: คนขาว/ฝรั่ง
   - key: options.race_ethnicity.south_asian
-    t: South Asian
+    t: ชาวเอเชียใต้
   - key: options.race_ethnicity.south_east_asian
-    t: South East Asian
+    t: ชาวเอเชียตะวันออกเฉียงใต้
   - key: options.race_ethnicity.hispanic_latin
-    t: Hispanic or Latino/Latina/Latinx
+    t: ชาวฮิสแปนิกหรือลาติน
   - key: options.race_ethnicity.east_asian
-    t: East Asian
+    t: ชาวเอเชียตะวันออก
   - key: options.race_ethnicity.middle_eastern
-    t: Middle Eastern
+    t: ชาวตะวันออกกลาง
   - key: options.race_ethnicity.black_african
-    t: Black or of African descent
+    t: คนผิวดำหรือเชื้อสายแอฟริกัน
   - key: options.race_ethnicity.multiracial
-    t: Multiracial
+    t: หลายชาติพันธุ์
   - key: options.race_ethnicity.biracial
-    t: Biracial
+    t: สองชาติพันธุ์
   - key: options.race_ethnicity.native_american_islander_australian
-    t: Native American, Pacific Islander, or Indigenous Australian
+    t: ชาวอเมริกันพื้นเมือง, ชาวเกาะแปซิฟิก, หรือชนพื้นเมืองออสเตรเลีย
   - key: options.race_ethnicity.not_listed
-    t: Not listed
+    t: ไม่มีในรายการ
 
   - key: options.race_ethnicity.european
-    t: European
+    t: ชาวยุโรป
   - key: options.race_ethnicity.indian
-    t: Indian
+    t: ชาวอินเดีย
   - key: options.race_ethnicity.human
-    t: Human
+    t: มนุษย์
   - key: options.race_ethnicity.slav
-    t: Slav
+    t: ชาวสลาฟ
   - key: options.race_ethnicity.north_african
-    t: North African
+    t: ชาวแอฟริกาเหนือ
   - key: options.race_ethnicity.jewish
-    t: Jewish
+    t: ชาวยิว
 
   # Race & Ethnicity (short)
 
   - key: options.race_ethnicity.white_european.short
-    t: White
+    t: คนขาว/ฝรั่ง
   - key: options.race_ethnicity.south_asian.short
-    t: South Asian
+    t: เอเชียใต้
   - key: options.race_ethnicity.south_east_asian.short
-    t: SE Asian
+    t: เอเชียตะวันออกเฉียงใต้
   - key: options.race_ethnicity.hispanic_latin.short
-    t: Hispanic/Latin
+    t: ฮิสแปนิก/ลาติน
   - key: options.race_ethnicity.east_asian.short
-    t: East Asian
+    t: เอเชียตะวันออก
   - key: options.race_ethnicity.middle_eastern.short
-    t: Middle Eastern
+    t: ตะวันออกกลาง
   - key: options.race_ethnicity.black_african.short
-    t: Black/African Descent
+    t: คนผิวดำ/แอฟริกัน
   - key: options.race_ethnicity.multiracial.short
-    t: Multiracial
+    t: หลายชาติพันธุ์
   - key: options.race_ethnicity.biracial.short
-    t: Biracial
+    t: สองชาติพันธุ์
   - key: options.race_ethnicity.native_american_islander_australian.short
-    t: Nat. American/Pac. Islander/Ind. Australian
+    t: อเมริกันพื้นเมือง/เกาะแปซิฟิก/พื้นเมืองออสเตรเลีย
   - key: options.race_ethnicity.not_listed.short
-    t: Not listed
+    t: ไม่มีในรายการ
 
   # Disability Status
   - key: options.disability_status.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: options.disability_status.visual_impairments
     t: >
-      Visual impairments (such as: blindness, color blindness, etc.)
+      ความบกพร่องทางการมองเห็น (เช่น ตาบอด ตาบอดสี ฯลฯ)
   - key: options.disability_status.hearing_impairments
     t: >
-      Hearing impairments (such as: deafness, tinnitus, etc.)
+      ความบกพร่องทางการได้ยิน (เช่น หูหนวก หูอื้อ ฯลฯ)
   - key: options.disability_status.mobility_impairments
     t: >
-      Mobility impairments (such as: arthritis, carpal tunnel, etc.)
+      ความบกพร่องทางการเคลื่อนไหว (เช่น ข้ออักเสบ โรคเส้นประสาทกดทับ ฯลฯ)
   - key: options.disability_status.cognitive_impairments
     t: >
-      Cognitive impairments (such as: anxiety, dyslexia, ADHD, etc.)
+      ความบกพร่องในการรู้ (เช่น ความวิตกกังวล ดิสเล็กเซีย ADHD ฯลฯ)
   - key: options.disability_status.not_listed
     t: >
-      Not Listed
+      ไม่มีในรายการ
 
   # Disability Status (short)
   - key: options.disability_status.visual_impairments.short
     t: >
-      Visual impairments
+      ความบกพร่องทางการมองเห็น
   - key: options.disability_status.hearing_impairments.short
     t: >
-      Hearing impairments
+      ความบกพร่องทางการได้ยิน
   - key: options.disability_status.mobility_impairments.short
     t: >
-      Mobility impairments
+      ความบกพร่องทางการเคลื่อนไหว
   - key: options.disability_status.cognitive_impairments.short
     t: >
-      Cognitive impairments
+      ความบกพร่องในการรู้
   - key: options.disability_status.not_listed.short
     t: >
-      Not Listed
+      ไม่มีในรายการ
 
   # Form Factors
   - key: options.form_factors.desktop
-    t: Desktop
+    t: คอมพิวเตอร์ตั้งโต๊ะ
   - key: options.form_factors.keyboard_only
-    t: Desktop with keyboard only
+    t: คอมพิวเตอร์ตั้งโต๊ะ (ใช้แป้นพิมพ์เท่านั้น)
   - key: options.form_factors.smartphone
-    t: Smartphone
+    t: สมาร์ทโฟน
   - key: options.form_factors.feature_phone
-    t: Feature phone
+    t: ฟีเจอร์โฟน
   - key: options.form_factors.tablet
-    t: Tablet
+    t: แท็บเล็ต
   - key: options.form_factors.smart_watch
-    t: Smartwatch
+    t: สมาร์ทวอทช์
   - key: options.form_factors.tv
-    t: TV
+    t: โทรทัศน์
   - key: options.form_factors.gaming_console
     t: Gaming console
   - key: options.form_factors.screen_reader
-    t: Screen reader
+    t: เครื่องอ่านหน้าจอ
   - key: options.form_factors.print
     t: Print
   - key: options.form_factors.testing_tools
-    t: Testing Tools (Axe, Lighthouse, etc.)
+    t: เครื่องมือทดสอบ (Axe, Lighthouse ฯลฯ)
   - key: options.form_factors.vision_simulator
-    t: Altered Vision Simulator (color blindness, etc.)
+    t: เครื่องจำลองการมองเห็นที่บกพร่อง (ตาบอดสี ฯลฯ)
 
   # Industry Sector
   - key: options.industry_sector.ecommerce
-    t: Ecommerce & Retail
+    t: อีคอมเมิร์ซและค้าปลีก
   - key: options.industry_sector.news_media
-    t: News, Media, & Blogging
+    t: ข่าว, สื่อ, และการบล็อก
   - key: options.industry_sector.healthcare
-    t: Healthcare
+    t: บริการสุขภาพ
   - key: options.industry_sector.finance
-    t: Finance
+    t: การเงิน
   - key: options.industry_sector.programming_tools
-    t: Programming & Technical Tools
+    t: การเขียนโปรแกรมและเครื่องมือทางเทคนิค
   - key: options.industry_sector.socialmedia
-    t: Social Media
+    t: โซเชียลมีเดีย
   - key: options.industry_sector.marketing_tools
-    t: Marketing/Sales/Analytics Tools
+    t: เครื่องมือด้านการตลาด/การขาย/การวิเคราะห์
   - key: options.industry_sector.education
-    t: Education
+    t: การศึกษา
   - key: options.industry_sector.real_estate
-    t: Real Estate
+    t: อสังหาริมทรัพย์
   - key: options.industry_sector.government
-    t: Government
+    t: รัฐบาล
   - key: options.industry_sector.entertainment
-    t: Entertainment
+    t: บันเทิง
   - key: options.industry_sector.consulting
-    t: Consulting & Services
+    t: การปรึกษาและบริการ
   - key: options.industry_sector.travel
-    t: Travel
+    t: การเดินทาง
   - key: options.industry_sector.tourism
-    t: Tourism
+    t: การท่องเที่ยว
   - key: options.industry_sector.insurance
-    t: Insurance
+    t: ประกันภัย
   - key: options.industry_sector.logistics
-    t: Logistics
+    t: โลจิสติกส์
   - key: options.industry_sector.energy
-    t: Energy
+    t: พลังงาน
   - key: options.industry_sector.telecommunications
-    t: Telecommunications
+    t: โทรคมนาคม
   - key: options.industry_sector.student
-    t: Student
+    t: นักศึกษา
   - key: options.industry_sector.hospitality
-    t: Hospitality
+    t: การบริการ
   - key: options.industry_sector.cyber_security
-    t: Cyber Security
+    t: ความปลอดภัยทางไซเบอร์
   - key: options.industry_sector.construction
-    t: Construction
+    t: ก่อสร้าง
   - key: options.industry_sector.automotive
-    t: Automotive
+    t: ยานยนต์
   - key: options.industry_sector.agriculture
-    t: Agriculture
+    t: เกษตรกรรม
   - key: options.industry_sector.transport
-    t: Transport
+    t: การขนส่ง
   - key: options.industry_sector.manufacturing
-    t: Manufacturing
+    t: การผลิต
 
   - key: options.industry_sector.tech_it
-    t: Tech & IT
+    t: เทคโนโลยีและไอที
   - key: options.industry_sector.human_resources
-    t: Human Resources
+    t: ทรัพยากรบุคคล (HR)
   - key: options.industry_sector.sports
-    t: Sports
+    t: กีฬา
   - key: options.industry_sector.gaming
-    t: Gaming
+    t: เกม
   - key: options.industry_sector.research
-    t: Research
+    t: การวิจัย
   - key: options.industry_sector.law
-    t: Law
+    t: กฎหมาย
   - key: options.industry_sector.non_profit
-    t: Non-Profit
+    t: องค์กรไม่แสวงหาผลกำไร
   - key: options.industry_sector.art
-    t: Art
+    t: ศิลปะ
   - key: options.industry_sector.crypto
-    t: Crypto
+    t: คริปโต
   - key: options.industry_sector.aerospace
-    t: Aerospace
+    t: อวกาศ
   - key: options.industry_sector.web3
     t: Web3
   - key: options.industry_sector.iot
     t: IOT
   - key: options.industry_sector.gambling
-    t: Gambling
+    t: การพนัน
   - key: options.industry_sector.blockchain
     t: Blockchain
   - key: options.industry_sector.design
-    t: Design
+    t: การออกแบบ
   - key: options.industry_sector.unemployed
-    t: Unemployed
+    t: ว่างงาน
 
   - key: options.industry_sector.recruiting
-    t: Recruiting
+    t: การสรรหาบุคลากร
   - key: options.industry_sector.agency
-    t: Agency
+    t: เอเจนซี่
   - key: options.industry_sector.business
-    t: Business
+    t: ธุรกิจ
   - key: options.industry_sector.communication
-    t: Comunication
+    t: การสื่อสาร
   - key: options.industry_sector.security
-    t: Security
+    t: ความปลอดภัย
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
-    t: Documentation
+    t: เอกสารประกอบ
   - key: options.tool_evaluation.learning_curve_documentation.description
-    t: Is it easy to learn and/or well-documented?
+    t: เรียนรู้ง่ายและ/หรือมีเอกสารอธิบายชัดเจนหรือไม่?
   - key: options.tool_evaluation.momentum_popularity
-    t: Hype & Momentum
+    t: ความนิยม & กระแส
   - key: options.tool_evaluation.momentum_popularity.description
-    t: Is it currently generating a lot of buzz?
+    t: มีการพูดถึงและเป็นที่นิยมในปัจจุบันหรือไม่?
   - key: options.tool_evaluation.user_base_size
-    t: User Base Size
+    t: ขนาดฐานผู้ใช้
   - key: options.tool_evaluation.user_base_size.description
-    t: Is it a well-established option with a long track record?
+    t: เป็นตัวเลือกที่มีผู้ใช้มากและมีประวัติยาวนานหรือไม่?
   - key: options.tool_evaluation.developer_experience_tooling
-    t: Developer Experience
+    t: ประสบการณ์นักพัฒนา
   - key: options.tool_evaluation.developer_experience_tooling.description
-    t: Does it have good developer tools, a large plugin ecosystem, etc.?
+    t: มีเครื่องมือนักพัฒนาที่ดี มีระบบนิเวศปลั๊กอินที่ใหญ่หรือไม่?
   - key: options.tool_evaluation.performance_user_experience
-    t: User Experience
+    t: ประสบการณ์ผู้ใช้
   - key: options.tool_evaluation.performance_user_experience.description
-    t: Does it help you create smooth, performant user experiences?
+    t: ช่วยสร้างประสบการณ์ผู้ใช้ที่ราบรื่นและมีประสิทธิภาพหรือไม่?
   - key: options.tool_evaluation.creator_team
-    t: Creator & Team
+    t: ผู้สร้าง & ทีมงาน
   - key: options.tool_evaluation.creator_team.description
-    t: Is it backed by a well-known, well-funded, or experienced team?
+    t: มีทีมงานที่มีชื่อเสียง/ประสบการณ์หรือได้รับเงินสนับสนุนที่ดีหรือไม่?
   - key: options.tool_evaluation.accessibility_features
-    t: Accessibility Features
+    t: ฟีเจอร์การเข้าถึง
   - key: options.tool_evaluation.accessibility_features.description
-    t: Is it good at creating accessible experiences for all users?
+    t: ช่วยสร้างประสบการณ์การเข้าถึงสำหรับผู้ใช้ทุกคนได้ดีหรือไม่?
   - key: options.tool_evaluation.community_inclusivity
-    t: Community & Inclusivity
+    t: ชุมชน & การมีส่วนร่วม
   - key: options.tool_evaluation.community_inclusivity.description
-    t: Does it have a welcoming, vibrant community built around it?
+    t: มีชุมชนที่เปิดกว้างและมีชีวิตชีวาหรือไม่?
 
   # accessibility features
   - key: options.accessibility_features.keyboard_navigation
-    t: Keyboard navigation
+    t: การนำทางด้วยแป้นพิมพ์
   - key: options.accessibility_features.compliant_contrast
-    t: WCAG-compliant contrast
+    t: ความคมชัดตามมาตรฐาน WCAG
   - key: options.accessibility_features.focus_indicators
-    t: Focus indicators
+    t: ตัวชี้ตำแหน่งโฟกัส
   - key: options.accessibility_features.skip_to_content_link
-    t: Skip-to-content link
+    t: ลิงก์ข้ามไปยังเนื้อหา
   - key: options.accessibility_features.color_themes
-    t: Color themes (dark mode, high-contrast mode, etc.)
+    t: ธีมสี (โหมดมืด, โหมดความคมชัดสูง ฯลฯ)
   - key: options.accessibility_features.prefers_reduced_motion
-    t: Prefers-reduced-motion
+    t: โหมดลดการเคลื่อนไหว
   - key: options.accessibility_features.alt_text
-    t: Alt texts
+    t: ข้อความแทนรูปภาพ
   - key: options.accessibility_features.semantic_markup
-    t: Semantic markup
+    t: Markup ที่มีความหมายตรงตัว
   - key: options.accessibility_features.aria_attributes
-    t: ARIA HTML attributes
+    t: ARIA Attributes ของ HTML
 
   # learning methods
   - key: options.first_steps.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: options.first_steps.books
-    t: Books
+    t: หนังสือ
   - key: options.first_steps.videos
-    t: Videos & screencasts
+    t: วิดีโอ & สกรีนแคสต์
   - key: options.first_steps.school
-    t: School & higher education
+    t: โรงเรียน & อุดมศึกษา
   - key: options.first_steps.courses_free
-    t: Online courses (free)
+    t: หลักสูตรออนไลน์ (ฟรี)
   - key: options.first_steps.courses_paid
-    t: Online courses (paid)
+    t: หลักสูตรออนไลน์ (เสียเงิน)
   - key: options.first_steps.podcasts
-    t: Podcasts
+    t: พอดคาสต์
   - key: options.first_steps.bootcamp
-    t: Coding bootcamp
+    t: บูทแคมป์เขียนโค้ด
   - key: options.first_steps.on_the_job
-    t: On-the-job training
+    t: การเรียนรู้หน้างาน
   - key: options.first_steps.self_directed
-    t: Self-directed learning (Google, Stack Overflow, etc.)
+    t: การเรียนรู้ด้วยตนเอง (Google, Stack Overflow ฯลฯ)
   - key: options.first_steps.mentoring
-    t: Mentoring
+    t: การมีอาจารย์/ที่ปรึกษา
 
   - key: options.first_steps.documentation
-    t: Documentation
+    t: เอกสารประกอบ
   - key: options.first_steps.blogs
-    t: Blogs
+    t: บล็อก
   - key: options.first_steps.view_source
-    t: View Source
+    t: การดูต้นฉบับ
   - key: options.first_steps.trial_and_error
-    t: Trial & Error
+    t: การลองผิดลองถูก
   - key: options.first_steps.forums
-    t: Forums
+    t: ฟอรัม
   - key: options.first_steps.newsletters
-    t: Newsletters
+    t: จดหมายข่าว
   - key: options.first_steps.events
-    t: Events
+    t: งานกิจกรรม
 
   # learning methods
 
   - key: resources.learning_methods
-    t: Learning Methods
+    t: วิธีการเรียนรู้
 
   - key: options.learning_methods.na
     aliasFor: options.first_steps.na
@@ -1014,61 +1014,62 @@ translations:
 
   # degree
   - key: options.higher_education_degree.no_degree
-    t: No
+    t: ไม่มี
   - key: options.higher_education_degree.yes_related
-    t: Yes, in a field related to my current profession
+    t: มีในสาขาที่เกี่ยวข้องกับอาชีพปัจจุบัน
   - key: options.higher_education_degree.yes_unrelated
-    t: Yes, but in a field unrelated to my current profession
+    t: มีแต่ในสาขาที่ไม่เกี่ยวข้องกับอาชีพปัจจุบัน
 
   # degree (short versions)
   - key: options.higher_education_degree.no_degree.short
-    t: No
+    t: ไม่มี
   - key: options.higher_education_degree.yes_related.short
-    t: Yes, related field
+    t: มีสาขาที่เกี่ยวข้อง
   - key: options.higher_education_degree.yes_unrelated.short
-    t: Yes, unrelated field
+    t: มีสาขาที่ไม่เกี่ยวข้อง
 
   # employment_status
   - key: options.employment_status.full_time
-    t: Full-time
+    t: ทำงานเต็มเวลา
   - key: options.employment_status.student
-    t: Student
+    t: นักศึกษา
   - key: options.employment_status.self_employed
-    t: Self-employed
+    t: นายตัวเอง
   - key: options.employment_status.contractor
-    t: Contractor
+    t: รับงานเป็นสัญญา
   - key: options.employment_status.part_time
-    t: Part-time
+    t: ทำงานพาร์ทไทม์
   - key: options.employment_status.between_jobs
-    t: Between jobs
+    t: ระหว่างหางาน
   - key: options.employment_status.retired
-    t: Retired
+    t: เกษียณอายุ
 
   # bracket
   - key: options.bracket.round1
-    t: Round 1 wins
+    t: ชนะรอบที่ 1
   - key: options.bracket.round2
-    t: Round 2 wins
+    t: ชนะรอบที่ 2
   - key: options.bracket.round3
-    t: Round 3 wins
+    t: ชนะรอบที่ 3
   - key: options.bracket.combined
-    t: Combined
+    t: รวมผลการชนะ
 
   # email_temporary (receive updates?)
   - key: options.receive_notifications.yes
-    t: Yes, email me when the survey results are published
+    t: ใช่ ส่งอีเมลหาฉันเมื่อผลสำรวจถูกเผยแพร่
+
 
   # usage type
 
   - key: usage.usage_type
-    t: Usage Type
+    t: ประเภทการใช้งาน
 
   - key: options.usage_type.professionally
-    t: Professionally
+    t: ใช้ในฐานะมืออาชีพ
   - key: options.usage_type.student
-    t: As a student
+    t: ใช้ในฐานะนักเรียน
   - key: options.usage_type.hobby
-    t: As a hobby
+    t: ใช้เป็นงานอดิเรก
 
   - key: options.percentage_segments.range_0_10
     t: 0-10%
@@ -1135,17 +1136,17 @@ translations:
 
   # source
   - key: options.source.angular_community
-    t: Angular Community
+    t: ชุมชน Angular
   - key: options.source.work
-    t: Workplace
+    t: ที่ทำงาน
   - key: options.source.word_of_mouth
-    t: Word of Mouth
+    t: คำบอกเล่าปากต่อปาก
   - key: options.source.podcast
-    t: Podcasts
+    t: พอดคาสต์
   - key: options.source.other_online_sources
-    t: Other Online Sources
+    t: แหล่งข้อมูลออนไลน์อื่นๆ
   - key: options.source.blog
-    t: Blogs
+    t: บล็อก
   # - key: options.source.
   #   t:
   # - key: options.source.
@@ -1160,13 +1161,13 @@ translations:
   ###########################################################################
 
   - key: tools.other_tools
-    t: Other Options
+    t: ตัวเลือกอื่นๆ
   - key: tools.other_tools.description
-    t: Other options you use for the current section not mentioned in the list above.
+    t: ตัวเลือกอื่นๆที่คุณใช้ในส่วนนี้ไม่ปรากฎในรายการข้างต้น
   - key: tools.happiness
-    t: Overall Happiness
+    t: ความสุขโดยรวม
   - key: tools.happiness.question
-    t: How happy are you with the current state of things as it relates to the options listed above?
+    t: คุณมีความสุขกับสภาพของสิ่งต่างๆที่เกี่ยวข้องกับตัวเลือกข้างต้นแค่ไหน?
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -1174,137 +1175,132 @@ translations:
 
   # age
   - key: user_info.age
-    t: Age
+    t: อายุ
   - key: user_info.age.question
-    t: How old are you, in years?
+    t: อายุคุณเท่าไหร่ (เป็นปี)?
 
   # years of experience
   - key: user_info.years_of_experience
-    t: Years of Experience
+    t: ประสบการณ์นับเป็นปี
   - key: user_info.years_of_experience.question
-    t: How long have you been working or studying in this field, in years?
+    t: คุณทำงานหรือศึกษาด้านนี้มานานกี่ปี?
 
   # company size
   - key: user_info.company_size
-    t: Company Size
+    t: ขนาดบริษัท
   - key: user_info.company_size.question
-    t: How many people work at your organization, including yourself?
+    t: มีคนทำงานในองค์กรของคุณกี่คน รวมถึงตัวคุณเองด้วย?
 
   # salary ranges
   - key: user_info.yearly_salary
-    t: Yearly Income
+    t: รายได้ต่อปี
   - key: user_info.yearly_salary.question
-    t: Your yearly gross (pre-tax) income in U.S. dollar.
+    t: รายได้รวมต่อปีของคุณก่อนหักภาษีเป็นกี่ดอลลาร์สหรัฐ?
 
   # job title
   - key: user_info.job_title
-    t: Job Title
+    t: ตำแหน่งงาน
   - key: user_info.job_title.question
-    t: How do you introduce yourself to others?
+    t: คุณแนะนำตัวเองกับคนอื่นว่าอย่างไร?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
-    t: JavaScript Proficiency
+    t: ความเชี่ยวชาญ JavaScript
   - key: user_info.javascript_proficiency.question
-    t: How proficient are you at JavaScript?
+    t: คุณเชี่ยวชาญ JavaScript มากแค่ไหน?
 
   # css proficiency
   - key: user_info.css_proficiency
-    t: CSS Proficiency
+    t: ความเชี่ยวชาญ CSS
   - key: user_info.css_proficiency.question
-    t: How proficient are you at CSS?
+    t: คุณเชี่ยวชาญ CSS มากแค่ไหน?
 
   # backend proficiency
   - key: user_info.backend_proficiency
-    t: Back-end Proficiency
+    t: ความเชี่ยวชาญ Back-end
   - key: user_info.backend_proficiency.question
-    t: How proficient are you at back-end development?
+    t: คุณเชี่ยวชาญ Back-end มากแค่ไหน?
 
   # gender
   - key: user_info.gender
-    t: Gender
+    t: เพศ
   - key: user_info.gender.question
-    t: >
-      Which of the following options describes you, if any? Please pick one.
+    t: ตัวเลือกใดต่อไปนี้อธิบายคุณได้ดีที่สุด (หากมี) กรุณาเลือกหนึ่งข้อ
   - key: user_info.gender.note
     t: >
-      While we know collecting and publishing diversity data can be a sensitive issue,
-      we do think it's important to obtain this data to help measure and improve
-      the survey's efforts in terms of inclusivity and representativeness.
+      แม้เราจะทราบว่าการเก็บและเผยแพร่ข้อมูลความหลากหลายเป็นเรื่องละเอียดอ่อน
+      แต่เราคิดว่าสำคัญที่ต้องเก็บข้อมูลนี้เพื่อช่วยวัดและปรับปรุงการมีส่วนร่วมและการเป็นตัวแทนของคนแต่ละกลุ่ม
 
   # race & ethnicity
   - key: user_info.race_ethnicity
-    t: Race & Ethnicity
+    t: เชื้อชาติ & ชาติพันธุ์
   - key: user_info.race_ethnicity.question
-    t: >
-      Which of the following options describe you, if any? Please check all that apply.
+    t: ตัวเลือกใดต่อไปนี้อธิบายคุณได้ดีที่สุด (หากมี) กรุณาเลือกทั้งหมดที่เกี่ยวข้อง
   - key: user_info.race_ethnicity.note
     t: >
-      While we know collecting and publishing diversity data can be a sensitive issue,
-      we do think it's important to obtain this data to help measure and improve
-      the survey's efforts in terms of inclusivity and representativeness.
+      แม้เราจะทราบว่าการเก็บและเผยแพร่ข้อมูลความหลากหลายเป็นเรื่องละเอียดอ่อน
+      แต่เราคิดว่าสำคัญที่ต้องเก็บข้อมูลนี้เพื่อช่วยวัดและปรับปรุงการมีส่วนร่วมและการเป็นตัวแทนของคนแต่ละกลุ่ม
   - key: user_info.race_ethnicity.not_allowed
     t: >
-      In order to comply with local policies, the collection of race or ethnicity data has
-        been disabled for your country or region.
+      เพื่อปฏิบัติตามนโยบายท้องถิ่น การเก็บข้อมูลเชื้อชาติหรือชาติพันธุ์
+      ถูกปิดใช้งานสำหรับประเทศหรือภูมิภาคของคุณ
   - key: user_info.race_ethnicity.others
-    t: Other Races or Ethnicities
+    t: เชื้อชาติหรือชาติพันธุ์อื่นๆ
   - key: user_info.race_ethnicity_freeform
     aliasFor: user_info.race_ethnicity.others
 
   # disability status
   - key: user_info.disability_status
-    t: Disability Status
+    t: สถานะความพิการ
   - key: user_info.disability_status.question
     t: >
-      Which of the following disabilities do you experience, if any? Please check all that apply.
-      Note that this can include temporary disabilities or injuries.
+      คุณมีความพิการใดๆหรือไม่? กรุณาเลือกทั้งหมดที่เกี่ยวข้อง
+      ซึ่งอาจรวมถึงความพิการหรือการบาดเจ็บชั่วคราว
 
   # disability status (other)
   - key: user_info.disability_status.others
-    t: Other Disabilities
+    t: ความพิการอื่นๆ
   - key: user_info.disability_status_freeform
     aliasFor: user_info.disability_status.others
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: Where did you hear about this survey?
+    t: คุณรู้จักแบบสำรวจนี้จากที่ใด?
   - key: user_info.email
-    t: Your Email
+    t: อีเมลของคุณ
   - key: user_info.email.description
     t: >
-      You have filled out the survey anonymously. If you'd like, you can optionally enter your email to be able to access your data later on, and be notified when the survey results are published.
+      คุณได้ทำแบบสำรวจนี้โดยไม่ระบุชื่อ หากคุณต้องการ คุณสามารถกรอกอีเมลของคุณเพื่อให้สามารถเข้าถึงข้อมูลของคุณในภายหลัง
+      และได้รับการแจ้งเตือนเมื่อผลการสำรวจเผยแพร่
   - key: user_info.email.note
     t: >
-      We do not store any personal data, so after you fill in your email address we will use it to generate a unique anonymized identifier and then delete the address itself from our records.
+      เราจะไม่เก็บข้อมูลส่วนตัวใดๆ เมื่อคุณกรอกอีเมล เราจะใช้มันในการสร้างรหัสตัวตนแบบไม่ระบุชื่อ และลบอีเมลออกจากบันทึกของเรา
   - key: user_info.country
-    t: Country or Region
+    t: ประเทศหรือภูมิภาค
   - key: user_info.country.description
-    t: Where do you currently reside?
+    t: ขณะนี้คุณอาศัยอยู่ที่ไหน?
 
   - key: user_info.github_username
-    t: Your GitHub Username
+    t: ชื่อผู้ใช้ GitHub ของคุณ
   - key: user_info.github_username.description
     t: >
-      We might use GitHub usernames in the future to look at
-      repos and cross-reference publicly available information.
+      เราอาจใช้ชื่อผู้ใช้ GitHub ของคุณในอนาคตเพื่อตรวจสอบ Repo และเปรียบเทียบกับข้อมูลสาธารณะ
 
   - key: user_info.twitter_username
-    t: Your Twitter Username
+    t: ชื่อผู้ใช้ Twitter ของคุณ
   - key: user_info.twitter_username.description
     t: >
-      We might use Twitter usernames in the future to look at
-      Twitter activity and cross-reference publicly available information
-       (such as the list of people you're following).
+      เราอาจใช้ชื่อผู้ใช้ Twitter ของคุณในอนาคตเพื่อตรวจสอบกิจกรรมบน Twitter และเปรียบเทียบกับข้อมูลสาธารณะ
+      (เช่น รายชื่อคนที่คุณติดตาม)
 
   - key: user_info.industry_sector
-    t: Industry Sector
+    t: ภาคอุตสาหกรรม
   - key: user_info.industry_sector.question
-    t: Which industry sector(s) do you work in?
+    t: คุณทำงานในอุตสาหกรรมใดบ้าง?
   - key: user_info.industry_sector.others
-    t: Other Industry Sectors
+    t: ภาคอุตสาหกรรมอื่นๆ
   - key: user_info.industry_sector.others.description
-    t: Other industry sector(s) you work in not mentioned above.
+    t: ภาคอุตสาหกรรมอื่นๆที่คุณทำงานไม่ปรากฎในข้างต้น
 
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
@@ -1319,33 +1315,33 @@ translations:
 
   # degree
   - key: user_info.higher_education_degree
-    t: Higher Education Degree
+    t: วุฒิอุดมศึกษา
   - key: user_info.higher_education_degree.question
-    t: Do you have a higher education degree?
+    t: คุณมีวุฒิอุดมศึกษาหรือไม่?
 
   # employment status
   - key: user_info.employment_status
-    t: Employment Status
+    t: สถานะการจ้างงาน
   - key: user_info.employment_status.description
-    t: What's your employment status?
+    t: สถานะการจ้างงานของคุณคืออะไร?
 
   # completion
   - key: user_info.completion_stats
-    t: Survey Completion
+    t: การทำแบบสำรวจให้เสร็จสมบูรณ์
   - key: user_info.completion_stats.description
-    t: Which proportion of the survey did respondents fill out?
+    t: ผู้ตอบแบบสำรวจทำในสัดส่วนเท่าใด?
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications
-    t: Do you want to be notified when the survey results are released?
+    t: คุณต้องการรับการแจ้งเตือนเมื่อผลการสำรวจถูกเผยแพร่หรือไม่?
   - key: user_info.receive_notifications.note
     t: >
-      We don't store any private data, so after your email address is sent to our
-      mailing list provider it will be deleted from our own records.
+      เราไม่เก็บข้อมูลส่วนตัวใดๆ หลังจากที่คุณส่งอีเมลไปยังผู้ให้บริการรายชื่ออีเมลของเรา
+      อีเมลของคุณจะถูกลบออกจากบันทึกของเรา
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
-    t: How could we improve this survey?
+    t: เราจะปรับปรุงแบบสำรวจนี้ได้อย่างไร?
 
   ###########################################################################
   # Usage
@@ -1357,103 +1353,101 @@ translations:
 
   # first steps
   - key: resources.first_steps
-    t: First Learning Methods
+    t: วิธีการเรียนรู้เบื้องต้น
   - key: resources.first_steps.question
-    t: When first starting out, how did you initially learn coding?
+    t: ในตอนแรก คุณเรียนรู้การเขียนโค้ดด้วยวิธีใด?
   - key: resources.first_steps.others
-    t: Other First Learning Methods
+    t: วิธีการเรียนรู้เบื้องต้นอื่นๆ
   - key: resources.first_steps.others.description
-    t: Other answers (freeform field).
+    t: คำตอบอื่นๆ (ช่องกรอกอิสระ)
 
   # blogs & magazines
   - key: resources.blogs_news_magazines
-    t: Blogs & Magazines
+    t: บล็อก & นิตยสาร
   - key: resources.blogs_news_magazines.question
-    t: Which blogs/magazines/newsletters/etc. do you read?
+    t: คุณอ่านบล็อก/นิตยสาร/จดหมายข่าวใดบ้าง?
   - key: resources.blogs_news_magazines.others
-    t: Other Blogs & Magazines
+    t: บล็อก & นิตยสารอื่นๆ
   - key: resources.blogs_news_magazines.others.description
-    t: Other answers (freeform field).
+    t: คำตอบอื่นๆ (ช่องกรอกอิสระ)
   - key: options.blogs_news_magazines.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: resources.blogs_news_magazines.placeholder
     t: |
-      Blog/newsletter #{index}…
+      บล็อก/จดหมายข่าว #{index}…
 
   # sites & courses
   - key: resources.sites_courses
-    t: Sites & Courses
+    t: เว็บไซต์ & หลักสูตร
   - key: resources.sites_courses.question
-    t: Which sites/courses/etc. do you consult to learn JavaScript?
+    t: คุณใช้เว็บไซต์/หลักสูตรใดเพื่อเรียนรู้ JavaScript?
   - key: resources.sites_courses.others
-    t: Other Sites & Courses
+    t: เว็บไซต์ & หลักสูตรอื่นๆ
   - key: resources.sites_courses.others.description
-    t: Other answers (freeform field).
+    t: คำตอบอื่นๆ (ช่องกรอกอิสระ)
   - key: options.sites_courses.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: resources.sites_courses.placeholder
     t: |
-      Site/course #{index}…
+      เว็บไซต์/หลักสูตร #{index}…
 
   # paid courses
   - key: resources.paid_courses
-    t: Paid Courses
+    t: หลักสูตรแบบชำระเงิน
   - key: resources.paid_courses.question
-    t: Which **paid resources** (courses, videos, books, etc.) have you used to learn JavaScript?
+    t: คุณเคยใช้แหล่งข้อมูลแบบชำระเงินใดบ้าง (หลักสูตร วิดีโอ หนังสือ ฯลฯ) เพื่อเรียนรู้ JavaScript?
   - key: options.paid_courses.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: resources.paid_courses.placeholder
     t: |
-      Course/book #{index}…
+      หลักสูตร/หนังสือ #{index}…
 
   # podcasts
   - key: resources.podcasts
-    t: Podcasts
+    t: พอดคาสต์
   - key: resources.podcasts.question
-    t: Which programming-related podcasts do you listen to?
+    t: คุณฟังพอดคาสต์ใดเกี่ยวกับโปรแกรมมิ่งบ้าง?
   - key: resources.podcasts.others
-    t: Other Podcasts
+    t: พอดคาสต์อื่นๆ
   - key: resources.podcasts.others.description
-    t: Other answers (freeform field).
+    t: คำตอบอื่นๆ (ช่องกรอกอิสระ)
   - key: options.podcasts.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: resources.podcasts.placeholder
     t: |
-      Podcast #{index}…
+      พอดคาสต์ #{index}…
 
   # people
   - key: resources.people
-    t: People
+    t: บุคคล
   - key: resources.people.question
-    t: Which individuals do you read, follow, or just want to highlight in the JavaScript community?
+    t: คุณติดตามหรืออยากแนะนำใครในชุมชน JavaScript?
   # - key: resources.people.others
   #   t: Other People
   # - key: resources.people.others.description
   #   t: Other answers (freeform field).
   - key: resources.people.others
-    t: People
+    t: บุคคล
   - key: resources.people.others.description
     t: >
-      People you read, follow, or just want to highlight for their work
-      (freeform field, comma-separated names).
+      บุคคลที่คุณติดตามหรืออยากแนะนำ (ช่องกรอกอิสระ แยกด้วยเครื่องหมายคอมม่า)
   - key: options.people.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: resources.people.placeholder
     t: |
-      Person #{index}…
+      บุคคล #{index}…
 
   # other surveys
   - key: resources.other_surveys
-    t: Other Surveys
+    t: แบบสำรวจอื่นๆ
   - key: resources.other_surveys.question
-    t: Which other developer surveys do you participate in?
+    t: คุณเข้าร่วมแบบสำรวจนักพัฒนาซอฟต์แวร์อื่นๆใดบ้าง?
   - key: resources.other_surveys.others
-    t: Additional surveys not mentioned above
+    t: แบบสำรวจเพิ่มเติมไม่ปรากฎในข้างต้น
   - key: options.other_surveys.na
-    t: 🚫 None
-    # TODO: temporary fix, this should not be needed in the first place
+    t: 🚫 ไม่มี
   - key: user_info.other_surveys.question
-    t: Which other developer surveys do you participate in?
+    t: คุณเข้าร่วมแบบสำรวจนักพัฒนาซอฟต์แวร์อื่นๆใดบ้าง?
 
   - key: user_info.other_surveys
     aliasFor: resources.other_surveys
@@ -1462,58 +1456,58 @@ translations:
 
   # video creators
   - key: resources.video_creators
-    t: Video Creators
+    t: Video Creator
   - key: resources.video_creators.question
-    t: Which programming-related video creators do you follow (on YouTube, Twitch, etc.)?
+    t: คุณติดตาม Video Creator เกี่ยวกับโปรแกรมมิ่งคนใดบ้าง (บน YouTube, Twitch ฯลฯ)?
   - key: resources.video_creators.others
-    t: Other Video Creators
+    t: Video Creator อื่นๆ
   - key: options.video_creators.na
-    t: 🚫 None
+    t: 🚫 ไม่มี
   - key: resources.video_creators.placeholder
     t: |
-      Video creator #{index}…
+      ผู้สร้างวิดีโอ #{index}…
 
   ###########################################################################
   # Follow-Up Questions
   ###########################################################################
 
   - key: followups.button
-    t: Tell us more…
+    t: บอกเราเพิ่มเติม…
 
   - key: followups.description
     t: |
-      Optionally, you can tell us more about why you picked this answer:
+      คุณสามารถบอกเราเพิ่มเติมว่าเหตุใดคุณจึงเลือกคำตอบนี้:
 
   - key: followups.description.short
     t: |
-      Tell us more:
+      บอกเราเพิ่มเติม:
 
   - key: followups.placeholder
-    t: Other reason…
+    t: เหตุผลอื่นๆ…
 
   - key: followups.want_to_learn_more
-    t: I want to learn more
+    t: ฉันอยากศึกษาเพิ่มเติม
   - key: followups.not_interested
-    t: I'm not interested
+    t: ฉันไม่สนใจ
   - key: followups.insufficient_browser_support
-    t: Insufficient browser support
+    t: การสนับสนุนของเบราว์เซอร์ไม่เพียงพอ
   - key: followups.not_needed
-    t: I haven't needed it
+    t: ฉันไม่เคยต้องการมัน
   - key: followups.hard_to_use
-    t: It was hard to use
+    t: มันใช้งานยาก
   - key: followups.positive_experience
-    t: I had a positive experience
+    t: ฉันมีประสบการณ์ที่ดี
   - key: followups.not_powerful
-    t: It wasn't powerful enough
+    t: มันไม่ทรงพลังพอ
 
   - key: followups.sentiment_interested
-    t: Interested
+    t: สนใจ
   - key: followups.sentiment_not_interested
-    t: Not interested
+    t: ไม่สนใจ
   - key: followups.sentiment_positive_experience
-    t: Want to use again
+    t: อยากใช้อีก
   - key: followups.sentiment_negative_experience
-    t: Negative experience
+    t: ประสบการณ์ที่ไม่ดี
 
   # - key: followups.
   #   t:
@@ -1527,4 +1521,5 @@ translations:
   # entities info
 
   - key: entity.learn_more
-    t: Learn more…
+    t: เรียนรู้เพิ่มเติม…
+
