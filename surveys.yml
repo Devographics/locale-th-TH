@@ -103,6 +103,13 @@ translations:
   - key: general.numeric_input.invalid_input
     t: Please make sure you enter a valid number.
 
+  - key: general.numeric_input.unit.years
+    t: years
+  - key: general.numeric_input.unit.years_old
+    t: years old
+  - key: general.numeric_input.unit.hours
+    t: hours
+
   ###########################################################################
   # Errors & Messages
   ###########################################################################
@@ -239,7 +246,7 @@ translations:
 
   - key: readinglist.prompt
     t: >
-      You picked “{option}”. If you'd like to learn more about this feature at the end of the survey, you can click the "+" icon above to add it to your **reading list**.
+      You picked “{option}”. If you'd like to learn more about this feature at the end of the survey, you can click the "+" icon in the corner above to add it to your **reading list**.
 
   - key: readinglist.add_to_list
     t: Add to Your Reading List
@@ -404,7 +411,7 @@ translations:
 
   # JS 2023
 
-  - key: general.js2023.survey_intro
+  - key: general.js2023.survey_intro_not_used
     t: |
       Between Astro, Vite, and Remix, 2022 kicked off a wave of JavaScript change that kept on growing in 2023 with Bun, Svelte 5, Tauri, and many others. 
 

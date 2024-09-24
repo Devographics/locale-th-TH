@@ -76,9 +76,9 @@ translations:
     t: Other HTML elements & browser APIs.
 
   - key: sections.other_tools.title
-    t: Other Tools & Features
+    t: Other Tools
   - key: sections.other_tools.description
-    t: Other tools or features you use as part of your work.
+    t: Other tools you use as part of your work.
 
   - key: sections.usage.title
     t: Usage
@@ -114,7 +114,7 @@ translations:
     t: Form Pain Points
   - key: features.forms_pain_points.question
     t: What are your pain points around HTML forms?
-  - key: features.forms_pain_points.description
+  - key: features.forms_pain_points.prompt
     t: |
       Think of the various form controls (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
       behaviors (e.g. validation, autocomplete), handling forms via JS, editing APIs (e.g. `contentEditable`) etc.
@@ -185,7 +185,7 @@ translations:
     t: Interactivity Pain Points
   - key: features.interactivity_pain_points.question
     t: What are your pain points around dynamic HTML changes?
-  - key: features.interactivity_pain_points.description
+  - key: features.interactivity_pain_points.prompt
     t: |
       Browser incompatibilities or lack of support, missing features, and other problems you face
       around interactive elements and behaviors (except forms), DOM manipulation, events, and related APIs.
@@ -270,7 +270,7 @@ translations:
     t: Content Pain Points
   - key: features.content_pain_points.question
     t: What are your pain points around managing content in HTML?
-  - key: features.content_pain_points.description
+  - key: features.content_pain_points.prompt
     t: |
       Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
       Missing features, browser incompatibilities, and other problems you face are all fair game.
@@ -337,7 +337,7 @@ translations:
     t: Using Web Components Pain Points
   - key: features.using_web_components_pain_points.question
     t: What are your biggest pain points around *consuming* web components?
-  - key: features.using_web_components_pain_points.description
+  - key: features.using_web_components_pain_points.prompt
     t: Using Web Components that you or others have made. Missing features, browser incompatibilities, etc.
   - key: features.using_web_components_pain_points.placeholder
     t: |
@@ -347,7 +347,7 @@ translations:
     t: Making Web Components Pain Points
   - key: features.making_web_components_pain_points.question
     t: What are your biggest pain points around *making* web components?
-  - key: features.making_web_components_pain_points.description
+  - key: features.making_web_components_pain_points.prompt
     t: |
       What prevents you from creating the amazing components you envision? Missing features, browser incompatibilities, etc.
   - key: features.making_web_components_pain_points.placeholder
@@ -356,10 +356,10 @@ translations:
 
   # Accessibility
 
-  - key: features.accessibility_features
-    t: Accessibility Features
-  - key: features.accessibility_features.question
-    t: Which of these accessibility features have you used?
+  # - key: features.accessibility_features
+  #   t: Accessibility Features
+  # - key: features.accessibility_features.question
+  #   t: Which of these accessibility features have you used?
 
   - key: features.accessibility_tools
     t: Accessibility Tools
@@ -552,192 +552,6 @@ translations:
     t: |
       Pain point #{index}
 
-  # Other Tools
-
-  - key: other_tools.site_generators
-    t: Site Generators
-  - key: other_tools.site_generators.question
-    t: Which of these static or dynamic site generators do you regularly use?
-
-  - key: other_tools.ai_tools
-    t: AI Tools
-  - key: other_tools.ai_tools.question
-    t: Which of these AI tools do you regularly use to help you write code?
-
-  - key: other_tools.machine_readable_features
-    aliasFor: features.machine_readable_features
-  - key: other_tools.machine_readable_features.question
-    aliasFor: features.machine_readable_features.question
-
-  - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
-
-  - key: other_tools.blast_from_the_past
-    t: Blast from the Past!
-  - key: other_tools.blast_from_the_past.question
-    t: Have you ever used any of the following old-school elements?
-  - key: other_tools.blast_from_the_past.description
-    t: Blast from the past!
-  - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> None of the above
-
-  # Usage
-
-  # - key: usage.html_existing_features
-  #   t: Unusable HTML Features
-  # - key: usage.html_existing_features.question
-  #   t: Which existing HTML features are you unable to use?
-  # - key: usage.html_existing_features.description
-  #   t: |
-  #     Existing HTML features that you find yourself recreating using custom components.
-  # - key: usage.html_existing_features.placeholder
-  #   t: |
-  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
-
-  - key: usage.html_interoperability_features
-    t: Browser Interoperability
-  - key: usage.html_interoperability_features.question
-    t: Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
-  # - key: usage.html_interoperability_features.description
-  #   t: |
-  #     Any type of API the survey has asked about is within scope.
-  - key: usage.html_interoperability_features.placeholder
-    t: |
-      Feature #{index}
-
-  - key: usage.html_functionality_features
-    t: Limited Functionality
-  - key: usage.html_functionality_features.question
-    t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
-  - key: usage.html_functionality_features.description
-    t: |
-      Good candidates might be existing HTML features that you often have to recreate or augment using JS.
-
-      Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
-
-  - key: usage.html_functionality_features.placeholder.1
-    t: |
-      Feature #1 (hard to style)
-  - key: usage.html_functionality_features.placeholder.2
-    t: |
-      Feature #2 (limited functionality, poor accessibility)
-
-  - key: usage.what_do_you_use_html_for
-    t: HTML Usage
-  - key: usage.what_do_you_use_html_for.question
-    t: What do you use HTML for?
-  - key: options.what_do_you_use_html_for.blogs
-    aliasFor: options.what_do_you_use_css_for.blogs
-  - key: options.what_do_you_use_html_for.design_systems
-    aliasFor: options.what_do_you_use_css_for.design_systems
-  - key: options.what_do_you_use_html_for.desktop_apps
-    aliasFor: options.what_do_you_use_css_for.desktop_apps
-  - key: options.what_do_you_use_html_for.emails
-    aliasFor: options.what_do_you_use_css_for.emails
-  - key: options.what_do_you_use_html_for.marketing_sites
-    aliasFor: options.what_do_you_use_css_for.marketing_sites
-  - key: options.what_do_you_use_html_for.mobile_apps
-    aliasFor: options.what_do_you_use_css_for.mobile_apps
-  - key: options.what_do_you_use_html_for.printed_documents
-    aliasFor: options.what_do_you_use_css_for.printed_documents
-  - key: options.what_do_you_use_html_for.web_apps
-    aliasFor: options.what_do_you_use_css_for.web_apps
-
-  - key: usage.tools_for_other_developers
-    t: Ecosystem Impact
-  - key: usage.tools_for_other_developers.question
-    t: Other than yourself, how many developers use the libraries, packages, components, APIs etc. that you create or maintain?
-  - key: usage.tools_for_other_developers.description
-    t: |
-      Total, if you work on multiple projects that are used by other developers.
-      If you’re not sure, pick the closest to your best estimate.
-      For open source code, npm downloads might offer a useful data point.
-  - key: options.tools_for_other_developers.na
-    t: 🚫 None (Just me)
-  - key: options.tools_for_other_developers.a_few
-    t: A few other developers (e.g. developers within a small team)
-  - key: options.tools_for_other_developers.less_than_100
-    t: Less than a hundred developers
-  - key: options.tools_for_other_developers.less_than_1000
-    t: Less than a thousand developers
-  - key: options.tools_for_other_developers.more_than_100
-    t: Hundreds of developers
-  - key: options.tools_for_other_developers.more_than_1000
-    t: Thousands of developers
-  - key: options.tools_for_other_developers.more_than_1000000
-    t: Millions of developers
-
-  - key: usage.html_missing_elements
-    t: Missing Elements
-  - key: usage.html_missing_elements.question
-    t: If you could add 3 elements to HTML, what would they be?
-  # - key: usage.html_missing_elements.description
-  #   t: |
-  #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
-
-  #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
-
-  - key: options.html_missing_elements.accordion
-    t: Accordion
-  - key: options.html_missing_elements.alert
-    t: Alert
-  - key: options.html_missing_elements.calendar
-    t: Calendar
-  - key: options.html_missing_elements.carousel
-    t: Carousel
-  - key: options.html_missing_elements.combobox_autocomplete
-    t: Combobox / Autocomplete
-  - key: options.html_missing_elements.command_palette
-    t: Command Palette
-  - key: options.html_missing_elements.context_menu
-    t: Context Menu / Right-Click Menu
-  - key: options.html_missing_elements.datatable
-    t: Data table (with sorting, filtering, etc.)
-  - key: options.html_missing_elements.dropdown_menu
-    t: Dropdown Menu
-  - key: options.html_missing_elements.image_zoom
-    t: Image Zoom
-  - key: options.html_missing_elements.progress_bar
-    t: Progress Bar
-  - key: options.html_missing_elements.skeleton_loading_placeholder
-    t: Skeleton UI / Loading Placeholder
-  - key: options.html_missing_elements.switch
-    t: Switch / Toggle
-  - key: options.html_missing_elements.tabs
-    t: Tabs
-  # - key: options.html_missing_elements.toast_message
-  #   t: Toast Message
-  - key: options.html_missing_elements.tooltip
-    t: Tooltip
-  - key: options.html_missing_elements.offcanvas
-    t: Off-Canvas Area
-  - key: options.html_missing_elements.spinner
-    t: Loading Spinner
-  - key: options.html_missing_elements.segmented_button
-    t: Segmented Button
-  - key: options.html_missing_elements.scroll_area
-    t: Infinite Scroll
-  - key: options.html_missing_elements.icon
-    t: Icon
-  - key: options.html_missing_elements.star_rating
-    t: Star Rating
-
-  - key: usage.html_pain_points_freeform
-    t: Other Pain Points
-  - key: usage.html_pain_points_freeform.question
-    t: Any other pain points around using HTML and related technologies?
-
-  - key: usage.html_css_js_balance
-    t: HTML/CSS vs JavaScript/TypeScript Balance
-  - key: usage.html_css_js_balance.question
-    t: How do you divide your time between writing HTML/CSS and JavaScript (or TypeScript) code?
-  - key: options.html_css_js_balance.0
-    t: 100% HTML/CSS
-  - key: options.html_css_js_balance.4
-    t: 50%–50%
-  - key: options.html_css_js_balance.8
-    t: 100% JS
-
   # other features
 
   - key: features.foo_attribute
@@ -892,6 +706,265 @@ translations:
 
   - key: features.client_hints
     t: HTTP client hints
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: other_tools.site_generators
+    t: Site Generators
+  - key: other_tools.site_generators.question
+    t: Which of these static or dynamic site generators do you regularly use?
+
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.question
+    aliasFor: tools_others.browsers.question
+
+  - key: other_tools.validation_tools
+    t: Validation Tools
+  - key: other_tools.validation_tools.question
+    t: Which of these validation tools do you regularly use?
+
+  - key: other_tools.ai_tools
+    t: AI Tools
+  - key: other_tools.ai_tools.question
+    t: Which of these AI tools do you regularly use to help you write code?
+
+  - key: other_tools.machine_readable_features
+    aliasFor: features.machine_readable_features
+  - key: other_tools.machine_readable_features.question
+    aliasFor: features.machine_readable_features.question
+
+  - key: options.machine_readable_features.na
+    t: <span aria-hidden="true">🚫</span> None of the above
+
+  - key: other_tools.blast_from_the_past
+    t: Blast from the Past!
+  - key: other_tools.blast_from_the_past.question
+    t: Have you ever used any of the following old-school elements?
+  - key: other_tools.blast_from_the_past.description
+    t: Blast from the past!
+  - key: options.blast_from_the_past.na
+    t: <span aria-hidden="true">🚫</span> None of the above
+
+  - key: other_tools.performance_tools
+    t: Performance Tools
+  - key: other_tools.performance_tools.question
+    t: What tools & services do you use to track and improve the performance of your websites?
+
+  - key: options.performance_tools.browser_devtools
+    t: Browser Devtools
+
+  - key: other_tools.analytics_tools
+    t: Analytics Tools
+  - key: other_tools.analytics_tools.question
+    t: What analytics tools & services do you use to monitor your websites?
+
+  ###########################################################################
+  # Usage
+  ###########################################################################
+
+  # - key: usage.html_existing_features
+  #   t: Unusable HTML Features
+  # - key: usage.html_existing_features.question
+  #   t: Which existing HTML features are you unable to use?
+  # - key: usage.html_existing_features.description
+  #   t: |
+  #     Existing HTML features that you find yourself recreating using custom components.
+  # - key: usage.html_existing_features.placeholder
+  #   t: |
+  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
+
+  - key: usage.html_interoperability_features
+    t: Browser Interoperability
+  - key: usage.html_interoperability_features.question
+    t: Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
+  # - key: usage.html_interoperability_features.description
+  #   t: |
+  #     Any type of API the survey has asked about is within scope.
+  - key: usage.html_interoperability_features.placeholder
+    t: |
+      Feature #{index}
+
+  - key: usage.html_functionality_features
+    t: Limited Functionality
+  - key: usage.html_functionality_features.question
+    t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
+  - key: usage.html_functionality_features.description
+    t: |
+      Existing HTML features that you often have to recreate or augment using JS.
+  # - key: usage.html_functionality_features.description
+  #   t: |
+  #     Existing HTML features that you often have to recreate or augment using JS.
+
+  #     Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+
+  - key: usage.html_functionality_features.placeholder.1
+    t: |
+      Feature #1 (hard to style)
+  - key: usage.html_functionality_features.placeholder.2
+    t: |
+      Feature #2 (limited functionality, poor accessibility)
+
+  - key: usage.html_new_features
+    t: New Features
+  - key: usage.html_new_features.question
+    t: Which of these new and upcoming features are you most excited about?
+
+  - key: usage.what_do_you_use_html_for
+    t: HTML Usage
+  - key: usage.what_do_you_use_html_for.question
+    t: What do you use HTML for?
+  - key: options.what_do_you_use_html_for.blogs
+    aliasFor: options.what_do_you_use_css_for.blogs
+  - key: options.what_do_you_use_html_for.design_systems
+    aliasFor: options.what_do_you_use_css_for.design_systems
+  - key: options.what_do_you_use_html_for.desktop_apps
+    aliasFor: options.what_do_you_use_css_for.desktop_apps
+  - key: options.what_do_you_use_html_for.emails
+    aliasFor: options.what_do_you_use_css_for.emails
+  - key: options.what_do_you_use_html_for.marketing_sites
+    aliasFor: options.what_do_you_use_css_for.marketing_sites
+  - key: options.what_do_you_use_html_for.mobile_apps
+    aliasFor: options.what_do_you_use_css_for.mobile_apps
+  - key: options.what_do_you_use_html_for.printed_documents
+    aliasFor: options.what_do_you_use_css_for.printed_documents
+  - key: options.what_do_you_use_html_for.web_apps
+    aliasFor: options.what_do_you_use_css_for.web_apps
+
+  - key: usage.tools_for_other_developers
+    t: Ecosystem Impact
+  - key: usage.tools_for_other_developers.question
+    t: Other than yourself, how many developers use the libraries, packages, components, APIs etc. that you create or maintain?
+  - key: usage.tools_for_other_developers.description
+    t: |
+      Total, if you work on multiple projects that are used by other developers.
+      If you’re not sure, pick the closest to your best estimate.
+      For open source code, npm downloads might offer a useful data point.
+  - key: options.tools_for_other_developers.na
+    t: 🚫 None (Just me)
+  - key: options.tools_for_other_developers.a_few
+    t: A few other developers (e.g. developers within a small team)
+  - key: options.tools_for_other_developers.less_than_100
+    t: Less than a hundred developers
+  - key: options.tools_for_other_developers.less_than_1000
+    t: Less than a thousand developers
+  - key: options.tools_for_other_developers.more_than_100
+    t: Hundreds of developers
+  - key: options.tools_for_other_developers.more_than_1000
+    t: Thousands of developers
+  - key: options.tools_for_other_developers.more_than_1000000
+    t: Millions of developers
+
+  - key: usage.html_missing_elements
+    t: Missing Elements
+  - key: usage.html_missing_elements.question
+    t: If you could add 3 elements to HTML, what would they be?
+  # - key: usage.html_missing_elements.description
+  #   t: |
+  #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
+
+  #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
+
+  - key: options.html_missing_elements.accordion
+    t: Accordion
+  - key: options.html_missing_elements.alert
+    t: Alert
+  - key: options.html_missing_elements.calendar
+    t: Calendar
+  - key: options.html_missing_elements.carousel
+    t: Carousel
+  - key: options.html_missing_elements.combobox_autocomplete
+    t: Combobox / Autocomplete
+  - key: options.html_missing_elements.command_palette
+    t: Command Palette
+  - key: options.html_missing_elements.context_menu
+    t: Context Menu / Right-Click Menu
+  - key: options.html_missing_elements.datatable
+    t: Data table
+  - key: options.html_missing_elements.datatable.description
+    t: Data table with sorting, filtering, etc.
+  - key: options.html_missing_elements.dropdown_menu
+    t: Dropdown Menu
+  - key: options.html_missing_elements.image_zoom
+    t: Image Zoom
+  - key: options.html_missing_elements.progress_bar
+    t: Progress Bar
+  - key: options.html_missing_elements.skeleton_loading_placeholder
+    t: Skeleton UI / Loading Placeholder
+  - key: options.html_missing_elements.switch
+    t: Switch / Toggle
+  - key: options.html_missing_elements.tabs
+    t: Tabs
+  # - key: options.html_missing_elements.toast_message
+  #   t: Toast Message
+  - key: options.html_missing_elements.tooltip
+    t: Tooltip
+  - key: options.html_missing_elements.offcanvas
+    t: Off-Canvas Area
+  - key: options.html_missing_elements.spinner
+    t: Loading Spinner
+  - key: options.html_missing_elements.segmented_button
+    t: Segmented Button
+  - key: options.html_missing_elements.scroll_area
+    t: Infinite Scroll
+  - key: options.html_missing_elements.icon
+    t: Icon
+  - key: options.html_missing_elements.star_rating
+    t: Star Rating
+
+  - key: usage.html_pain_points_freeform
+    t: Other Pain Points
+  - key: usage.html_pain_points_freeform.question
+    t: Any other pain points around using HTML and related technologies?
+
+  - key: usage.html_css_js_balance
+    t: HTML/CSS vs JavaScript/TypeScript Balance
+  - key: usage.html_css_js_balance.question
+    t: How do you divide your time between writing HTML/CSS and JavaScript (or TypeScript) code?
+  - key: options.html_css_js_balance.0
+    t: 100% HTML/CSS
+  - key: options.html_css_js_balance.4
+    t: 50%–50%
+  - key: options.html_css_js_balance.8
+    t: 100% JS
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  - key: resources.web_platform_resources
+    t: Web Platform Resources
+  - key: resources.web_platform_resources.question
+    t: Which of these resources do you consult to stay informed about web platform features?
+
+  ###########################################################################
+  # Opinions
+  ###########################################################################
+
+  - key: opinions.opinions_intro
+    t: For the following questions, let us know how much you agree with each statement.
+
+  - key: opinions.accessibility_is_valued
+    t: Accessibility
+  - key: opinions.accessibility_is_valued.question
+    t: Accessibility is valued in my workplace or professional environment
+
+  - key: opinions.keeping_informed_is_challenging
+    t: Keeping Informed
+  - key: opinions.keeping_informed_is_challenging.question
+    t: Keeping informed about new web platform features is a challenge
+
+  - key: opinions.browser_interoperability_is_obstacle
+    t: Browser Interoperability
+  - key: opinions.browser_interoperability_is_obstacle.question
+    t: The lack of browser interoperability is a major obstacle to web development
+
+  - key: opinions.web_platform_right_direction
+    t: Web Platform
+  - key: opinions.web_platform_right_direction.question
+    t: The web platform is moving in the right direction overall
 
   ###########################################################################
   # Survey Help
