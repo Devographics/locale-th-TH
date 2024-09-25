@@ -5,32 +5,32 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2024 edition of the annual survey about the latest trends in the HTML ecosystem.
+    t: แบบสำรวจประจำปี 2024 เกี่ยวกับเทรนด์ล่าสุดในระบบนิเวศของ HTML
 
   - key: general.html2024.survey_intro
     t: |
 
-      HTML was the original web technology, and the fact that it's more relevant than ever three decades later is kind of amazing. 
+      HTML เป็นเทคโนโลยีเว็บรุ่นดั้งเดิมและการที่มันมีบทบาทมากขึ้นแม้จะผ่านมาสามทศวรรษแล้วเป็นเรื่องน่าทึ่งอย่างมาก
 
-      But despite its name, this surveys goes far beyond just HTML to encompass all areas of the web platform as a whole – and there is *a lot* to cover! 
+      ถึงแม้ชื่อของแบบสำรวจจะเป็น HTML แต่จริงๆแล้วมันครอบคลุมไปทุกซอกทุกมุมของเว็บและมันมีเนื้อหา *นับไม่ถ้วน* 
 
-      So as you might expect, designing a survey like this one always involves tough choices. This year, we decided to focus on new and upcoming features to help you stay up to date; as well as areas that browser vendors are most interested in.
+      ดังนั้นทำแบบสำรวจประเภทนี้มักต้องตัดสินใจอย่างลำบากเสมอ ในปีนี้เราตัดสินใจมุ่งเน้นไปที่ฟีเจอร์ที่มาใหม่และกำลังจะมา เพื่อช่วยให้คุณทันโลก รวมถึงจุดที่ผู้ผลิตเบราว์เซอร์ให้ความสนใจมากที่สุด
 
-      This means that your answers might end up having a direct impact on the roadmap of the browser you're using right now. Which is why I'm so excited to open this second edition of the State of HTML survey!
+      หมายความว่าคำตอบของคุณอาจมีผลโดยตรงต่อโรดแมปของเบราว์เซอร์ที่คุณใช้อยู่ตอนนี้ ซึ่งเป็นเหตุผลที่เราตื่นเต้นมากที่จะเปิดตัวแบบสำรวจ State of HTML ครั้งที่สอง!
 
   - key: features.features_intro_html2024
     t: |
-      Welcome to the survey! This first part is all about sharing your experience with various web platform features:
+      ยินดีต้อนรับสู่แบบสำรวจ! ส่วนแรกนี้จะเกี่ยวกับการแบ่งปันประสบการณ์ของคุณกับฟีเจอร์ต่างๆ ในแพลตฟอร์มเว็บ:
 
 
-      - **Never heard of it**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
+      - **ไม่เคยได้ยินมาก่อน**: นี่คือครั้งแรกที่คุณเห็นหรือได้ยินมัน แต่ไม่รู้ว่ามันทำอะไรได้บ้าง
 
-      - **Heard of it**: you've read or learned about this, but haven't actually used it yet. 
+      - **ได้ยินมาบ้าง**: คุณเคยอ่านหรือศึกษาเกี่ยวกับมัน แต่ยังไม่ได้ใช้
 
-      - **Used it**: you've used this at least once, even if it was just to play around. 
+      - **เคยใช้แล้ว**: คุณเคยใช้มันอย่างน้อยหนึ่งครั้ง แม้จะเป็นเพียงการทดลองก็ตาม
 
 
-      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+      ถ้าคุณต้องการบอกเราเพิ่มเติมเกี่ยวกับตัวเลือกของคุณ เพียงแค่คลิกไอคอน "คอมเมนต์" เล็กๆนั่นได้เลย!
 
   ###########################################################################
   # Introduction
@@ -38,13 +38,13 @@ translations:
 
   - key: introduction.html2024
     t: |
-      <span class="first-letter">C</span>SS is going through a period of unprecedented progress. Between `:has()`, container queries, subgrid, and many more, new features are making their way to browsers seemingly every month. 
+      <span class="first-letter">C</span>SS กำลังเผชิญกับความก้าวหน้าที่ไม่เคยเกิดขึ้นมาก่อนด้วยฟีเจอร์ใหม่ๆ เช่น `:has()`, container queries, subgrid และอื่นๆ อีกมากมายที่กำลังเข้ามาสู่เบราว์เซอร์อย่างต่อเนื่องทุกเดือน
 
-      The consequence of all this growth is that things can get a bit overwhelming. Thankfully this year we had [Chen Hui Jing](https://chenhuijing.com/) to help design the survey and guide us through the CSS jungle. 
+      ผลลัพธ์ของการเติบโตนี้คือสิ่งต่างๆอาจดูวุ่นวายเล็กน้อย โชคดีที่ปีนี้เราได้ [Chen Hui Jing](https://chenhuijing.com/) มาช่วยออกแบบแบบสำรวจและนำทางผ่านเขาวงกต CSS
 
-      And speaking of the survey, did you know browser vendors use its data as part of the [Interop](https://web.dev/interop-2023/) initiative to help prioritize which features to work on next?
+      พูดถึงแบบสำรวจ คุณทราบหรือไม่ว่าผู้ผลิตเบราว์เซอร์ใช้ข้อมูลนี้เป็นส่วนหนึ่งของโครงการ [Interop](https://web.dev/interop-2023/) เพื่อช่วยกำหนดลำดับความสำคัญของฟีเจอร์ที่จะทำต่อไป?
 
-      Finally, we are introducing a new feature this year: the ability to **customize charts** with your own data filters. We're excited to see what kind of new insights you'll come up with!
+      สุดท้ายนี้ เราได้เปิดตัวฟีเจอร์ใหม่ในปีนี้: ความสามารถในการ **ปรับแต่งกราฟ** ด้วยตัวกรองข้อมูลของคุณเอง เราตื่นเต้นที่จะได้เห็นว่าคุณจะคิดค้นการนำเสนอข้อมูลออกมาแบบไหน!
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -53,38 +53,38 @@ translations:
   ###########################################################################
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: เสื้อยืด
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of HTML T-Shirt
+      ## สนับสนุนแบบสำรวจด้วยเสื้อยืด State of HTML
 
-      Do you miss the the good old days of the mid-90s, when HTML was king and VHS tape covers featured futuristic, colorful artwork? 
+      คุณคิดถึงวันเก่าๆของช่วงกลางทศวรรษ 90 หรือเปล่า เมื่อ HTML เป็นดั่งเทพและหน้าปกเทป VHS มีภาพศิลปะที่ล้ำยุคและสดใส?
 
-      The bad news is that even with 2024's technology, you can't yet go back in time to relive those glory days. But what you *can* do is wear this awesome original retro t-shirt, designed by none other than the talented Christopher Kirk-Nielsen.
+      ข่าวร้ายคือ แม้จะมีเทคโนโลยีปี 2024 คุณก็ยังไม่สามารถย้อนเวลากลับไปสู่วันวานที่รุ่งโรจน์นั้นได้แต่สิ่งที่คุณ *สามารถ* ทำได้คือสวมเสื้อยืดสุดเจ๋งที่ออกแบบโดย Christopher Kirk-Nielsen ผู้เปี่ยมไปด้วยพรสวรรค์นี้
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: เกี่ยวกับเสื้อยืด
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      เราใช้เสื้อยืดผสมผ้าคุณภาพสูงที่นุ่มมาก พิมพ์โดยพันธมิตรของเราที่ Cotton Bureau
 
   - key: tshirt.getit
-    t: Get It
+    t: สั่งซื้อเลย
 
   - key: tshirt.price
-    t: USD $32 + shipping
+    t: USD $32 + ค่าจัดส่ง
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: เกี่ยวกับผู้ออกแบบ
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+      เดิมทีมาจากฝรั่งเศสแต่ตอนนี้อยู่ในสหรัฐอเมริกา Chris ไม่เพียงแต่เป็นนักพัฒนา front-end ที่ยอดเยี่ยม แต่ยังเป็นนักวาดภาพประกอบผู้เปี่ยมไปด้วยพรสวรรค์แถมยังเชี่ยวชาญภาพย้อนยุคอีกด้วย จริงๆแล้วเราขอแนะนำให้คุณดู[การออกแบบเสื้อยืดอื่นๆของเขา](https://chriskirknielsen.com/designs)ด้วย!
 
   ###########################################################################
   # Sections Introductions
@@ -92,157 +92,156 @@ translations:
 
   - key: sections.user_info.description.html2024
     t: |
-      Welcome to the State of HTML survey results. This first-ever edition reached **20,904** participants from all around the world.
+      ยินดีต้อนรับสู่ผลแบบสำรวจ State of HTML ครั้งแรกสุด การสำรวจนี้มีผู้เข้าร่วม **20,904** คนจากทั่วโลก
 
   - key: sections.features.description.html2024
     t: |
-      HTML features and other browser APIs
+      ฟีเจอร์ HTML และ API ของเบราว์เซอร์อื่นๆ
 
   ###########################################################################
   # Other Content
   ###########################################################################
 
   - key: features.all_features
-    t: All Features
+    t: ฟีเจอร์ทั้งหมด
   - key: features.all_features.description
     t: |
-      This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both. 
+      ชาร์ตนี้สรุปคำถามเกี่ยวกับฟีเจอร์ทั้งหมดของการสำรวจ บาร์หลักแสดงถึงประสบการณ์ของผู้ตอบ จากนั้นจะถูกแบ่งย่อยตามความรู้สึกของผู้ตอบ คุณสามารถสลับระหว่างทั้งสองได้
 
-
-      Note that you can also find a more specific breakdown of the same data in each feature sub-section.
+      โปรดทราบ คุณยังสามารถหาการแบ่งข้อมูลเฉพาะได้ในแต่ละส่วนย่อยของฟีเจอร์
 
   - key: features.forms_features
-    t: Forms Experience & Sentiment
+    t: ประสบการณ์ & ความรู้สึกเกี่ยวกับฟอร์ม
 
   - key: features.interactivity_features
-    t: Interactivity Experience & Sentiment
+    t: ประสบการณ์ & ความรู้สึกเกี่ยวกับการโต้ตอบ
 
   - key: features.content_features
-    t: Content Experience & Sentiment
+    t: ประสบการณ์ & ความรู้สึกเกี่ยวกับเนื้อหา
 
   - key: features.web_components_main_features
-    t: Web Components Experience & Sentiment
+    t: ประสบการณ์ & ความรู้สึกเกี่ยวกับ Web Components
 
   - key: features.accessibility_features
-    t: Accessibility Experience & Sentiment
+    t: ประสบการณ์ & ความรู้สึกเกี่ยวกับการเข้าถึง
 
   - key: features.mobile_web_apps_features
-    t: Mobile Web Apps Experience & Sentiment
+    t: ประสบการณ์ & ความรู้สึกเกี่ยวกับแอปเว็บบนมือถือ
 
   ###########################################################################
   # Sponsors
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: ยกระดับทักษะของคุณด้วยหลักสูตร front-end สมัยใหม่ที่เข้มข้น
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: ขอบคุณทีม Google Chrome ที่สนับสนุนงานของเรา
   - key: sponsors.tokyodev.description
-    t: Find your dream developer job in Japan today.
+    t: หางานนักพัฒนาซอฟต์แวร์ในฝันของคุณในญี่ปุ่นวันนี้
   - key: sponsors.renderatl.description
-    t: The tech conference focused on all things web.
+    t: การประชุมเทคโนโลยีที่มุ่งเน้นทุกเรื่องเกี่ยวกับเว็บ
 
   ###########################################################################
   # Conclusion
   ###########################################################################
 
   - key: conclusion.html2024.lea_verou.bio
-    t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
+    t: สมาชิก W3C Technical Architecture Group และนักวิจัยที่ MIT CSAIL
   - key: conclusion.html2024.lea_verou
     t: >
-      *Phew!* This survey has taken a monumental effort by dozens of people across six continents. Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope. 
+      *เฮ้อ!* แบบสำรวจนี้ได้รับความพยายามอย่างมากจากคนหลายสิบคนในหกทวีป ไม่เพียงแต่ทำลายสถิติของการตอบแบบสำรวจ “State of...” ครั้งแรก แต่ UI การเก็บข้อมูลได้บุกเบิกนวัตกรรมที่ให้ข้อมูลเชิงลึกที่ไม่เคยมีมาก่อนเกี่ยวกับทัศนคติของนักพัฒนาซอฟต์แวร์ และจะมีผลต่อเนื่องไปมากกว่านี้
 
 
-      Some argue that improving HTML is futile, but the survey resoundingly demonstrates the contrary. **Developers crave more interactive HTML elements**: not only were interactive elements like `<datalist>` or the Popover API among those accumulating the most positive sentiment across all categories, but in addition all top [missing elements](https://2024.stateofhtml.com/en-US/usage/#html_missing_elements) were interactive widgets. 
+      บางคนโต้แย้งว่าการพัฒนา HTML เป็นเรื่องไร้ประโยชน์ แต่แบบสำรวจนี้แสดงให้เห็นในทางตรงกันข้าม **นักพัฒนาซอฟต์แวร์ต้องการ HTML ที่ Interactive มากขึ้น**: ไม่เพียงแต่ Element ที่ Interactive เช่น `<datalist>` หรือ Popover API เป็นกลุ่มที่มีได้รับผลตอบรับแง่บวกสูงที่สุดในทุกประเภทเท่านั้น แต่ Element [ที่ขาดหายไปทั้งหมด](https://2024.stateofhtml.com/en-US/usage/#html_missing_elements)ล้วนแต่ Interactive
 
 
-      However, **making simple things easy** by providing canned functionality is no longer sufficient. **Making complex things possible** by supporting thorough customization is a necessity: insufficient customizability, especially around **styling**, was by far the top recurring pain point. 
+      อย่างไรก็ตาม **การทำให้สิ่งง่ายๆ เป็นเรื่องง่าย** โดยการให้ฟังก์ชันที่สำเร็จรูปนั้นไม่เพียงพออีกต่อไป **การทำให้สิ่งที่ซับซ้อนเป็นไปได้** โดยการสนับสนุนการปรับแต่งอย่างละเอียดเป็นสิ่งจำเป็น: ความสามารถในการปรับแต่งที่ไม่เพียงพอ โดยเฉพาะในด้าน **การจัดสไตล์** เป็นจุดที่พบปัญหามากที่สุด
 
 
-      As a result, form elements were also the elements [most frequently recreated](https://2024.stateofhtml.com/en-US/usage/#html_functionality_features); a lose-lose outcome that makes both developers and end-users suffer. Thankfully, there are many new initiatives to improve this, so the future looks bright.
+      เป็นผลให้ฟอร์มเป็นองค์ประกอบที่ถูก[สร้างขึ้นใหม่บ่อยที่สุด](https://2024.stateofhtml.com/en-US/usage/#html_functionality_features)ผลลัพธ์ที่เสียหายทั้งสองฝ่ายที่ทำให้นักพัฒนาและผู้ใช้ปลายทางต้องทนทุกข์ โชคดีที่มีความคิดริเริ่มใหม่ๆมากมายที่จะปรับปรุงสิ่งนี้ ดังนั้นอนาคตจึงดูสดใส
 
 
-      Another big need is extensibility. It does not scale if only standards bodies have the privilege to extend HTML; and besides, generic elements cannot possibly address the enormous diversity of needs. Unfortunately, **Web Components APIs** (and especially Shadow DOM), while widely used, appear to fall short in terms of meeting developer needs and providing a smooth developer experience, as they topped the charts of worst experiences across the survey. However, the ongoing activity in this area (some of which I have been part of) leaves me hopeful that while it has been a rocky path, they are on track to reach their full potential.
+      อีกความต้องการใหญ่คือ Extensibility การให้เฉพาะหน่วยงานมาตรฐานมีสิทธิ์ขยาย HTML ไม่เพียงพอ และนอกจากนั้น Element ทั่วไปไม่สามารถรองรับความต้องการที่หลากหลายได้ น่าเสียดายที่ **Web Components APIs** (โดยเฉพาะ Shadow DOM) แม้ว่าจะใช้งานกันอย่างกว้างขวาง กลับไม่สามารถตอบสนองความต้องการของนักพัฒนาและให้ประสบการณ์ที่ดีได้ เนื่องจากพวกมันติดอันดับประสบการณ์ที่แย่ที่สุดในแบบสำรวจนี้ อย่างไรก็ตาม กิจกรรมที่กำลังดำเนินการในวงการที่นี้ (ซึ่งบางส่วนผมมีส่วนร่วมด้วย) ทำให้ผมมีความหวังว่าแม้เส้นยากลำบาก แต่ก็เต็มไปด้วยศักยภาพ
 
 
-      Which brings me to my final point: it is important to remember that this survey is only a snapshot of developer perspectives and reflects the state of the web platform at the time. However, a primary goal of these surveys is to improve the status quo by providing better visibility into developer needs. How many of today’s pain points will be addressed tomorrow as a result? Join us later this year for the survey’s second iteration and let’s find out!
+      ซึ่งนำไปสู่ข้อสรุปสุดท้าย: สิ่งสำคัญคือต้องจำไว้ว่าแบบสำรวจนี้เป็นเพียงภาพรวมของมุมมองของนักพัฒนาซอฟต์แวร์ และสะท้อนถึงสถานะของแพลตฟอร์มเว็บในขณะนั้น อย่างไรก็ตาม เป้าหมายหลักของแบบสำรวจเหล่านี้คือการปรับปรุงสถานะปัจจุบันโดยให้ความเห็นที่ชัดเจนขึ้นในความต้องการของนักพัฒนา จะมีปัญหาจุดไหนที่ได้รับการแก้ไขในวันพรุ่งนี้จากผลของการสำรวจในวันนี้? เข้าร่วมกับเราอีกครั้งในภายหลังสำหรับการสำรวจในครั้งที่สองของปีนี้ แล้วเราจะพบคำตอบ!
 
   ###########################################################################
   # FAQ/About
   ###########################################################################
 
   - key: faq.how_long_will_survey_take_html2024
-    t: How long will answering the survey take?
+    t: ใช้เวลาตอบแบบสำรวจนานเท่าไหร่?
   - key: faq.how_long_will_survey_take_html2024.description
     t: >
-      Depending on how many questions you answer (all questions can be skipped),
-      filling out the survey should take around 10-15 minutes.
+      ขึ้นอยู่กับจำนวนคำถามที่คุณตอบ (สามารถข้ามได้ทุกคำถาม),
+      การกรอกแบบสำรวจควรใช้เวลาประมาณ 10-15 นาที
 
   - key: faq.learn_more_html2024
-    t: Where can I learn more?
+    t: ฉันสามารถเรียนรู้เพิ่มเติมได้ที่ไหน?
   - key: faq.learn_more_html2024.description
-    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-state-of-html-2024-survey-is-now-open-3i4j).
+    t: คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับแบบสำรวจนี้ได้ที่[โพสต์ประกาศของเรา](https://dev.to/sachagreif/the-state-of-html-2024-survey-is-now-open-3i4j).
 
   - key: faq.survey_design_html2024
-    t: How was this survey designed?
+    t: แบบสำรวจนี้ถูกออกแบบอย่างไร?
   - key: faq.survey_design_html2024.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/246) involving browser vendors and the web development community.
+      แบบสำรวจนี้ได้รับการออกแบบผ่านกระบวนการ [open design](https://github.com/Devographics/surveys/issues/246) โดยมีการมีส่วนร่วมจากผู้ให้บริการเบราว์เซอร์และชุมชนเว็บ
 
   - key: faq.results_released_html2024
-    t: When will the results be released?
+    t: ผลการสำรวจจะถูกเผยแพร่เมื่อไหร่?
   - key: faq.results_released_html2024.description
-    t: The survey will run from September 12 to October 1, 2024, and the survey results will be released shortly after.
+    t: แบบสำรวจจะจัดขึ้นระหว่างวันที่ 12 กันยายน ถึง 1 ตุลาคม 2024 และผลการสำรวจจะถูกเผยแพร่หลังจากนั้นไม่นาน
 
   - key: faq.who_should_take_survey_html2024
-    t: Who should take this survey?
+    t: ใครควรทำแบบสำรวจนี้?
   - key: faq.who_should_take_survey_html2024.description
     t: >
-      This is an open survey for anybody who makes websites or web apps, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+      แบบสำรวจนี้เปิดให้ทุกคนที่สร้างเว็บไซต์หรือเว็บแอป ไม่ว่าจะเป็นประจำหรือเป็นครั้งคราว ไม่ว่าจะเป็นส่วนหนึ่งของงาน ในฐานะนักเรียน หรือเพียงแค่เพื่อความสนุก!
 
   - key: faq.data_used_html2024
-    t: How will this data be used?
+    t: ข้อมูลนี้จะถูกนำไปใช้อย่างไร?
   - key: faq.data_used_html2024.description
     t: >
-      All data collected will be released openly for any developer or company to consult.
-      Browser vendors also [use this data](https://web.dev/blog/interop-2024) to prioritize focus areas and inform their roadmaps.
+      ข้อมูลทั้งหมดที่รวบรวมจะถูกเปิดเผยสำหรับนักพัฒนาและบริษัทใดๆที่ต้องการปรึกษา
+      ผู้ให้บริการเบราว์เซอร์ยัง[ใช้ข้อมูลนี้](https://web.dev/blog/interop-2024)เพื่อกำหนดลำดับความสำคัญและแผนงานของพวกเขา
 
   - key: faq.survey_goals_html2024
-    t: What are the survey's goals?
+    t: เป้าหมายของแบบสำรวจนี้คืออะไร?
   - key: faq.survey_goals_html2024.description
     t: >
-      The survey's goals are to measure awareness of new HTML features and browser APIs, and help developers keep track of how their usage is evolving.
+      เป้าหมายของแบบสำรวจคือการวัดการรับรู้เกี่ยวกับฟีเจอร์ HTML ใหม่และ API ของเบราว์เซอร์และช่วยให้นักพัฒนาติดตามการใช้งานที่เปลี่ยนแปลงไป
 
   - key: about.content
     t: |
-      The 2024 State of HTML survey ran from September 19 to October 19 2024, and collected 20,904 responses. 
+      แบบสำรวจ State of HTML 2024 จัดขึ้นตั้งแต่วันที่ 19 กันยายน ถึง 19 ตุลาคม 2024 และได้รับการตอบกลับ 20,904 รายการ
 
-      The survey design effort was lead by [Lea Verou](https://lea.verou.me/) thanks to a grant from Google. Lea also oversaw the prototyping, testing, and implementation of new UI data collection elements; contributed to data processing; and helped with data visualization. 
+      ความพยายามในการออกแบบแบบสำรวจนี้นำโดย [Lea Verou](https://lea.verou.me/) โดยได้รับทุนจาก Google Lea ยังดูแลการสร้างต้นแบบ ทดสอบและนำ UI ใหม่ๆสำหรับการเก็บข้อมูลมาใช้ด้วย มีส่วนร่วมในการประมวลผลข้อมูลและช่วยเหลือในการแสดงข้อมูลเชิงลึก
 
-      The survey infrastructure is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
+      โครงสร้างพื้นฐานของแบบสำรวจดำเนินการโดย [Sacha Greif](https://sachagreif.com/) และ [Eric Burel](https://www.lbke.fr/), โดยได้รับความช่วยเหลือจากทีมผู้ร่วมมือในโอเพนซอร์สและที่ปรึกษา
 
-      This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      โลโก้และเสื้อยืดของปีนี้ได้รับการออกแบบโดย [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
-      ### Survey Goals
+      ### เป้าหมายของแบบสำรวจ
 
-      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+      แบบสำรวจนี้ถูกสร้างขึ้นเพื่อระบุแนวโน้มที่จะเกิดขึ้นในระบบนิเวศการพัฒนาเว็บ เพื่อช่วยให้นักพัฒนาตัดสินใจเกี่ยวกับเทคโนโลยี
 
-      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      ดังนั้นแบบสำรวจจึงเน้นไปที่การคาดการณ์ล่วงหน้าเกี่ยวกับสิ่งที่จะมาในอีกไม่กี่ปีข้างหน้า แทนที่จะวิเคราะห์สิ่งที่เป็นที่นิยมในปัจจุบัน ซึ่งเป็นเหตุผลว่าทำไมฟีเจอร์หรือเทคโนโลยีที่แพร่หลายที่สุดในขณะนี้จึงไม่ได้ถูกรวมอยู่เสมอไป
 
-      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+      แบบสำรวจนี้ควรถูกพิจารณาว่าเป็น **ภาพรวมของกลุ่มนักพัฒนาชุดหนึ่งในช่วงเวลาเฉพาะเจาะจง** และไม่ได้หมายถึงที่จะพูดแทนทั้งระบบนิเวศ
 
-      The survey was openly accessible online and respondents were not filtered or selected in any way.
+      แบบสำรวจนี้เปิดให้เข้าถึงออนไลน์ได้โดยไม่กรองหรือคัดเลือกผู้ตอบในทางใด
 
-      ### Project Funding
+      ### แหล่งทุนสำหรับโครงการ
 
-      Funding from this project comes from a variety of sources:
+      ทุนสำหรับโครงการนี้มาจากแหล่งต่างๆ:
 
-      - **T-shirt sales**. 
+      - **การขายเสื้อยืด**
 
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+      - **ลิงก์ผู้สนับสนุน**: ลิงก์ไปยังแหล่งข้อมูลที่แนะนำที่ด้านล่างของแต่ละหน้าให้บริการโดยพันธมิตรของเรา [Frontend Masters](https://frontendmasters.com/)
 
-      - **Other Funding**: [Google](https://www.google.com/) and [TokyoDev](https://www.tokyodev.com/) also funded work on the survey.
+      - **ทุนจากแหล่งอื่นๆ**: [Google](https://www.google.com/) และ [TokyoDev](https://www.tokyodev.com/) ได้ให้ทุนสนับสนุนงานเกี่ยวกับแบบสำรวจนี้ด้วย
 
-      ### Technical Overview
+      ### ภาพรวมทางเทคนิค
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2024-edition-1p6a).
+      คุณสามารถหาภาพรวมทางเทคนิคเชิงลึกเพิ่มเติมเกี่ยวกับวิธีการดำเนินการสำรวจได้[ที่นี่](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2024-edition-1p6a)
