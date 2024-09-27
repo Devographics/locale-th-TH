@@ -799,20 +799,20 @@ translations:
 
   - key: usage.html_functionality_features.placeholder.1
     t: |
-      Feature #1 (hard to style)
+      ฟีเจอร์ #1 (ยากต่อการปรับสไตล์)
   - key: usage.html_functionality_features.placeholder.2
     t: |
-      Feature #2 (limited functionality, poor accessibility)
+      ฟีเจอร์ #2 (ฟังก์ชันจำกัด, เข้าถึงได้ยาก)
 
   - key: usage.html_new_features
-    t: New Features
+    t: ฟีเจอร์ใหม่
   - key: usage.html_new_features.question
-    t: Which of these new and upcoming features are you most excited about?
+    t: ฟีเจอร์ใหม่และที่กำลังจะมาถึงใดที่คุณตื่นเต้นที่สุด?
 
   - key: usage.what_do_you_use_html_for
-    t: HTML Usage
+    t: การใช้งาน HTML
   - key: usage.what_do_you_use_html_for.question
-    t: What do you use HTML for?
+    t: คุณใช้ HTML เพื่อทำอะไรบ้าง?
   - key: options.what_do_you_use_html_for.blogs
     aliasFor: options.what_do_you_use_css_for.blogs
   - key: options.what_do_you_use_html_for.design_systems
@@ -831,33 +831,33 @@ translations:
     aliasFor: options.what_do_you_use_css_for.web_apps
 
   - key: usage.tools_for_other_developers
-    t: Ecosystem Impact
+    t: ผลกระทบต่อระบบนิเวศ
   - key: usage.tools_for_other_developers.question
-    t: Other than yourself, how many developers use the libraries, packages, components, APIs etc. that you create or maintain?
+    t: นอกจากตัวคุณเองแล้ว มีนักพัฒนาอีกกี่คนที่ใช้ไลบรารี แพ็คเกจ คอมโพเนนต์ API ฯลฯ ที่คุณสร้างหรือดูแล?
   - key: usage.tools_for_other_developers.description
     t: |
-      Total, if you work on multiple projects that are used by other developers.
-      If you’re not sure, pick the closest to your best estimate.
-      For open source code, npm downloads might offer a useful data point.
+      รวมทั้งหมด หากคุณทำงานในหลายโปรเจกต์ที่ใช้โดยนักพัฒนาคนอื่น
+      หากคุณไม่แน่ใจ ให้เลือกค่าที่ใกล้เคียงกับการประมาณการที่ดีที่สุดของคุณ
+      สำหรับโค้ดโอเพ่นซอร์ส ยอดดาวน์โหลดจาก npm อาจช่วยเป็นตัวชี้วัดได้
   - key: options.tools_for_other_developers.na
-    t: 🚫 None (Just me)
+    t: 🚫 ไม่มี (มีแค่ฉันเท่านั้น)
   - key: options.tools_for_other_developers.a_few
-    t: A few other developers (e.g. developers within a small team)
+    t: นักพัฒนาคนอื่นไม่กี่คน (เช่น นักพัฒนาภายในทีมขนาดเล็ก)
   - key: options.tools_for_other_developers.less_than_100
-    t: Less than a hundred developers
+    t: น้อยกว่าร้อยคน
   - key: options.tools_for_other_developers.less_than_1000
-    t: Less than a thousand developers
+    t: น้อยกว่าพันคน
   - key: options.tools_for_other_developers.more_than_100
-    t: Hundreds of developers
+    t: หลายร้อยคน
   - key: options.tools_for_other_developers.more_than_1000
-    t: Thousands of developers
+    t: หลายพันคน
   - key: options.tools_for_other_developers.more_than_1000000
-    t: Millions of developers
+    t: หลายล้านคน
 
   - key: usage.html_missing_elements
-    t: Missing Elements
+    t: Element ที่ขาดหายไป
   - key: usage.html_missing_elements.question
-    t: If you could add 3 elements to HTML, what would they be?
+    t: ถ้าคุณสามารถเพิ่ม Element  3 อย่างใน HTML ได้ คุณจะเลือกอะไร?
   # - key: usage.html_missing_elements.description
   #   t: |
   #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
@@ -912,14 +912,14 @@ translations:
     t: Star Rating
 
   - key: usage.html_pain_points_freeform
-    t: Other Pain Points
+    t: Pain Points อื่นๆ
   - key: usage.html_pain_points_freeform.question
-    t: Any other pain points around using HTML and related technologies?
+    t: มี Pain Point อื่น ๆ เกี่ยวกับการใช้งาน HTML และเทคโนโลยีที่เกี่ยวข้องหรือไม่?
 
   - key: usage.html_css_js_balance
-    t: HTML/CSS vs JavaScript/TypeScript Balance
+    t: สมดุลระหว่าง HTML/CSS และ JavaScript/TypeScript
   - key: usage.html_css_js_balance.question
-    t: How do you divide your time between writing HTML/CSS and JavaScript (or TypeScript) code?
+    t: คุณแบ่งเวลาของคุณอย่างไรระหว่างการเขียนโค้ด HTML/CSS และ JavaScript (หรือ TypeScript)?
   - key: options.html_css_js_balance.0
     t: 100% HTML/CSS
   - key: options.html_css_js_balance.4
@@ -932,36 +932,36 @@ translations:
   ###########################################################################
 
   - key: resources.web_platform_resources
-    t: Web Platform Resources
+    t: แหล่งข้อมูลเกี่ยวกับแพลตฟอร์มเว็บ
   - key: resources.web_platform_resources.question
-    t: Which of these resources do you consult to stay informed about web platform features?
+    t: คุณใช้แหล่งข้อมูลใดในการติดตามฟีเจอร์ใหม่ ๆ ของแพลตฟอร์มเว็บ?
 
   ###########################################################################
   # Opinions
   ###########################################################################
 
   - key: opinions.opinions_intro
-    t: For the following questions, let us know how much you agree with each statement.
+    t: สำหรับคำถามต่อไปนี้ โปรดแจ้งให้เราทราบว่าคุณเห็นด้วยกับแต่ละข้อความมากน้อยเพียงใด
 
   - key: opinions.accessibility_is_valued
-    t: Accessibility
+    t: ความสามารถในการเข้าถึง (Accessibility)
   - key: opinions.accessibility_is_valued.question
-    t: Accessibility is valued in my workplace or professional environment
+    t: การเข้าถึงเป็นสิ่งที่มีคุณค่าในที่ทำงานหรือสภาพแวดล้อมการทำงานของฉัน
 
   - key: opinions.keeping_informed_is_challenging
-    t: Keeping Informed
+    t: การติดตามข้อมูลข่าวสาร
   - key: opinions.keeping_informed_is_challenging.question
-    t: Keeping informed about new web platform features is a challenge
+    t: การติดตามข่าวสารเกี่ยวกับฟีเจอร์ใหม่ ๆ ของแพลตฟอร์มเว็บเป็นเรื่องที่ท้าทาย
 
   - key: opinions.browser_interoperability_is_obstacle
-    t: Browser Interoperability
+    t: การทำงานร่วมกันของเบราว์เซอร์
   - key: opinions.browser_interoperability_is_obstacle.question
-    t: The lack of browser interoperability is a major obstacle to web development
+    t: การขาดการทำงานร่วมกันระหว่างเบราว์เซอร์เป็นอุปสรรคสำคัญต่อการพัฒนาเว็บ
 
   - key: opinions.web_platform_right_direction
-    t: Web Platform
+    t: แพลตฟอร์มเว็บ
   - key: opinions.web_platform_right_direction.question
-    t: The web platform is moving in the right direction overall
+    t: โดยรวมแล้ว แพลตฟอร์มเว็บกำลังก้าวไปในทิศทางที่ถูกต้อง
 
   ###########################################################################
   # Survey Help
@@ -969,7 +969,6 @@ translations:
 
   - key: features.features_intro_html
     t: |
-      Welcome to the survey! These first couple sections are all about figuring out
-      which **features** of HTML (and related APIs) you know about.
+      ยินดีต้อนรับสู่การทำแบบสำรวจ! ในสองส่วนแรกนี้ เราจะช่วยคุณค้นหาว่าคุณรู้จักฟีเจอร์ใดบ้างของ HTML (และ API ที่เกี่ยวข้อง)
 
-      By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!
+      ถ้าคุณต้องการเรียนรู้เพิ่มเติมเกี่ยวกับสิ่งใดในแบบสำรวจ คุณสามารถเพิ่มไว้อ่านทีหลังได้โดยการคลิกที่ไอคอน "+" เล็กๆนั่น!
