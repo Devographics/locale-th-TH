@@ -194,250 +194,249 @@ translations:
   - key: options.disability_status_others.adhd
     t: ADHD
   - key: options.disability_status_others.autism
-    t: Autism
+    t: ออทิสติก
   - key: options.disability_status_others.glasses
-    t: Glasses
+    t: ใส่แว่น
   - key: options.disability_status_others.old
-    t: Old Age
+    t: ผู้สูงอายุ
   - key: options.disability_status_others.back_pain
-    t: Back Pain
+    t: ปวดหลัง
   - key: options.disability_status_others.epilepsy
-    t: Epilepsy
+    t: ลมชัก
   - key: options.disability_status_others.aspergers
-    t: Aspergers
+    t: แอสเพอร์เกอร์
   - key: options.disability_status_others.color_blindness
-    t: Color Blindness
+    t: ตาบอดสี
   - key: options.disability_status_others.anxiety
-    t: Anxiety
+    t: วิตกกังวล
   - key: options.disability_status_others.dyslexia
-    t: Dyslexia
+    t: ดิสเล็กเซีย
   - key: options.disability_status_others.diabetes
-    t: Diabetes
+    t: เบาหวาน
   - key: options.disability_status_others.carpal_tunnel
-    t: Carpal Tunnel
+    t: การกดทับเส้นประสาทบริเวณข้อมือ
   - key: options.disability_status_others.migraine
-    t: Migraine
+    t: ไมเกรน
   - key: options.disability_status_others.speech_impairment
-    t: Speech Impairment
+    t: ความบกพร่องในการพูด
   - key: options.disability_status_others.ocd
-    t: OCD
+    t: โรคย้ำคิดย้ำทำ (OCD)
   - key: options.disability_status_others.chronic_pain
-    t: Chronic Pain
+    t: ปวดเรื้อรัง
   - key: options.disability_status_others.chronic_fatigue
-    t: Chronic Fatigue
+    t: เหนื่อยล้าเรื้อรัง
   - key: options.disability_status_others.crohn
-    t: Crohn's Disease
+    t: โรคโครห์น
   - key: options.disability_status_others.depression
-    t: Depression
+    t: ซึมเศร้า
 
   ###########################################################################
   # Sections
   ###########################################################################
 
   - key: sections.introduction.title
-    t: Introduction
+    t: บทนำ
 
   - key: sections.demographics.title
-    t: Demographics
+    t: ข้อมูลประชากร
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: เสื้อยืด
 
   - key: sections.technologies.title
-    t: Technologies
+    t: เทคโนโลยี
 
   - key: sections.libraries.title
-    t: Libraries
+    t: ไลบรารี
 
   - key: sections.conclusion.title
-    t: Conclusion
+    t: สรุป
 
   - key: sections.about.title
-    t: About
+    t: เกี่ยวกับ
 
   - key: sections.how_to_help.title
-    t: How to Help
+    t: วิธีช่วยเหลือ
 
   - key: sections.support.title
-    t: Support Us
+    t: สนับสนุนเรา
   - key: sections.support.description
     t: >
-      We run this survey as a side project, but in order to make the
-      project sustainable we’re always looking for partners who can help support us,
-      either financially or by helping us spread the word.
-      If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
+      เราทำการสำรวจนี้เป็นโครงการย่อย แต่เพื่อให้โครงการนี้ยั่งยืน
+      เรากำลังมองหาพันธมิตรที่สามารถสนับสนุนเราได้ ทั้งทางการเงินหรือช่วยกระจายข่าว
+      หากคุณคิดว่าสามารถช่วยได้ในทางใดทางหนึ่ง โปรดอย่าลังเลที่จะ [ติดต่อเรา](mailto:hello@stateofjs.com)!
 
   - key: sections.awards.title
-    t: Awards
+    t: รางวัล
   - key: sections.awards.description
-    t: Things that stood out this year.
+    t: สิ่งที่โดดเด่นในปีนี้
 
   ###########################################################################
   # User Info
   ###########################################################################
 
   - key: user_info.locale
-    t: Language
+    t: ภาษา
   - key: user_info.locale.description
-    t: The language respondents selected to fill out the survey
+    t: ภาษาที่ผู้ตอบแบบสอบถามเลือกใช้ในการกรอกแบบสอบถาม
 
   - key: user_info.source
-    t: Source
+    t: แหล่งที่มา
   - key: user_info.source.description
-    t: How respondents found out about the survey
+    t: ผู้ตอบทราบเกี่ยวกับแบบสอบถามนี้จากแหล่งใด
   - key: user_info.source.note
-    t: Respondent source is computed based on referrer data, URL tracking data, and self-reported answers.
+    t: แหล่งที่มาของผู้ตอบแบบสอบถามถูกคำนวณจากข้อมูลอ้างอิง, การติดตามข้อมูลด้วย URL, และคำตอบที่รายงานด้วยตนเอง
 
   - key: options.source.other_answers
-    t: Other sources
+    t: แหล่งที่มาอื่นๆ
 
   - key: user_info.source_by_gender
-    t: Source by Gender
+    t: แหล่งที่มาตามเพศ
 
   - key: user_info.source_by_race_ethnicity
-    t: Source by Race & Ethnicity
+    t: แหล่งที่มาตามเชื้อชาติและชาติพันธุ์
 
   - key: user_info.gender_by_country
-    t: Gender By Country
+    t: การกระจายเพศตามประเทศ
   - key: user_info.gender_by_country.description
-    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
+    t: การกระจายเพศตามประเทศที่มีผู้ตอบอย่างน้อย 100 คน เรียงตาม "ค่าเฉลี่ยเพศ" (โดยกำหนดค่าเพศแต่ละคีย์เป็นจำนวนเต็มในลำดับจากน้อยไปมาก) ลดหลั่นลงมา
 
   - key: user_info.years_of_experience_by_salary
-    t: Years of Experience by Salary Range
+    t: ประสบการณ์เป็นปีตามช่วงเงินเดือน
   - key: user_info.years_of_experience_by_salary.description
-    t: Years of experience by salary range.
+    t: ประสบการณ์เป็นปีตามช่วงเงินเดือน
 
   - key: user_info.average_income_by_years_of_experience
-    t: Average Income by Years of Experience
+    t: รายได้เฉลี่ยตามประสบการณ์เป็นปี
   - key: user_info.average_income_by_years_of_experience.description
-    t: Average income by years of experience.
+    t: รายได้เฉลี่ยตามประสบการณ์เป็นปี
 
   - key: user_info.average_income_by_company_size
-    t: Average Income by Company Size
+    t: รายได้เฉลี่ยตามขนาดบริษัท
   - key: user_info.average_income_by_company_size.description
-    t: Average income by company size.
+    t: รายได้เฉลี่ยตามขนาดบริษัท
 
   - key: user_info.yearly_salary_by_country
-    t: Salary By Country
+    t: เงินเดือนรายปีตามประเทศ
   - key: user_info.yearly_salary_by_country.description
-    t: Yearly salary distribution by country with at least 100 respondents, sorted by mean salary descending.
+    t: การกระจายเงินเดือนรายปีตามประเทศที่มีผู้ตอบอย่างน้อย 100 คน เรียงตามเงินเดือนเฉลี่ยจากมากไปน้อย
 
   - key: user_info.yearly_salary_by_degree
-    t: Salary By Higher Education Degree
+    t: เงินเดือนรายปีตามระดับปริญญา
   - key: user_info.yearly_salary_by_degree.description
-    t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
+    t: การกระจายเงินเดือนรายปีตามระดับปริญญา เรียงตามเงินเดือนเฉลี่ยจากมากไปน้อย
 
   - key: user_info.yearly_salary_by_experience
-    t: Salary By Experience
+    t: เงินเดือนรายปีตามประสบการณ์
   - key: user_info.yearly_salary_by_experience.description
-    t: Yearly salary distribution by experience, sorted by mean salary descending.
+    t: การกระจายเงินเดือนรายปีตามประสบการณ์ เรียงตามเงินเดือนเฉลี่ยจากมากไปน้อย
 
   - key: user_info.yearly_salary_usa_vs_the_world
     t: >
-      Yearly Income: U.S vs World
+      รายได้รายปี: สหรัฐฯ vs โลก
 
   - key: user_info.race_ethnicity_by_years_of_experience
-    t: Race & Ethnicity by Years of Experience
+    t: เชื้อชาติและชาติพันธุ์ตามปีที่มีประสบการณ์
   - key: user_info.race_ethnicity_by_years_of_experience.description
-    t: Race & ethnicity distribution by years of experience, sorted by mean experience ascending.
+    t: การกระจายเชื้อชาติและชาติพันธุ์ตามปีที่มีประสบการณ์ เรียงตามประสบการณ์เฉลี่ยจากน้อยไปมาก
 
   - key: user_info.higher_education_degree_by_gender
-    t: Higher Education Degree by Gender
+    t: ระดับการศึกษาตามเพศ
   - key: user_info.higher_education_degree_by_gender.description
-    t: Higher education degree distribution by gender.
+    t: การกระจายระดับการศึกษาตามเพศ
 
   ###########################################################################
   # Locales
   ###########################################################################
 
   - key: options.locale.en-US
-    t: English
+    t: อังกฤษ
   - key: options.locale.ca-ES
-    t: Catalan
+    t: คาตาลัน
   - key: options.locale.es-ES
-    t: Spanish
+    t: สเปน
   - key: options.locale.ru-RU
-    t: Russian
+    t: รัสเซีย
   - key: options.locale.fr-FR
-    t: French
+    t: ฝรั่งเศส
   - key: options.locale.zh-Hant
-    t: Chinese (Traditional)
+    t: จีน (ตัวเต็ม)
   - key: options.locale.de-DE
-    t: German
+    t: เยอรมัน
   - key: options.locale.cs-CZ
-    t: Czech
+    t: เช็ก
   - key: options.locale.pt-PT
-    t: Portuguese
+    t: โปรตุเกส
   - key: options.locale.pt-BR
-    t: Portuguese (Brazil)
+    t: โปรตุเกส (บราซิล)
   - key: options.locale.it-IT
-    t: Italian
+    t: อิตาลี
   - key: options.locale.sv-SE
-    t: Swedish
+    t: สวีเดน
   - key: options.locale.tr-TR
-    t: Turkish
+    t: ตุรกี
   - key: options.locale.id-ID
-    t: Indonesian
+    t: อินโดนีเซีย
   - key: options.locale.hi-IN
-    t: Hindi
+    t: ฮินดี
   - key: options.locale.zh-Hans
-    t: Chinese (Simplified)
+    t: จีน (ตัวย่อ)
   - key: options.locale.ja-JP
-    t: Japanese
+    t: ญี่ปุ่น
   - key: options.locale.ua-UA
-    t: Ukrainian
+    t: ยูเครน
   - key: options.locale.pl-PL
-    t: Polish
+    t: โปแลนด์
   - key: options.locale.fa-IR
-    t: Farsi
+    t: ฟาร์ซี
   - key: options.locale.nl-NL
-    t: Dutch
+    t: ดัตช์
   - key: options.locale.ko-KR
-    t: Korean
+    t: เกาหลี
   - key: options.locale.ro-RO
-    t: Romanian
+    t: โรมาเนีย
   - key: options.locale.am-ET
-    t: Amharic
+    t: อัมฮาริก
   - key: options.locale.ar-EG
-    t: Arabic
+    t: อาหรับ
   - key: options.locale.el-GR
-    t: Greek
+    t: กรีก
   - key: options.locale.gl-ES
-    t: Galician
+    t: กาลิเซีย
   - key: options.locale.hr-HR
-    t: Croatian
+    t: โครเอเชีย
   - key: options.locale.hu-HU
-    t: Hungarian
+    t: ฮังการี
   - key: options.locale.sk-SK
-    t: Slovak
+    t: สโลวัก
   - key: options.locale.vi-VN
-    t: Vietnamese
+    t: เวียดนาม
 
   ###########################################################################
   # Features
   ###########################################################################
 
   - key: features.learn_more
-    t: Learn More (MDN)
+    t: ศึกษาเพิ่มเติม (MDN)
   - key: features.mdn_link
     t: MDN
   - key: features.caniuse_link
-    t: Can I use
+    t: ฉันได้ใช้ไหม
   - key: features.specification_link
     t: W3C Specification
 
   # knowledge score
   - key: features.knowledge_score
-    t: Knowledge Score
+    t: คะแนนความรู้
   - key: features.knowledge_score.description
-    t: Out of all the features mentioned in the survey, how many did the respondent know about?
+    t: จากฟีเจอร์ทั้งหมดที่กล่าวถึงในแบบสำรวจ ผู้ตอบรู้จักฟีเจอร์ใดบ้าง
 
   ###########################################################################
   # Tools & Methodologies
   ###########################################################################
 
   - key: tools.all_items.experience
-    t: Libraries Experience & Sentiment
+    t: ประสบการณ์และความรู้สึกเกี่ยวกับไลบรารีต่างๆ
 
   - key: tools.all_items.experience.short
     aliasFor: tools.experience
@@ -462,25 +461,23 @@ translations:
 
   # heatmaps
   - key: blocks.tools_company_size_heatmap
-    t: Usage by Company Size
+    t: การใช้งานตามขนาดบริษัท
   - key: blocks.tools_company_size_heatmap.description
     t: |
-      For each technology, how usage is spread among respondents
-      who picked different company size ranges.
+      สำหรับแต่ละเทคโนโลยี การใช้งานกระจายไปตามผู้ตอบที่เลือกบริษัทขนาดต่างกัน
 
   - key: blocks.tools_yearly_salary_heatmap
-    t: Usage by Salary Range
+    t: การใช้งานตามช่วงเงินเดือน
   - key: blocks.tools_yearly_salary_heatmap.description
     t: |
-      For each technology, how usage is spread among respondents
-      who picked different salary ranges.
+      สำหรับแต่ละเทคโนโลยี การใช้งานกระจายไปตามผู้ตอบที่เลือกช่วงเงินเดือนต่างกัน
 
   - key: blocks.tools_years_of_experience_heatmap
-    t: Usage by Years Of Experience
+    t: การใช้งานตามปีที่มีประสบการณ์
   - key: blocks.tools_years_of_experience_heatmap.description
     t: |
-      For each technology, how usage is spread among respondents who picked different experience ranges.
-      Note that the experience in question here is general experience, not experience with a specific technology.
+      สำหรับแต่ละเทคโนโลยี การใช้งานกระจายไปตามผู้ตอบที่เลือกช่วงปีที่มีประสบการณ์ต่างกัน
+      โปรดทราบว่าประสบการณ์ที่นี่หมายถึงประสบการณ์ทั่วไป ไม่ใช่ประสบการณ์กับเทคโนโลยีเฉพาะเจาะจง
 
   # tool
   - key: blocks.entity.homepage_link
