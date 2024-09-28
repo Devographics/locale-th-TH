@@ -1064,35 +1064,35 @@ translations:
   # Views
   ###########################################################################
   - key: views.viz
-    t: Graph
+    t: กราฟ
   - key: views.table
-    t: Table
+    t: ตาราง
 
   ###########################################################################
   # Tables
   ###########################################################################
   - key: table.label
-    t: Label
+    t: ป้ายกำกับ
   - key: table.item
-    t: Item
+    t: รายการ
   - key: table.percentage_survey
-    t: "% of survey respondents"
+    t: "% ของผู้ตอบแบบสำรวจ"
   - key: table.percentageSurvey
     aliasFor: table.percentage_survey
   - key: table.percentage_question
-    t: "% of question respondents"
+    t: "% ของผู้ตอบคำถาม"
   - key: table.percentageQuestion
     aliasFor: table.percentage_question
   - key: table.percentage_facet
-    t: "% of facet respondents"
+    t: "% ของผู้ตอบแต่ละกลุ่ม"
   - key: table.percentageFacet
     aliasFor: table.percentage_facet
   - key: table.count
-    t: Count
+    t: จำนวน
   - key: table.year
-    t: Year
+    t: ปี
   - key: table.mean
-    t: Mean
+    t: ค่าเฉลี่ย
   - key: table.usage
     aliasFor: options.features_simplified.used_it
   - key: table.awareness
@@ -1112,62 +1112,62 @@ translations:
     aliasFor: charts.axis_legends.awareness_percentage
 
   - key: table.percentages_table
-    t: Percentages
+    t: เปอร์เซ็นต์
   - key: table.rankings_table
-    t: Rankings
+    t: การจัดอันดับ
 
   - key: table.satisfaction_rank
-    t: Retention Rank
+    t: อันดับการคงผู้ใช้ไว้
   - key: table.interest_rank
-    t: Interest Rank
+    t: อันดับความสนใจ
   - key: table.usage_rank
-    t: Usage Rank
+    t: อันดับการใช้งาน
   - key: table.awareness_rank
-    t: Awareness Rank
+    t: อันดับการรับรู้
 
   - key: table.would_not_use_percentage
-    t: Would not use %
+    t: ไม่ใช้ % 
   - key: table.not_interested_percentage
-    t: Not interested %
+    t: ไม่สนใจ %
   - key: table.would_use_percentage
-    t: Would use again %
+    t: ใช้ซ้ำ %
   - key: table.interested_percentage
-    t: Interested %
+    t: สนใจ %
 
   - key: table.not_available
-    t: No datatable available.
+    t: ไม่มีตารางข้อมูลที่สามารถใช้งานได้
 
   ###########################################################################
   # Awards
   ###########################################################################
 
   - key: awards.runner_ups
-    t: Runner Ups
+    t: ผู้ที่ได้รับรองชนะเลิศ
 
   - key: award.feature_adoption_award.title
-    t: Most Used Feature
+    t: ฟีเจอร์ที่ใช้มากที่สุด
   - key: award.feature_adoption_award.description
-    t: Awarded to the most adopted feature.
+    t: มอบให้แก่ฟีเจอร์ที่ได้รับการยอมรับมากที่สุด
 
   - key: award.feature_adoption_delta_award.title
-    t: Most Adopted Feature
+    t: ฟีเจอร์ที่ได้รับการยอมรับมากที่สุด
   - key: award.feature_adoption_delta_award.description
-    t: Awarded to the feature with the largest year-over-year ”have used” progression.
+    t: มอบให้แก่ฟีเจอร์ที่มีการใช้เพิ่มขึ้นมากที่สุดเมื่อเทียบกับปีที่ผ่านมา
 
   - key: award.tool_usage_award.title
-    t: Most Used Technology
+    t: เทคโนโลยีที่ใช้มากที่สุด
   - key: award.tool_usage_award.description
-    t: Awarded to the technology with the largest user base.
+    t: มอบให้แก่เทคโนโลยีที่มีผู้ใช้งานมากที่สุด
 
   - key: award.tool_usage_delta_award.title
-    t: Most Adopted Technology
+    t: เทคโนโลยีที่ได้รับการยอมรับมากที่สุด
   - key: award.tool_usage_delta_award.description
-    t: Awarded to the technology with the largest year-over-year usage progression.
+    t: มอบให้แก่เทคโนโลยีที่มีการใช้งานเพิ่มขึ้นมากที่สุดเมื่อเทียบกับปีที่ผ่านมา
 
   - key: award.tool_retention_award.title
-    t: Highest Retention
+    t: การรักษาผู้ใช้สูงสุด
   - key: award.tool_retention_award.description
-    t: Awarded to the technology with the highest percentage of returning users.
+    t: มอบให้แก่เทคโนโลยีที่มีเปอร์เซ็นต์การใช้งานซ้ำสูงที่สุด
 
   - key: award.tool_satisfaction_award.title
     aliasFor: award.tool_retention_award.title
@@ -1175,39 +1175,39 @@ translations:
     aliasFor: award.tool_retention_award.description
 
   - key: award.tool_interest_award.title
-    t: Highest Interest
+    t: ความสนใจสูงสุด
   - key: award.tool_interest_award.description
-    t: Awarded to the technology developers are most interested in learning once they are aware of it.
+    t: มอบให้แก่เทคโนโลยีที่นักพัฒนาสนใจเรียนรู้มากที่สุดหลังจากที่ทราบถึงมัน
 
   - key: award.resource_usage_award.title
-    t: Most Used Resource
+    t: แหล่งข้อมูลที่ใช้มากที่สุด
   - key: award.resource_usage_award.description
-    t: Awarded to the resource with the largest user base.
+    t: มอบให้แก่แหล่งข้อมูลที่มีผู้ใช้งานมากที่สุด
 
   - key: award.prediction_award.title
-    t: Prediction Award
+    t: รางวัลการทำนาย
   - key: award.prediction_award.description
-    t: Awarded to an up-and-coming technology that might take over… or not?
+    t: มอบให้แก่เทคโนโลยีที่กำลังมาแรงที่อาจแจ้งเกิด..หรือไม่?
 
   - key: award.most_write_ins_award.title
-    t: Most Write-Ins
+    t: มีคำตอบแบบเขียนมากที่สุด
   - key: award.most_write_ins_award.description
-    t: Awarded to the item with the most write-in answers
+    t: มอบให้แก่รายการที่มีคำตอบแบบเขียนเข้ามามากที่สุด
 
   - key: award.most_commented_feature_award.title
-    t: Most Commented Feature
+    t: ฟีเจอร์ที่มีความคิดเห็นมากที่สุด
   - key: award.most_commented_feature_award.description
-    t: Awarded to the feature which received the most comments.
+    t: มอบให้แก่ฟีเจอร์ที่ได้รับความคิดเห็นมากที่สุด
 
   - key: award.most_commented_tool_award.title
-    t: Most Commented Library
+    t: ไลบรารีที่มีความคิดเห็นมากที่สุด
   - key: award.most_commented_tool_award.description
-    t: Awarded to the library which received the most comments.
+    t: มอบให้แก่ไลบรารีที่ได้รับความคิดเห็นมากที่สุด
 
   - key: award.most_loved_tool_award.title
-    t: Most Loved Library
+    t: ไลบรารีที่คนรักมากที่สุด
   - key: award.most_loved_tool_award.description
-    t: Awarded to the technology with the highest proportion of positive opinions.
+    t: มอบให้แก่เทคโนโลยีที่มีความคิดเห็นเชิงบวกมากที่สุด
 
   ###########################################################################
   # Hints
@@ -1215,63 +1215,50 @@ translations:
 
   - key: hints.hint_hint
     t: >
-      You'll find little hints like this one throughout the survey results
-      that will point out extra features and details.
+      คุณจะพบเคล็ดลับเล็กๆเช่นนี้ตลอดผลการสำรวจซึ่งจะแนะนำคุณสมบัติและรายละเอียดเพิ่มเติม
 
   - key: hints.units_switcher_hint
     t: >
-      You can use the segmented control at the bottom of each block to switch 
-      between different units to get an alternate view of the same data.
+      คุณสามารถใช้ตัวควบคุมที่แบ่งเป็นส่วนต่างๆที่ด้านล่างของแต่ละบล็อกเพื่อสลับระหว่างหน่วยต่างๆและรับมุมมองอื่นของข้อมูลเดียวกัน
 
   - key: hints.export_hint
     t: >
-      The <span class="hint-icon hint-export-button">Data</span> tab lets you view the raw 
-      data for any chart, view it as JSON, or get a GraphQL query you can 
-      run against our public API.
+      แท็บ<span class="hint-icon hint-export-button">ข้อมูล</span>ให้คุณดูข้อมูลดิบสำหรับกราฟใดๆดูในรูปแบบ JSON หรือรับคำสั่ง GraphQL ที่คุณสามารถใช้รันกับ API สาธารณะของเรา
 
   - key: hints.completion_hint
-    t: >
-      Since all questions are optional, some of them got fewer responses than others. 
-      The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
-
+    t: >      
+      เนื่องจากทุกคำถามเป็นคำถามทางเลือก บางคำถามอาจมีผู้ตอบน้อยกว่าคำถามอื่นๆ ตัวบ่งชี้ความสำเร็จ (<span class="hint-completion-indicator">◕</span>) จะแสดงจำนวนคนที่ตอบคำถามแต่ละข้อ
   - key: hints.tool_modal_hint
     t: >
-      You can click on any technology name to get extra details and 
-      a more in-depth look at its related data.
+      คุณสามารถคลิกที่ชื่อเทคโนโลยีใดๆเพื่อดูรายละเอียดเพิ่มเติมและข้อมูลเชิงลึกเกี่ยวกับข้อมูลที่เกี่ยวข้อง
 
   - key: hints.rankings_modes_hint
     t: >
-      The Experience Over Time chart can be toggled between retention, interest, usage, and awareness
-      to give you a fuller picture of a category.
+      กราฟ "ประสบการณ์เมื่อเวลาผ่านไป" สามารถสลับระหว่างการคงผู้ใช้ ความสนใจ การใช้งาน และการรับรู้ เพื่อให้คุณได้ภาพที่ครอบคลุมของหมวดหมู่
 
   - key: hints.sharing_hint
     t: >
-      Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
-      improve your coding performance by up to 15%.
+      การแชร์ผลการสำรวจนี้บน Twitter, Facebook หรือทางอีเมลพิสูจน์ได้ในเชิงวิทยาศาสตร์ว่าสามารถปรับปรุงประสิทธิภาพการเขียนโค้ดของคุณได้สูงถึง 15%
 
   - key: hints.tshirt_hint
     t: >
-      Another guaranteed scientific finding: buying our t-shirt will 
-      increase your programming skills by over 9000!
+      ผลการวิจัยทางวิทยาศาสตร์ที่ได้รับการยืนยันอีกอย่าง: การซื้อเสื้อยืดของเราจะเพิ่มทักษะการเขียนโปรแกรมของคุณมากกว่า 9000!
 
   - key: hints.variants_hint
     t: >
-      Some charts feature additional tabs that offer complementary breakdowns of the same data,
-      or related data. Make sure to check them out!
+      บางกราฟมีแท็บเพิ่มเติมที่เสนอการแบ่งข้อมูลที่สอดคล้องกันหรือข้อมูลที่เกี่ยวข้อง อย่าลืมตรวจสอบดู!
 
   - key: hints.share_hint
     t: >
-      The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart, 
-      or even download it as an image.
+      แท็บ<span class="hint-icon hint-share-button">แชร์</span>ทำให้ง่ายต่อการแชร์กราฟใดๆหรือแม้กระทั่งดาวน์โหลดในรูปภาพ
 
   - key: hints.bracket_hint
     t: >
-      <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
-      respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
+      <span class="hint-bracket"><span class="hint-text">กราฟต่อไปนี้แสดงผลการแข่งขันในรูปแบบทัวร์นาเมนต์ 8 ผู้เล่น ซึ่งผู้ตอบถูกขอให้เลือกผู้ชนะในแต่ละแมตช์จนกระทั่งเหลือผู้ชนะเพียงหนึ่งเดียว</span><span class="hint-diagram"/></span>
 
   - key: hints.comments_hint
     t: >
-      The <span class="hint-icon hint-comment-button">Comment</span> tab lets you view comments left by survey respondents as they were filling out the survey.
+      แท็บ <span class="hint-icon hint-comment-button">ความคิดเห็น</span>ให้คุณดูความคิดเห็นที่ผู้ตอบแบบสำรวจทิ้งไว้ในขณะที่พวกเขากำลังตอบแบบสำรวจ
 
   ###########################################################################
   # Sponsor Chart
