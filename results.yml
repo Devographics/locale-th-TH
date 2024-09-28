@@ -5,75 +5,75 @@ translations:
   ###########################################################################
 
   - key: results.start
-    t: Start
+    t: เริ่มต้น
 
   - key: page.previous
-    t: "Previous:"
+    t: "ก่อนหน้า:"
   - key: page.next
-    t: "Next:"
+    t: "ถัดไป:"
 
   - key: general.state_of_css_link
     t: State of CSS
 
   - key: general.netlify_link
-    t: Hosted on <a href="{link}">Netlify</a>.
+    t: โฮสต์บน <a href="{link}">Netlify</a>.
 
   - key: general.completion_percentage
-    t: "Completion percentage:"
+    t: "เปอร์เซ็นต์การทำเสร็จ:"
 
   - key: sponsors.thanks
-    t: Thanks to our partners for supporting us!
+    t: ขอบคุณพันธมิตรของเราที่สนับสนุนเรา!
 
   - key: sponsors.learn_more
-    t: Learn more.
+    t: เรียนรู้เพิ่มเติม
 
   - key: tabs.all_respondents
-    t: All Respondents
+    t: ผู้ตอบทั้งหมด
   - key: tabs.main_answers
-    t: Main Answers
+    t: คำตอบหลัก
   - key: tabs.other_answers
-    t: Other Answers
+    t: คำตอบอื่น ๆ
   - key: tabs.bracket_wins
-    t: Wins
+    t: ชนะ
   - key: tabs.bracket_matchups
-    t: Matchups
+    t: การจับคู่
   - key: tabs.chart
-    t: Chart
+    t: แผนภูมิ (ชาร์ต)
   - key: tabs.data
-    t: Data
+    t: ข้อมูล
   - key: tabs.share
-    t: Share
+    t: แบ่งปัน
   - key: tabs.debug
     t: Debug
   - key: tabs.by_country
-    t: By Country
+    t: ตามประเทศ
   - key: tabs.by_experience
-    t: By Experience
+    t: ตามประสบการณ์
   - key: tabs.by_degree
-    t: By Degree
+    t: ตามปริญญา
   - key: tabs.by_salary
-    t: By Income
+    t: ตามรายได้
   - key: tabs.by_gender
-    t: By Gender
+    t: ตามเพศ
   - key: tabs.by_race_ethnicity
-    t: By Race & Ethnicity
+    t: ตามเชื้อชาติและชาติพันธุ์
   - key: tabs.low_vs_high_income
-    t: Low vs High Income
+    t: รายได้ต่ำ vs รายได้สูง
   - key: tabs.usa_vs_the_world
-    t: U.S. vs World
+    t: สหรัฐอเมริกา vs โลก
 
   ###########################################################################
   # Options
   ###########################################################################
 
   - key: options.experience_ranking.satisfaction
-    t: Retention
+    t: การคงไว้ซึ่งผู้ใช้
   - key: options.experience_ranking.interest
-    t: Interest
+    t: ความสนใจ
   - key: options.experience_ranking.usage
-    t: Usage
+    t: การใช้งาน
   - key: options.experience_ranking.awareness
-    t: Awareness
+    t: การรับรู้
 
   - key: ratios.interest
     aliasFor: options.experience_ranking.interest
@@ -82,113 +82,113 @@ translations:
   - key: ratios.awareness
     aliasFor: options.experience_ranking.awareness
   - key: ratios.retention
-    t: Retention
+    t: การคงไว้ซึ่งผู้ใช้
   - key: ratios.positivity
-    t: Positivity
+    t: ความพึงพอใจ
 
   - key: ratios.interest.description
     t: >
-      Proportion of **positive sentiment** among respondents having **heard about** an item
+      สัดส่วนของ**ความคิดเห็นเชิงบวก**ในกลุ่มผู้ตอบที่**เคยได้ยินเกี่ยวกับ**รายการนี้
   - key: ratios.usage.description
     t: >
-      Proportion of respondents **having used** an item
+      สัดส่วนของผู้ตอบที่**เคยใช้**รายการนี้
   - key: ratios.awareness.description
     t: >
-      Proportion of respondents **having heard about or used** an item
+      สัดส่วนของผู้ตอบที่**เคยได้ยินเกี่ยวกับหรือเคยใช้**รายการนี้
   - key: ratios.retention.description
     t: >
-      Proportion of **positive sentiment** among respondents having **used** an item
+      สัดส่วนของ**ความคิดเห็นเชิงบวก**ในกลุ่มผู้ตอบที่**เคยใช้**รายการนี้
   - key: ratios.positivity.description
     t: >
-      Proportion of **positive sentiment** among all respondents
+      สัดส่วนของ**ความคิดเห็นเชิงบวก**ในกลุ่มผู้ตอบทั้งหมด
 
   - key: modes.rank
-    t: Rank
+    t: อันดับ
   - key: modes.value
-    t: Value
+    t: ค่า
   - key: modes.rank.description
-    t: Place according to rank
+    t: จัดอันดับตามลำดับ
   - key: modes.value.description
-    t: Place according to value
+    t: จัดอันดับตามค่า
 
   - key: options.features_mode.grouped
-    t: Grouped
+    t: แบบกลุ่ม
   - key: options.features_mode.awareness_rank
-    t: By Awareness
+    t: จัดอันดับตามการรับรู้
   - key: options.features_mode.usage_rank
-    t: By Usage
+    t: จัดอันดับตามการใช้งาน
   - key: options.features_mode.usage_ratio_rank
-    t: By Ratio
+    t: จัดอันดับตามสัดส่วน
 
   - key: options.features_simplified.know_it
-    t: Know about it
+    t: รู้จัก
   - key: options.features_simplified.used_it
-    t: Have used it
+    t: เคยใช้
   - key: options.features_simplified.usage_ratio
-    t: Ratio
+    t: สัดส่วน
 
   - key: options.quadrant.assess
-    t: ASSESS
+    t: ASSESS (ประเมิน)
   - key: options.quadrant.assess.long
     t: |
-      ASSESS: Low usage, high retention. Technologies worth keeping an eye on.
+      ASSESS (ประเมิน): การใช้งานต่ำ แต่การรักษาสูง เทคโนโลยีที่ควรติดตาม
   - key: options.quadrant.adopt
-    t: ADOPT
+    t: ADOPT (รับมาใช้)
   - key: options.quadrant.adopt.long
     t: |
-      ADOPT: High usage, high retention. Safe technologies to adopt.
+      ADOPT (รับมาใช้): การใช้งานสูง การรักษาสูง เทคโนโลยีที่ปลอดภัยในการรับมาใช้
   - key: options.quadrant.avoid
-    t: AVOID
+    t: AVOID (หลีกเลี่ยง)
   - key: options.quadrant.avoid.long
     t: |
-      AVOID: Low usage, low retention. Technologies probably best avoided currently.
+      AVOID (หลีกเลี่ยง): การใช้งานต่ำ การรักษาต่ำ เทคโนโลยีที่อาจควรหลีกเลี่ยงในขณะนี้
   - key: options.quadrant.analyze
-    t: ANALYZE
+    t: ANALYZE (วิเคราะห์)
   - key: options.quadrant.analyze.long
     t: |
-      ANALYZE: High usage, low retention. Reassess these technologies if you're currently using them.
+      ANALYZE (วิเคราะห์): การใช้งานสูง การรักษาต่ำ ควรประเมินเทคโนโลยีเหล่านี้อีกครั้งหากคุณกำลังใช้อยู่
 
   - key: options.quadrant.1
     t: 1
   - key: options.quadrant.1.long
     t: |
-      1: Low usage, high retention. Technologies worth keeping an eye on.
+      1: การใช้งานต่ำ แต่การรักษาสูง เทคโนโลยีที่ควรติดตาม
   - key: options.quadrant.2
     t: 2
   - key: options.quadrant.2.long
     t: |
-      2: High usage, high retention. Safe technologies to adopt.
+      2: การใช้งานสูง การรักษาสูง เทคโนโลยีที่ปลอดภัยในการรับมาใช้
   - key: options.quadrant.3
     t: 3
   - key: options.quadrant.3.long
     t: |
-      3: Low usage, low retention. Technologies that are harder to recommend.
+      3: การใช้งานต่ำ การรักษาต่ำ เทคโนโลยีที่อาจควรหลีกเลี่ยงในขณะนี้
   - key: options.quadrant.4
     t: 4
   - key: options.quadrant.4.long
     t: |
-      4: High usage, low retention. Reassess these technologies if you're currently using them.
+      4: การใช้งานสูง การรักษาต่ำ ควรประเมินเทคโนโลยีเหล่านี้อีกครั้งหากคุณกำลังใช้อยู่
 
   - key: ranges.selector.years_of_experience
-    t: Experience
+    t: ประสบการณ์
   - key: ranges.selector.yearly_salary
-    t: Income
+    t: รายได้
   - key: ranges.selector.company_size
-    t: Company Size
+    t: ขนาดบริษัท
 
   # other learning methods
   - key: options.first_steps.blogs
-    t: Blogs
+    t: บล็อก
   - key: options.first_steps.forums
-    t: Forums
+    t: ฟอรั่ม
   - key: options.first_steps.view_source
-    t: View Source
+    t: ดูต้นฉบัน
   - key: options.first_steps.copy_paste
-    t: Copy/paste
+    t: คัดลอก/วาง
   - key: options.first_steps.trial_and_error
-    t: Trial & Error
+    t: ลองผิดลองถูก
   - key: options.first_steps.documentation
-    t: Documentation
+    t: เอกสารประกอบ
 
   # other disablities
   - key: options.disability_status_others.adhd
