@@ -726,138 +726,135 @@ translations:
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
-    t: Usage Variations
+    t: ความแตกต่างในการใช้งาน
   - key: blocks.tools_usage_variations.description
     t: |
-      How different factors such as salary range, years of experience
-      or company size influence usage (participants who answered either
-      “would use again” or “would not use again”).
+      ปัจจัยต่างๆ เช่น ช่วงเงินเดือน ประสบการณ์ทำงานหรือขนาดบริษัทมีอิทธิพลต่อการใช้งานอย่างไร
+      (ผู้เข้าร่วมที่ตอบว่า "จะใช้ซ้ำ" หรือ "จะไม่ใช้ซ้ำ")
 
-      The baseline represents the base usage for each tool and the offsets
-      correspond to the delta from this baseline in each range. Let's say
-      tool X has an overall usage of 10% across all respondents (the baseline),
-      then if the percentage of users having from 1 to 2 years of experience
-      using this tool is 13% (compared to all users having from 1 to 2 years
-      of experience), then we have a positive delta of +3%.
+      เส้นฐานแสดงถึงการใช้งานพื้นฐานสำหรับแต่ละเครื่องมือ และค่าเบี่ยงเบนแสดงถึงส่วนที่ต่างจากเส้นฐานในแต่ละช่วง
+      สมมติว่าเครื่องมือ X มีการใช้งานโดยรวมที่ 10% ของผู้ตอบแบบสอบถามทั้งหมด (เส้นฐาน)
+      ถ้าสัดส่วนของผู้ใช้ที่มีประสบการณ์ 1 ถึง 2 ปีที่ใช้เครื่องมือนี้อยู่ที่ 13% (เทียบกับผู้ใช้ที่มีประสบการณ์ 1 ถึง 2 ปีทั้งหมด)
+      เราจะได้ค่าเบี่ยงเบนบวก +3%
   - key: blocks.tools_usage_variations.note
     t: |
-      Please keep in mind that tools having a lower overall usage tends to vary more.
+      โปรดทราบว่าเครื่องมือที่มีการใช้งานโดยรวมต่ำมักจะมีความแตกต่างมากกว่า
 
   # Recommended Resources
   - key: blocks.recommended_resources
-    t: Recommended Resources
+    t: แหล่งข้อมูลที่แนะนำ
   - key: blocks.recommended_events
-    t: Recommended Events
+    t: กิจกรรมที่แนะนำ
 
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
-    t: Library Evaluation Rankings
+    t: การจัดอันดับการประเมินไลบรารี
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: Which factors do you prioritize when evaluating a new library? Results are ranked by number of tournament rounds won.
+    t: ปัจจัยใดที่คุณให้ความสำคัญเมื่อประเมินไลบรารีใหม่ ผลลัพธ์จัดอันดับตามจำนวนรอบการทัวร์นาเมนต์ที่ชนะ
 
   - key: tool_evaluation.tool_evaluation_matchups
-    t: Library Evaluation Rankings (Matchups)
+    t: การจัดอันดับการประเมินไลบรารี (การจับคู่)
   - key: tool_evaluation.tool_evaluation_matchups.description
-    t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
+    t: ปัจจัยใดที่คุณให้ความสำคัญเมื่อประเมินไลบรารีใหม่ เปอร์เซ็นต์ของรอบที่ชนะโดยรายการด้านซ้ายเมื่อเทียบกับรายการด้านบน
 
   # other
   - key: blocks.freeform
-    t: Freeform
+    t: แบบอิสระ
 
   # Reading List
   - key: features.reading_list
-    t: Reading List
+    t: รายการสำหรับการอ่าน
   - key: features.reading_list.note
     t: >
-      How many time each item was added to respondent's Reading List, a feature that lets people
-      learn more about specific topics as they take the survey.
+      จำนวนครั้งที่แต่ละรายการถูกเพิ่มลงในรายการสำหรับการอ่านของผู้ตอบแบบสอบถาม
+      ซึ่งเป็นฟีเจอร์ที่ให้ผู้คนได้เรียนรู้เพิ่มเติมเกี่ยวกับหัวข้อเฉพาะระหว่างการทำแบบสอบถาม
 
   ###########################################################################
   # Charts
   ###########################################################################
 
   - key: chart_units.respondents
-    t: "**{count}** question respondents out of **{total}** survey participants (**{percentage}%** completion percentage)"
+    t: "**{count}** ผู้ตอบคำถามจาก **{total}** ผู้เข้าร่วมการสำรวจ (อัตราการตอบ **{percentage}%**)"
   - key: chart_units.percentage
-    t: Percents
+    t: เปอร์เซ็นต์
   - key: chart_units.count
-    t: Count
+    t: จำนวน
   - key: chart_units.percentage_question
-    t: "% of question respondents"
+    t: "% ของผู้ตอบคำถาม"
   - key: chart_units.percentageQuestion
     aliasFor: chart_units.percentage_question
   - key: chart_units.percentage_survey
-    t: "% of survey respondents"
+    t: "% ของผู้เข้าร่วมการสำรวจ"
   - key: chart_units.percentageSurvey
     aliasFor: chart_units.percentage_survey
   - key: chart_units.percentage_bucket
-    t: Percentages
+    t: เปอร์เซ็นต์
   - key: chart_units.percentageBucket
     aliasFor: chart_units.percentage_bucket
   - key: chart_units.average
-    t: Average
+    t: ค่าเฉลี่ย
   - key: chart_units.averageByFacet
     aliasFor: chart_units.average
 
   - key: chart_units.facetCounts
-    t: Counts
+    t: จำนวน
 
   - key: chart_units.percentilesByFacet
-    t: Percentiles
+    t: เปอร์เซ็นต์ไทล์
 
   - key: charts.average
-    t: Average {axis}
+    t: ค่าเฉลี่ย {axis}
   - key: charts.mean
-    t: Mean
+    t: ค่าเฉลี่ย
   - key: charts.all_respondents
-    t: All Respondents
+    t: ผู้ตอบทั้งหมด
   - key: charts.overall
     aliasFor: charts.all_respondents
   - key: charts.facet_responses
-    t: "{count} responses"
+    t: "{count} คำตอบ"
   - key: charts.facet_respondents
-    t: "({count} respondents)"
+    t: "({count} ผู้ตอบ)"
 
   - key: charts.nth_percentile
-    t: "{percentile}th percentile"
+    t: เปอร์เซ็นต์ไทล์ที่ {percentile}
   - key: charts.nth_percentile_value
-    t: "{percentile}th percentile: {value}"
+    t: เปอร์เซ็นต์ไทล์ที่ {percentile}: {value}
 
   - key: charts.freeform_data_indicator
-    t: (freeform answers)
+    t: (คำตอบแบบอิสระ)
   - key: charts.insufficient_data
-    t: Insufficient Data
+    t: ข้อมูลไม่เพียงพอ
   - key: charts.insufficient_data.description
-    t: Segments with fewer than {value} respondents are not included in the results.
+    t: ช่วงข้อมูลที่มีผู้ตอบน้อยกว่า {value} คนจะไม่รวมอยู่ในผลลัพธ์
 
   - key: charts.axis_legends.years_of_experience
-    t: Years of Experience
+    t: ประสบการณ์ทำงาน (ปี)
   - key: charts.axis_legends.yearly_salary
-    t: Salary Range (USD)
+    t: ช่วงเงินเดือน (USD)
   - key: charts.axis_legends.company_size
-    t: Organization Size
+    t: ขนาดองค์กร
   - key: charts.axis_legends.backend_proficiency
-    t: Back-end Proficiency
+    t: ความชำนาญในการทำ Back-end
   - key: charts.axis_legends.css_proficiency
-    t: CSS Proficiency
+    t: ความชำนาญในการใช้ CSS
   - key: charts.axis_legends.javascript_proficiency
-    t: JavaScript Proficiency
+    t: ความชำนาญในการใช้ JavaScript
   - key: charts.axis_legends.users_percentage
-    t: Percentage of Users
+    t: เปอร์เซ็นต์ของผู้ใช้
   - key: charts.axis_legends.users_count
-    t: User Count
+    t: จำนวนผู้ใช้
   - key: charts.axis_legends.users_average
-    t: Average {axis}
+    t: ค่าเฉลี่ย {axis}
   - key: charts.axis_legends.interest_percentage
-    t: Interest %
+    t: เปอร์เซ็นต์ความสนใจ
   - key: charts.axis_legends.satisfaction_percentage
-    t: Retention %
+    t: เปอร์เซ็นต์การคงการใช้
   - key: charts.axis_legends.retention_percentage
-    t: Retention %
+    t: เปอร์เซ็นต์การคงการใช้
   - key: charts.axis_legends.usage_percentage
-    t: Usage %
+    t: เปอร์เซ็นต์การใช้งาน
   - key: charts.axis_legends.awareness_percentage
-    t: Awareness %
+    t: เปอร์เซ็นต์การรับรู้
 
   - key: chart_units.interest_percentage
     aliasFor: charts.axis_legends.interest_percentage
@@ -869,23 +866,23 @@ translations:
     aliasFor: charts.axis_legends.awareness_percentage
 
   - key: charts.axis_legends.happiness
-    t: Happiness
+    t: ความสุข
   - key: charts.axis_legends.knowledge_score
-    t: Known Features
+    t: คุณสมบัติที่รู้จัก
   - key: charts.axis_legends.frequency
-    t: Frequency
+    t: ความถี่
   - key: charts.axis_legends.age
-    t: Age
+    t: อายุ
   - key: charts.axis_legends.users_percentage_survey
-    t: "% of survey respondents"
+    t: "% ของผู้เข้าร่วมการสำรวจ"
   - key: charts.axis_legends.users_percentageSurvey
     aliasFor: charts.axis_legends.users_percentage_survey
   - key: charts.axis_legends.users_percentage_question
-    t: "% of question respondents"
+    t: "% ของผู้ตอบคำถาม"
   - key: charts.axis_legends.users_percentageQuestion
     aliasFor: charts.axis_legends.users_percentage_question
   - key: charts.axis_legends.users_percentage_bucket
-    t: "% of bucket respondents"
+    t: "% ของผู้ตอบช่วงนั้นๆ"
   - key: charts.axis_legends.users_percentageBucket
     aliasFor: charts.axis_legends.users_percentage_bucket
 
@@ -895,102 +892,101 @@ translations:
     aliasFor: chart_units.percentilesByFacet
 
   - key: charts.ranges_multiple_diverging_lines.baseline
-    t: baseline
+    t: เส้นฐาน
   - key: charts.ranges_multiple_diverging_lines.positive_offset
-    t: positive offset
+    t: ค่าเบี่ยงเบนบวก
   - key: charts.ranges_multiple_diverging_lines.negative_offset
-    t: negative offset
+    t: ค่าเบี่ยงเบนลบ
 
   - key: charts.tools_arrows.negative_opinion
-    t: Negative opinions
+    t: ความคิดเห็นเชิงลบ
   - key: charts.tools_arrows.positive_opinion
-    t: Positive opinions
+    t: ความคิดเห็นเชิงบวก
   - key: charts.tools_arrows.have_not_used
-    t: Have not used
+    t: ไม่เคยใช้
   - key: charts.tools_arrows.have_used
-    t: Have used
+    t: เคยใช้
   - key: charts.tools_arrows.x_axis
-    t: X-axis range
+    t: ช่วงแกน X
   - key: charts.tools_arrows.y_axis
-    t: Y-axis range
+    t: ช่วงแกน Y
   - key: charts.tools_arrows.legend
-    t: Legend
+    t: คำอธิบาย
   - key: charts.tools_arrows.velocity
-    t: Velocity
+    t: ความเร็ว
   - key: charts.tools_arrows.velocity_positive
-    t: Overall more positive opinions and/or usage over time
+    t: ความคิดเห็นที่เป็นบวกและ/หรือการใช้งานที่เพิ่มขึ้นโดยรวม
   - key: charts.tools_arrows.velocity_negative
-    t: Overall more negative opinions and/or less usage over time
+    t: ความคิดเห็นที่เป็นลบและ/หรือการใช้งานที่ลดลงโดยรวม
   - key: charts.tools_arrows.opinions_positive
-    t: Mostly positive opinions
+    t: ความคิดเห็นที่ส่วนใหญ่เป็นบวก
   - key: charts.tools_arrows.opinions_negative
-    t: Mostly negative opinions
+    t: ความคิดเห็นที่ส่วนใหญ่เป็นลบ
   - key: charts.tools_arrows.low_usage
-    t: Low usage
+    t: การใช้งานต่ำ
   - key: charts.tools_arrows.high_usage
-    t: High usage
+    t: การใช้งานสูง
   - key: charts.tools_arrows.popularity_positive
-    t: Rising popularity
+    t: ความนิยมเพิ่มขึ้น
   - key: charts.tools_arrows.popularity_negative
-    t: Falling popularity
+    t: ความนิยมลดลง
 
   - key: charts.no_answer
-    t: No Answer
+    t: ไม่มีคำตอบ
   - key: charts.no_answer.short
-    t: No Answer
+    t: ไม่มีคำตอบ
 
   - key: charts.no_match
-    t: Unmatched Answers
+    t: คำตอบที่ไม่ตรงกัน
   - key: charts.no_match.short
-    t: Unmatched Answers
+    t: คำตอบที่ไม่ตรงกัน
   - key: charts.no_match.description
-    t: Freeform answers that could not be matched to a specific datapoint
+    t: คำตอบแบบอิสระที่ไม่สามารถจับคู่กับจุดข้อมูลเฉพาะได้
 
   - key: charts.cutoff_answers
-    t: Cutoff Answers
+    t: คำตอบที่ตัดออก
   - key: charts.cutoff_answers.short
-    t: Cutoff Answers
+    t: คำตอบที่ตัดออก
   - key: charts.cutoff_answers.description
-    t: Answers that scored below the defined threshold
+    t: คำตอบที่ได้คะแนนต่ำกว่าเกณฑ์ที่กำหนด
 
   - key: charts.other_answers
-    t: Other Answers
+    t: คำตอบอื่นๆ
   - key: charts.other_answers.short
-    t: Other Answers
+    t: คำตอบอื่นๆ
   - key: charts.other_answers.description
-    t: Other answers not included above
+    t: คำตอบอื่นๆ ที่ไม่รวมอยู่ข้างต้น
 
   - key: charts.overlimit_answers
-    t: Over Limit
+    t: เกินขีดจำกัด
   - key: charts.overlimit_answers.short
-    t: Over Limit
+    t: เกินขีดจำกัด
   - key: charts.overlimit_answers.description
-    t: Answers that were outside of the defined number of items requested
+    t: คำตอบที่อยู่นอกเหนือจากจำนวนรายการที่กำหนด
 
   - key: charts.freeform_data
-    t: Freeform Data
+    t: ข้อมูลแบบอิสระ
   - key: charts.freeform_data.description
-    t: Data gathered through a freeform text field
+    t: ข้อมูลที่รวบรวมจากช่องข้อความแบบอิสระ
 
   - key: charts.tick.links
-    t: Links
+    t: ลิงก์
 
   - key: charts.resources
-    t: Useful Links
+    t: ลิงก์ที่มีประโยชน์
 
   - key: charts.facets_clarification
     t: >
-      Note that the percentages shown above are influenced by how many respondents
-      overall belong to each group.
+      โปรดทราบว่าเปอร์เซ็นต์ที่แสดงด้านบนได้รับผลกระทบจากจำนวนผู้ตอบโดยรวมที่อยู่ในแต่ละกลุ่ม
 
   - key: charts.average_clarification
     t: >
-      Note that averages are calculated by taking the midpoint value of each range as an approximate representative value.
+      โปรดทราบว่าค่าเฉลี่ยคำนวณโดยใช้ค่ากลางของแต่ละช่วงเป็นตัวแทนที่ประมาณค่าได้
 
   - key: charts.share
-    t: Share Chart…
+    t: แชร์แผนภูมิ…
   - key: charts.export
-    t: Export Data…
+    t: ส่งออกข้อมูล…
 
   - key: charts.mode
     t: >
@@ -1004,65 +1000,65 @@ translations:
   ###########################################################################
 
   - key: comments.comments
-    t: Comments
+    t: ความคิดเห็น
   - key: comments.comments_for
-    t: Comments for “{name}”
+    t: ความคิดเห็นสำหรับ “{name}”
   - key: comments.description
     t: |
-      These comments were submitted as part of the survey 
-      through an optional freeform text field next to the main question.
+      ความคิดเห็นเหล่านี้ถูกส่งมาเป็นส่วนหนึ่งของการสำรวจ
+      ผ่านทางช่องข้อความแบบอิสระที่เป็นตัวเลือกข้างคำถามหลัก
   - key: comments.report_abuse
-    t: Report this comment
+    t: รายงานความคิดเห็นนี้
   - key: comments.share
-    t: Share Comment
+    t: แชร์ความคิดเห็น
 
   - key: comments.filter.experience
-    t: "Experience: "
+    t: "ประสบการณ์: "
   - key: comments.filter.sentiment
-    t: "Sentiment: "
+    t: "ความคิดเห็น: "
   - key: comments.filter.all
-    t: All
+    t: ทั้งหมด
 
   ###########################################################################
   # Sharing
   ###########################################################################
 
   - key: share.share
-    t: Share
+    t: แชร์
   - key: share.options
-    t: Share Options
+    t: ตัวเลือกการแชร์
   - key: share.preview
-    t: Social media preview
+    t: ตัวอย่างสำหรับโซเชียลมีเดีย
   - key: share.site.title
-    t: Discover the {siteTitle} results
+    t: ค้นพบผลลัพธ์จาก {siteTitle}
   - key: share.site.twitter_text
-    t: "Discover the {siteTitle} results {link} {hashtag}"
+    t: "ค้นพบผลลัพธ์จาก {siteTitle} {link} {hashtag}"
   - key: share.site.subject
-    t: "{siteTitle} Survey Results"
+    t: "ผลการสำรวจ {siteTitle}"
   - key: share.site.body
-    t: "Here are some interesting survey results: {link}"
+    t: "นี่คือผลการสำรวจที่น่าสนใจ: {link}"
   - key: share.block.twitter_text
     t: "{siteTitle}: {title}"
   - key: share.block.subject
-    t: "{siteTitle} Survey Results"
+    t: "ผลการสำรวจ {siteTitle}"
   - key: share.block.body
-    t: "Here are some interesting survey results ({title}): {link}"
+    t: "นี่คือผลการสำรวจที่น่าสนใจ ({title}): {link}"
   - key: share.twitter
-    t: Share on Twitter
+    t: แชร์บน Twitter
   - key: share.facebook
-    t: Share on Facebook
+    t: แชร์บน Facebook
   - key: share.linkedin
-    t: Share on LinkedIn
+    t: แชร์บน LinkedIn
   - key: share.email
-    t: Share by email
+    t: แชร์ทางอีเมล
   - key: share.image
-    t: Get image
+    t: รับภาพ
   - key: share.link
-    t: Link to section
+    t: ลิงก์ไปยังส่วนนี้
   - key: share.url
-    t: Copy link
+    t: คัดลอกลิงก์
   - key: share.close
-    t: Close
+    t: ปิด
 
   ###########################################################################
   # Views
