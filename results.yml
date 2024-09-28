@@ -505,227 +505,224 @@ translations:
 
   # people
   - key: blocks.people.name
-    t: Name
+    t: ชื่อ
   - key: blocks.people.social_links
-    t: Links
+    t: ลิงก์
   - key: blocks.people.responses
-    t: Responses
+    t: คำตอบ
 
   # cardinality
   - key: blocks.all_sections_tools_cardinality_by_user
-    t: Technology Usage Cardinality
+    t: การใช้งานเทคโนโลยี
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-      For each section, which percentage of respondents **use** 
-      (defined as having answered “would use again”) one, two, three, etc. technologies.
-      The bottom-most bar represents the sum of all other bars.
+      สำหรับแต่ละส่วน แสดงเปอร์เซ็นต์ของผู้ตอบที่**ใช้**
+      (หมายถึงตอบว่า "จะใช้อีกครั้ง")เทคโนโลยีหนึ่ง สอง สาม อย่างหรือมากกว่านั้น
+      แถบที่อยู่ล่างสุดแสดงผลรวมของแถบอื่นๆทั้งหมด
 
   - key: blocks.cardinality.max
-    t: Most common answer
+    t: คำตอบที่มีมากที่สุด
 
   # tools arrows
   - key: blocks.tools_arrows
-    t: Changes Over Time
+    t: การเปลี่ยนแปลงตามกาลเวลา
   - key: blocks.tools_arrows.description
     t: |
-      Each line goes from the earliest to the latest available year of data. A higher point means a technology has been used by more people,
-      and a point further to the right means more users want to learn it; or have used it and would use it again.
+      เส้นแต่ละเส้นแสดงข้อมูลตั้งแต่ปีที่มีข้อมูลแรกสุดถึงปีที่มีข้อมูลล่าสุด ยิ่งจุดสูงขึ้นหมายถึงเทคโนโลยีถูกใช้โดยคนมากขึ้น
+      และยิ่งจุดไปทางขวาแสดงว่าผู้ใช้ต้องการเรียนรู้มากขึ้น หรือได้ใช้แล้วและจะใช้ซ้ำอีก
   - key: blocks.tools_arrows.note
     t: |
-      - Some lines skip years.
-      - Technologies with only one year of data are not shown. 
-      - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
-      - A positive velocity means the usage and/or positive opinions have increased over time.
+      - บางเส้นข้ามปี
+      - เทคโนโลยีที่มีข้อมูลเพียงปีเดียวจะไม่ถูกแสดง
+      - สูตรการคำนวณความเร็ว = (ความคิดเห็นล่าสุด - ความคิดเห็นเก่าสุด) + (การใช้งานล่าสุด) - (การใช้งานเก่าสุด)
+      - ความเร็วเป็นบวกหมายถึงการใช้งานและ/หรือความคิดเห็นเชิงบวกเพิ่มขึ้นเมื่อเวลาผ่านไป
 
   # tools quadrant
   - key: blocks.tools_quadrant
-    t: Retention vs Usage
+    t: การคงผู้ใช้ vs การใช้งาน
   - key: tools.scatterplot_overview
     aliasFor: blocks.tools_quadrant
   - key: blocks.tools_quadrant.description
     t: |
-      This chart shows each technology's **retention ratio** over its total **user count**.
-      It can be divided into four quadrants:
+      แผนภูมินี้แสดง**อัตราการคงผู้ใช้**ของแต่ละเทคโนโลยีเมื่อเทียบกับ**จำนวนผู้ใช้**ทั้งหมด
+      สามารถแบ่งออกเป็นสี่ส่วน:
 
-        - **1**: Low usage, high retention. Technologies worth keeping an eye on.
+        - **1**: การใช้งานต่ำ การคงผู้ใช้สูง เทคโนโลยีที่น่าติดตาม
 
-        - **2**: High usage, high retention. Safe technologies to adopt.
+        - **2**: การใช้งานสูง การคงผู้ใช้สูง เทคโนโลยีที่ปลอดภัยสำหรับการนำมาใช้
 
-        - **3**: Low usage, low retention. Technologies that are harder to recommend currently.
+        - **3**: การใช้งานต่ำ การคงผู้ใช้ต่ำ เทคโนโลยีที่แนะนำได้ยากในตอนนี้
 
-        - **4**: High usage, low retention. Reassess these technologies if you're currently using them.
+        - **4**: การใช้งานสูง การคงผู้ใช้ต่ำ ประเมินใหม่หากคุณกำลังใช้งานเทคโนโลยีเหล่านี้
 
   # category other tools
   - key: blocks.category_other_tools
-    t: Other Tools
+    t: เครื่องมืออื่นๆ
   - key: blocks.category_other_tools.description
-    t: Other tools in this category (freeform answers).
+    t: เครื่องมืออื่นๆในหมวดนี้ (คำตอบอิสระ)
 
   # tool experience
   - key: blocks.tool_experience
-    t: "{name} Experience"
+    t: "ประสบการณ์กับ {name}"
   - key: blocks.tool_experience.description
-    t: Respondent's experience with {name}.
+    t: ประสบการณ์ของผู้ตอบกับ {name}
 
   # tool positive/negative split ("marimekko" chart)
   - key: blocks.tools_experience_marimekko
-    t: Positive/Negative Split
+    t: การแยกเชิงบวก/เชิงลบ
   - key: blocks.tools_experience_marimekko.description
     t: |
-      This chart splits positive (“want to learn”, “would use again”) vs
-      negative (“not interested”, “would not use again”) experiences on
-      both sides of a central axis.
+      แผนภูมินี้แบ่งแยกประสบการณ์เชิงบวก ("ต้องการเรียนรู้", "จะใช้ซ้ำ") กับ
+      เชิงลบ ("ไม่สนใจ", "จะไม่ใช้ซ้ำ") ออกเป็นสองด้านของแกนกลาง
 
-      Bar thickness represents the number of respondents aware of a technology.
+      ความหนาของแถบแสดงจำนวนผู้ตอบที่รับรู้ถึงเทคโนโลยี
 
   # tool tier list
   - key: blocks.tools_tier_list
-    t: Library Tier List
+    t: Tier List ไลบรารี
   - key: blocks.tools_tier_list.note
     t: |
-      This chart ranks libraries based on their retention ratio (percentage of users
-      who would use a library again). Note that libraries used by less than 10% of survey 
-      respondents are not included.
+      ชาร์ตนี้จัดอันดับไลบรารีตามอัตราการคงผู้ใช้ (เปอร์เซ็นต์ของผู้ใช้ที่
+      จะใช้ไลบรารีนั้นซ้ำ) โปรดทราบว่าไลบรารีที่มีการใช้ต่ำกว่า 10% ของผู้ตอบแบบสำรวจ
+      จะไม่ถูกรวมอยู่
   - key: blocks.tools_tier_list.bounds
     t: >
       {lowerBound}% - {upperBound}%
 
   # tools section streams
   - key: blocks.tools_section_streams
-    t: Experience Over Time
+    t: ประสบการณ์ตามเวลา
   - key: blocks.tools_section_streams.description
     t: |
-      Overview of opinions on the technologies surveyed over time.
+      ภาพรวมความคิดเห็นเกี่ยวกับเทคโนโลยีที่สำรวจตามเวลา
   - key: blocks.tools_section_streams.note
     t: |
-      Technologies with only one year of data are not included.
+      เทคโนโลยีที่มีข้อมูลเพียงปีเดียวจะไม่ถูกรวมอยู่
 
   # tools section overview
   - key: blocks.tools_section_overview
-    t: Category Overview
+    t: ภาพรวมหมวดหมู่
   - key: blocks.tools_section_overview.description
     t: |
-      Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
-      while lighter segments correspond to negative sentiment.
+      ภาพรวมความคิดเห็นเกี่ยวกับเทคโนโลยีที่สำรวจ ส่วนที่มืดกว่าแสดงถึงความคิดเห็นเชิงบวก
+      ในขณะที่ส่วนที่สว่างกว่าแสดงถึงความรู้สึกเชิงลบ
 
   # tools experience ranking
   - key: blocks.tools_experience_ranking
-    t: Rankings Over Time
+    t: การจัดอันดับตามเวลา
   - key: blocks.tools_experience_ranking.percentages
-    t: Percentages
+    t: เปอร์เซ็นต์
   - key: blocks.tools_experience_ranking.rankings
-    t: Rankings
+    t: การจัดอันดับ
   - key: blocks.tools_experience_ranking.description
-    t: Retention, interest, usage, and awareness ratio rankings.
+    t: การจัดอันดับอัตราการคงผู้ใช้ ความสนใจ การใช้งาน และการรับรู้
   - key: blocks.tools_experience_ranking.note
     t: |
-      Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+      เทคโนโลยีที่มีการรับรู้น้อยกว่า 10% จะไม่ถูกนำมารวม อัตราแต่ละรายการคำนวณดังนี้:
 
-      - Retention: **would use again** / (**would use again** + **would not use again**)
-      - Interest: **want to learn** / (**want to learn** + **not interested**)
-      - Usage: (**would use again** + **would not use again**) / **total**
-      - Awareness: (**total** - **never heard**) / **total**
+      - การคงผู้ใช้: **จะใช้ซ้ำ** / (**จะใช้ซ้ำ** + **จะไม่ใช้ซ้ำ**)
+      - ความสนใจ: **ต้องการเรียนรู้** / (**ต้องการเรียนรู้** + **ไม่สนใจ**)
+      - การใช้งาน: (**จะใช้ซ้ำ** + **จะไม่ใช้ซ้ำ**) / **ทั้งหมด**
+      - การรับรู้: (**ทั้งหมด** - **ไม่เคยได้ยิน**) / **ทั้งหมด**
 
   # tools experience linechart
   - key: blocks.tools_experience_linechart
-    t: Ratios Over Time
+    t: อัตราส่วนตามเวลา
   - key: blocks.tools_experience_linechart.description
-    t: Retention, interest, usage, and awareness ratio over time.
+    t: อัตราการคงผู้ใช้ ความสนใจ การใช้งาน และการรับรู้ตามเวลา
   - key: blocks.tools_experience_linechart.note
     aliasFor: blocks.tools_experience_ranking.note
 
   # happiness
   - key: blocks.happiness
-    t: Overall Happiness
+    t: ความสุขโดยรวม
   - key: blocks.happiness.description
     t: |
-      On a scale of one (very unhappy) to five (very happy), how happy are developers
-      with the current overall state of this category?
+      ในระดับหนึ่ง (ไม่พอใจมาก) ถึงห้า (พอใจมาก) นักพัฒนามีความสุขกับสถานะโดยรวมในหมวดหมู่นี้แค่ไหน?
 
   # newsletter
   - key: blocks.newsletter.title
-    t: Stay Tuned
+    t: ติดตามข่าวสาร
   - key: blocks.newsletter.description
     t: |
-      If you'd like to know when we release additional results or announce next year's edition,
-      just leave us your email below:
+      หากคุณต้องการทราบเมื่อเราปล่อยผลลัพธ์เพิ่มเติมหรือประกาศการสำรวจฉบับปีหน้า
+      ทิ้งอีเมลของคุณไว้ได้เลย:
   - key: blocks.newsletter.email
-    t: Your Email
+    t: อีเมลของคุณ
   - key: blocks.newsletter.submit
-    t: Notify Me
+    t: แจ้งเตือนฉัน
 
   # features_overview
   - key: blocks.features_overview
-    t: Features Overview
+    t: ภาพรวมฟีเจอร์
   - key: blocks.features_overview.description
     t: |
-      The size of the **outer circle** corresponds to the total number of users who know about a feature (*know about it* + *have used it* respondents), while
-      the **inner circle** represents those who have actually used it (*have used it* respondents).
+      ขนาดของ**วงนอก**แสดงจำนวนผู้ใช้ทั้งหมดที่รู้จักฟีเจอร์ (*รู้จัก* + *เคยใช้* ผู้ตอบ) ในขณะที่**วงใน**แสดงจำนวนผู้ใช้ที่เคยใช้งานจริง (*เคยใช้* ผู้ตอบ)
 
-      Hover on each circle to see detailed stats, including the ratio between both values.
+      เลื่อนเมาส์ไปบนวงเพื่อดูสถิติที่ละเอียดขึ้น รวมถึงอัตราส่วนระหว่างทั้งสองค่า
 
   # features_experience_linechart
   - key: blocks.features_experience_linechart
-    t: Ratios Over Time
+    t: อัตราส่วนตามเวลา
   - key: blocks.features_experience_linechart.description
-    t: Usage and awareness ratios over time for the highest-rating features.
+    t: อัตราการใช้งานและการรับรู้ตามเวลาสำหรับฟีเจอร์ที่มีคะแนนสูงสุด
   - key: blocks.features_experience_linechart.note
     t: |
-      Each ratio is defined as follows:
+      อัตราส่วนแต่ละรายการคำนวณดังนี้:
 
-      - Usage: (**have used it**) / **total**
-      - Awareness: (**have used it** + **know about it **) / **total**
+      - การใช้งาน: (**เคยใช้**) / **ทั้งหมด**
+      - การรับรู้: (**เคยใช้** + **รู้จัก**) / **ทั้งหมด**
 
   - key: blocks.features_experience_ranking
-    t: Rankings Over Time
+    t: การจัดอันดับตามเวลา
   - key: blocks.features_experience_ranking.description
-    t: Usage and awareness rankings over time.
+    t: การจัดอันดับการใช้งานและการรับรู้ตามเวลา
   - key: blocks.features_experience_ranking.note
     aliasFor: blocks.features_experience_linechart.note
 
   # export
   - key: export.export
-    t: Export
+    t: ส่งออก
   - key: export.title
-    t: Export data for {title}
+    t: ส่งออกข้อมูลสำหรับ {title}
   - key: export.nocsv
-    t: Sorry, CSV export is not available for this dataset.
+    t: ขออภัย การส่งออกเป็น CSV ไม่สามารถใช้ได้สำหรับชุดข้อมูลนี้
   - key: export.graphql
     t: >
-      You can copy paste this query into our <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">public GraphQL API</a>.
+      คุณสามารถคัดลอกและวางการค้นหานี้ลงใน<a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">GraphQL API สาธารณะ</a>ของเรา
   - key: export.export_json
-    t: JSON Data
+    t: ข้อมูล JSON
   - key: export.export_graphql
     t: GraphQL Query
   - key: export.export_filters
-    t: Filters Code
+    t: โค้ดตัวกรอง
 
   - key: custom_data.heading
-    t: Custom Chart
+    t: ชาร์ตแบบกำหนดเอง
   - key: custom_data.custom_data
-    t: Custom Data
+    t: ข้อมูลแบบกำหนดเอง
   - key: custom_data.graphql_query
     t: GraphQL Query
   - key: custom_data.chart_title
-    t: Custom Chart
+    t: ชาร์ตแบบกำหนดเอง
   - key: custom_data.submit
-    t: Submit
+    t: ส่ง
   - key: custom_data.empty_contents
-    t: Please enter some data in the "Custom Data" field.
+    t: กรุณากรอกข้อมูลในช่อง "ข้อมูลแบบกำหนดเอง"
   - key: custom_data.edit_title
-    t: Edit Chart Title
+    t: แก้ไขชื่อชาร์ต
   - key: custom_data.customize
-    t: Customize Data
+    t: ปรับแต่งข้อมูล
   - key: custom_data.details
     t: >
 
-      1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+      1. คัดลอกเนื้อหาของช่อง "การค้นหา GraphQL" และวางลงในแผงตรงกลางของ[GraphQL API explorer](https://graphiql.stateofjs.com/)
 
-      2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+      2. แก้ไขการค้นหาโดยเพิ่ม**ตัวกรอง**หนึ่งหรือมากกว่าโดยใช้แถบด้านข้างของ explorer ทางซ้าย ตรวจสอบให้แน่ใจว่าคุณคงโครงสร้างโดยรวมของข้อมูลให้เหมือนเดิม
 
-      3. In the explorer window, click the Play ("Execute Query") button.
+      3. ในหน้าต่าง explorer ให้คลิกปุ่ม Play ("Execute Query")
 
-      4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
+      4. คัดลอกผลลัพธ์ของการค้นหาที่ปรับเปลี่ยนแล้ว (`{ data: … }`) ลงในช่อง "ข้อมูลแบบกำหนดเอง" ด้านบนแล้วส่ง
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
