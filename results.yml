@@ -1265,67 +1265,65 @@ translations:
   ###########################################################################
 
   - key: sections.sponsor_finish.title
-    t: Thanks
+    t: ขอบคุณ
 
   - key: sponsor.sponsor_finish
     t: >
-      Thanks for supporting the survey. Your avatar should appear next to the chart you picked
-      within the next hour or so. If it doesn't, please [get in touch](mailto:chartsponsor@stateofjs.com).
+      ขอบคุณที่สนับสนุนการสำรวจนี้ อวาตาร์ของคุณควรปรากฏถัดจากกราฟที่คุณเลือกภายในหนึ่งชั่วโมงหรือมากกว่านั้น หากไม่เป็นเช่นนั้น กรุณา[ติดต่อเรา](mailto:chartsponsor@stateofjs.com)
 
   - key: sponsor.sponsored_by
     t: >
-      **{name}** donated **${amount}** to sponsor this chart
+      **{name}** บริจาคเงินจำนวน **${amount}** เพื่อสนับสนุนกราฟนี้
 
   - key: sponsor.sponsor_button
-    t: Sponsor This Chart
+    t: สนับสนุนกราฟนี้
 
   - key: sponsor.sponsor_chart.title
-    t: Sponsor Chart "{title}"
+    t: สนับสนุนกราฟ "{title}"
 
   - key: sponsor.sponsor_chart.description
     t: >
-      Support this survey financially by donating $10 or more, and get your
-      Twitter avatar featured next to a chart!
+      สนับสนุนการสำรวจนี้ทางการเงินโดยบริจาค $10 ขึ้นไป และรับอวาตาร์ Twitter ของคุณแสดงถัดจากกราฟ!
 
   - key: sponsor.chart_id
-    t: "Chart ID: "
+    t: "รหัสกราฟ: "
 
   - key: sponsor.sponsor_this_chart
-    t: Sponsor This Chart (${baseAmount}+)
+    t: สนับสนุนกราฟนี้ (${baseAmount}+)
 
   - key: sponsor.how_it_works.title
-    t: How It Works
+    t: วิธีการทำงาน
 
   - key: sponsor.how_it_works.description
     t: >
-      1. When you **click the "Sponsor This Chart" button**, you will be redirected to our partner [SendOwl](https://www.sendowl.com/)'s checkout page. 
+      1. เมื่อคุณ**คลิกปุ่ม "สนับสนุนกราฟนี้"**คุณจะถูกเปลี่ยนเส้นทางไปยังหน้าชำระเงินของพาร์ทเนอร์ [SendOwl](https://www.sendowl.com/)
 
 
-      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
+      2. คุณสามารถ**ปรับจำนวนเงิน**ที่คุณต้องการสนับสนุนการสำรวจได้ โดยเริ่มต้นที่ 10 ดอลลาร์สหรัฐฯ
 
 
-      3. Once you checkout, you will be able to **provide your Twitter username**. 
+      3. เมื่อชำระเงินเสร็จแล้ว คุณสามารถ**ใส่ชื่อผู้ใช้ Twitter**ของคุณ
 
 
-      4. You will see a **File Download** page, but you can safely ignore it. 
+      4. คุณจะเห็นหน้าการ**ดาวน์โหลดไฟล์**แต่คุณสามารถละเว้นได้อย่างปลอดภัย
 
 
-      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**.
+      5. ระบบจะอัพเดตเบื้องหลัง และชื่อผู้ใช้และการบริจาคของคุณจะ**ปรากฏถัดจากกราฟภายในหนึ่งชั่วโมง**
 
   - key: sponsor.faq.title
-    t: F.A.Q.
+    t: คำถามที่พบบ่อย
 
   - key: sponsor.faq.usage.title
-    t: What will my donation be used for?
+    t: การบริจาคของฉันจะใช้ทำอะไร?
 
   - key: sponsor.faq.usage.description
-    t: Your donation will help support survey maintainers, as well as help hire more contributors (illustrators, accessibilty and diversity experts, etc.).
+    t: การบริจาคของคุณจะช่วยสนับสนุนผู้ดูแลการสำรวจ และช่วยจ้างผู้ร่วมงานเพิ่มเติม (นักวาดภาพ ผู้เชี่ยวชาญด้านการเข้าถึงและความหลากหลาย ฯลฯ)
 
   - key: sponsor.faq.public.title
-    t: Will my donation be public?
+    t: การบริจาคของฉันจะเป็นสาธารณะหรือไม่?
 
   - key: sponsor.faq.public.description
-    t: Yes. Your **Twitter username** as well as the **amount you donated** will be displayed publicly next to the chart.
+    t: ใช่ ชื่อผู้ใช้ Twitter ของคุณและจำนวนเงินที่บริจาคจะถูกแสดงสาธารณะถัดจากกราฟ
 
   # - key: sponsor.faq.donation_public.title
   #   t: Can I donate on somebody else's behalf?
@@ -1334,178 +1332,176 @@ translations:
   #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
 
   - key: sponsor.faq.refund.title
-    t: What's your refund policy?
+    t: นโยบายการคืนเงินของคุณคืออะไร?
 
   - key: sponsor.faq.refund.description
-    t: All donations are refundable within a 1-week period, minus transaction fees.
+    t: การบริจาคทั้งหมดสามารถขอคืนได้ภายในระยะเวลา 1 สัปดาห์ โดยหักค่าธรรมเนียมการทำธุรกรรม
 
   - key: sponsor.faq.influence.title
-    t: Do donations influence the survey contents?
+    t: การบริจาคมีผลต่อเนื้อหาของการสำรวจหรือไม่?
 
   - key: sponsor.faq.influence.description
-    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey.
+    t: การบริจาคเกิดขึ้นหลังจากที่การสำรวจถูกเผยแพร่แล้ว และผู้บริจาคไม่มีอิทธิพลใดๆ ต่อเนื้อหาของการสำรวจ
 
   - key: sponsor.faq.feedback.title
-    t: Where can I leave feedback/ask questions?
+    t: ฉันสามารถให้คำแนะนำหรือถามคำถามได้ที่ไหน?
 
   - key: sponsor.faq.feedback.description
-    t: You can do so [on GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or [in our Discord](https://discord.gg/tuWRUWVyJs).
+    t: คุณสามารถทำได้[บน GitHub](https://github.com/StateOfJS/Monorepo/issues/69) หรือ[ใน Discord ของเรา](https://discord.gg/tuWRUWVyJs)
 
   ###########################################################################
   # Data Explorer
   ###########################################################################
 
   - key: sections.data_explorer.title
-    t: Data Explorer
+    t: เครื่องมือสำรวจข้อมูล
   - key: sections.data_explorer.description
     t: |
-      Dynamically explore the survey's audience by picking two questions, and seeing how
-      respondents are distributed between them.
+      สำรวจผู้เข้าร่วมการสำรวจแบบไดนามิกโดยเลือกคำถามสองข้อ และดูว่าผู้ตอบกระจายไปตามคำถามเหล่านั้นอย่างไร
 
   - key: hints.data_explorer
     t: |
-      This is a preview version of our new Data Explorer. If you find any issues or data inconsistencies please [let us know]({issueLink}).
+      นี่คือเวอร์ชันตัวอย่างของเครื่องมือสำรวจข้อมูลใหม่ของเรา หากคุณพบปัญหาหรือข้อมูลไม่ตรงกัน โปรด [แจ้งให้เราทราบ]({issueLink})
 
   # heading
 
   - key: explorer.main_heading
-    t: “{xAxisLabel}” vs “{yAxisLabel}”
+    t: “{xAxisLabel}” เทียบกับ “{yAxisLabel}”
 
   - key: explorer.total_respondents
     t: |
-      (**{totalCount}** total respondents)
+      (**{totalCount}** ผู้ตอบทั้งหมด)
 
   - key: explorer.count_per_dot
     t: |
-      {respondentsPerDot} Respondents
+      {respondentsPerDot} ผู้ตอบต่อจุด
   - key: explorer.percentage_per_dot
     t: |
       {percentsPerDot}%
   - key: explorer.extra_respondents
-    t: Extra Respondents
+    t: ผู้ตอบเพิ่มเติม
   - key: explorer.missing_respondents
-    t: Missing Respondents
+    t: ผู้ตอบที่ขาดหายไป
 
   - key: explorer.count_per_dot.tooltip
     t: |
-      1 dot represents {respondentsPerDot} respondents
+      1 จุดแทนผู้ตอบ {respondentsPerDot} คน
   - key: explorer.percentage_per_dot.tooltip
     t: |
-      1 dot represents {percentsPerDot}% of respondents
+      1 จุดแทน {percentsPerDot}% ของผู้ตอบ
   - key: explorer.extra_respondents.tooltip
-    t: Highlighted dots indicate higher-than-expected results.
+    t: จุดที่ถูกเน้นแสดงผลลัพธ์ที่สูงกว่าที่คาด
   - key: explorer.missing_respondents.tooltip
-    t: Empty dots indicate lower-than-expected results.
+    t: จุดที่ว่างเปล่าแสดงผลลัพธ์ที่ต่ำกว่าที่คาด
 
   - key: explorer.units_count
-    t: Count
+    t: จำนวน
   - key: explorer.units_percentage
-    t: "% of Row"
+    t: "% ของแถว"
 
   - key: explorer.edit
-    t: Edit Parameters…
+    t: แก้ไขพารามิเตอร์…
 
   - key: explorer.get_data
-    t: Get Data…
+    t: รับข้อมูล…
 
   # loading
 
   - key: explorer.loading.1
-    t: Querying API…
+    t: กำลังเรียก API…
   - key: explorer.loading.2
-    t: Waiting for a response…
+    t: กำลังรอการตอบกลับ…
   - key: explorer.loading.3
-    t: Still working…
+    t: กำลังทำงานอยู่…
   - key: explorer.loading.4
-    t: Hang on just a little bit longer…
+    t: รออีกสักครู่…
   - key: explorer.loading.5
-    t: Sorry, this is taking a while. You can try waiting a little longer, or [report an issue]({issueLink}).
+    t: ขอโทษที่ใช้เวลานาน คุณสามารถรอต่ออีกเล็กน้อย หรือ [แจ้งปัญหา]({issueLink})
   - key: explorer.timeout
-    t: Timeout
+    t: หมดเวลา
   - key: explorer.timeout.description
-    t: The API didn't respond in time. Please try again later, or [report an issue]({issueLink}).
+    t: API ไม่ตอบกลับในเวลาที่กำหนด โปรดลองใหม่อีกครั้งในภายหลัง หรือ [แจ้งปัญหา]({issueLink})
 
   # share
 
   - key: explorer.share
-    t: Share…
+    t: แชร์…
   - key: explorer.share.title
-    t: Share “{xAxisLabel}” vs “{yAxisLabel}”
+    t: แชร์ “{xAxisLabel}” เทียบกับ “{yAxisLabel}”
   - key: explorer.share.tweet
-    t: “{xAxisLabel}” vs “{yAxisLabel}” from the {surveyName} {year} survey
+    t: “{xAxisLabel}” เทียบกับ “{yAxisLabel}” จากการสำรวจ {surveyName} {year}
 
   # axis
 
   - key: explorer.axis_total
-    t: "{totalCount} respondents"
+    t: "{totalCount} ผู้ตอบ"
   - key: explorer.axis_percent
-    t: "{percentCount}% of respondents"
+    t: "{percentCount}% ของผู้ตอบ"
 
   - key: explorer.x_axis_details
     t: |
-      Out of all respondents who completed question “{yAxisLabel}”, **{totalCount}** survey respondents picked “{xQuestionLabel}” for “{xAxisLabel}”
+      จากผู้ตอบที่ตอบคำถาม “{yAxisLabel}” ทั้งหมด **{totalCount}** คน เลือก “{xQuestionLabel}” สำหรับ “{xAxisLabel}”
   - key: explorer.y_axis_details
     t: |
-      **{totalCount}** survey respondents picked “{yQuestionLabel}”
+      **{totalCount}** ผู้ตอบ เลือก “{yQuestionLabel}”
   - key: explorer.main_legend_count
     t: |
-      **{totalCount}** respondents, **1** dot = **{respondentsPerDot}** respondents, **{dotsPerLine}** dots per line
+      **{totalCount}** ผู้ตอบ, **1** จุด = **{respondentsPerDot}** ผู้ตอบ, **{dotsPerLine}** จุดต่อแถว
 
   # controls
   - key: explorer.dots_per_line
-    t: Dots per line
+    t: จุดต่อแถว
   - key: explorer.respondents_per_dot
-    t: Respondents per dot
+    t: ผู้ตอบต่อจุด
   - key: explorer.show_cell_counts
-    t: Show cell counts
+    t: แสดงจำนวนเซลล์
   - key: explorer.show_no_answer
-    t: Show “No Answer” cells
+    t: แสดงเซลล์ “ไม่มีคำตอบ”
 
   - key: explorer.all_fields
-    t: All fields
+    t: ทุกฟิลด์
   - key: explorer.select_item
-    t: Select item
+    t: เลือกรายการ
 
   # details views
 
   - key: explorer.count_details.1
     t: |
-      **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+      **{xAxisTotal}** ผู้ตอบ “{xAxisLabel}” เลือก “{xAnswerLabel}”
 
   - key: explorer.count_details.2
     t: |
-      **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+      **{yAxisPercentage}%** ของผู้ตอบ “{yAxisLabel}” เลือก “{yAnswerLabel}”
 
   - key: explorer.count_details.3
     t: |
-      Applying that percentage to the previous **{xAxisTotal}** respondents figure 
-      gives us an expected baseline of **{normalizedCount}** respondents in this intersection.
+      การใช้เปอร์เซ็นต์นี้กับจำนวนผู้ตอบก่อนหน้า **{xAxisTotal}** คน ให้ค่าพื้นฐานที่คาดหวังเป็น **{normalizedCount}** ผู้ตอบในทางแยกนี้
 
   - key: explorer.count_details.4_extra
     t: |
-      The actual count is **{cellCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*.
+      จำนวนจริงคือ **{cellCount}** และผู้ตอบที่เกินจำนวน **{normalizedCountDelta}** คนนั้นถูก*เน้น*
 
   - key: explorer.count_details.4_missing
     t: |
-      The actual count is **{cellCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots.
+      จำนวนจริงคือ **{cellCount}** และผู้ตอบที่ขาดหายไป **{normalizedCountDelta}** คนนั้นปรากฏเป็นจุดว่างเปล่า
 
   - key: explorer.percentage_details.1_extra
     t: |
-      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
-      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage climbs to  **{bucketPercentage}%**.
+      โดยรวมแล้ว **{xAxisPercentage}%** ของผู้ตอบ “{xAxisLabel}” เลือก “{xAnswerLabel}” แต่
+      ภายใน **“{yAxisLabel}” ผู้ตอบที่เลือก “{yAnswerLabel}”** เปอร์เซ็นต์นี้เพิ่มขึ้นเป็น **{bucketPercentage}%**
 
   - key: explorer.percentage_details.1_missing
     t: |
-      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
-      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage drops to  **{bucketPercentage}%**.
+      โดยรวมแล้ว **{xAxisPercentage}%** ของผู้ตอบ “{xAxisLabel}” เลือก “{xAnswerLabel}” แต่
+      ภายใน **“{yAxisLabel}” ผู้ตอบที่เลือก “{yAnswerLabel}”** เปอร์เซ็นต์นี้ลดลงเป็น **{bucketPercentage}%**
 
   - key: explorer.percentage_details.2_extra
     t: |
-      Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+      ผู้ตอบที่เกินจำนวน **{normalizedPercentageDelta}%** ถูก*เน้น*
 
   - key: explorer.percentage_details.2_missing
     t: |
-      Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+      ผู้ตอบที่ขาดหายไป **{normalizedPercentageDelta}%** ปรากฏเป็นจุดว่างเปล่า
 
   # - key: explorer.percentage_details.1
   #   t: |
@@ -1530,175 +1526,172 @@ translations:
 
   - key: explorer.extra_missing_respondents
     t: |
-      ### Extra & Missing Respondents
+      ### ผู้ตอบที่เกินและขาดหายไป
 
-      The chart above aims to identify areas showing higher-than-expected 
-      or lower-than-expected values compared to a calculated baseline. 
+      กราฟด้านบนมีวัตถุประสงค์เพื่อตรวจหาพื้นที่ที่แสดงค่าสูงกว่าหรือต่ำกว่าค่าพื้นฐานที่คาดหวัง
 
-      For example, assuming there are 1000 CSS Grid users, and that 50% of survey respondents work in a large company, 
-      you'd expect to find 500 CSS Grid users working in large companies. 
+      ตัวอย่างเช่น หากมีผู้ใช้ CSS Grid จำนวน 1,000 คน และ 50% ของผู้ตอบการสำรวจทำงานในบริษัทใหญ่
+      คุณคาดว่าจะพบผู้ใช้ CSS Grid ประมาณ 500 คนที่ทำงานในบริษัทใหญ่
 
-      Any deviation above or below that expected total could potentially indicate an interesting
-      correlation between both variables, and is highlighted on the chart with either colored 
-      dots (for extra respondents above the baseline) or empty dots (for missing respondents).
+      การเบี่ยงเบนเหนือหรือต่ำกว่าค่าที่คาดหวังนั้นอาจบ่งบอกถึงความสัมพันธ์ที่น่าสนใจระหว่างทั้งสองตัวแปร
+      และจะถูกเน้นในกราฟด้วยจุดที่มีสี (สำหรับผู้ตอบที่เกินค่าพื้นฐาน) หรือจุดว่างเปล่า (สำหรับผู้ตอบที่ขาดหายไป)
 
   ###########################################################################
   # Filters
   ###########################################################################
 
   - key: filters.compare_data
-    t: Compare Data
+    t: เปรียบเทียบข้อมูล
   - key: filters.customize_chart
-    t: Add Filters…
+    t: เพิ่มตัวกรอง…
   - key: filters.docs
-    t: Documentation
+    t: เอกสาร
   - key: filters.compare_chart
-    t: Customize “{chartName}”
+    t: ปรับแต่ง “{chartName}”
   - key: filters.edit_variant_with_name
-    t: Edit “{name}”
+    t: แก้ไข “{name}”
   - key: filters.edit_name
-    t: "Edit Name"
+    t: "แก้ไขชื่อ"
   - key: filters.edit_name.description
-    t: "Edit chart variant name:"
+    t: "แก้ไขชื่อรูปแบบชาร์ต:"
   - key: filters.create_variant
-    t: Create New Variant
+    t: สร้างรูปแบบใหม่
   - key: filters.delete_variant
-    t: Delete Chart
+    t: ลบชาร์ต
   - key: filters.delete_variant_confirm
-    t: Delete chart variant “{name}”?
+    t: ลบรูปแบบชาร์ต “{name}”?
   - key: filters.edit_variant
-    t: Edit Options…
+    t: แก้ไขตัวเลือก…
   - key: filters.filters.description
     t: |
-      Define a combination of filters to compare multiple versions of the same chart side-by-side
+      กำหนดการผสมผสานของตัวกรองเพื่อเปรียบเทียบหลายเวอร์ชันของชาร์ตเดียวกันเคียงข้างกัน
   - key: filters.facets.description
     t: |
-      Pick a variable and use it to further break down each row of a chart into segments.
+      เลือกตัวแปรและใช้มันเพื่อแบ่งแต่ละแถวของชาร์ตออกเป็นกลุ่มย่อย
   - key: filters.grid_mode
-    t: Filters
+    t: ตัวกรอง
   - key: filters.combined_mode
-    t: Combined
+    t: รวมกัน
   - key: filters.facet_mode
-    t: Facets
+    t: ส่วนย่อย
   - key: filters.facet
-    t: "Facet:"
+    t: "ส่วนย่อย:"
 
   - key: filters.facet_view
-    t: Segmented bars
+    t: แถบแบบแบ่งส่วน
   - key: filters.grid_view
-    t: Side-by-side grid
+    t: กริดเคียงข้างกัน
 
   - key: filters.series.heading
-    t: Series {index}
+    t: ชุดข้อมูล {index}
   - key: filters.series.add
-    t: Add Series…
+    t: เพิ่มชุดข้อมูล…
   - key: filters.series.delete
-    t: Delete Series
+    t: ลบชุดข้อมูล
   - key: filters.series.year
     t: |
-      {year} data
+      ข้อมูลปี {year}
   - key: filters.series.show_default
     t: |
-      Show default series
+      แสดงชุดข้อมูลเริ่มต้น
   - key: filters.series.no_data
-    t: No data
+    t: ไม่มีข้อมูล
 
   - key: filters.condition.add
-    t: Add Filter
+    t: เพิ่มตัวกรอง
   - key: filters.condition.delete
-    t: Delete Filter
+    t: ลบตัวกรอง
   - key: filters.condition.and
-    t: and
+    t: และ
   - key: filters.operators.eq
-    t: is
+    t: เท่ากับ
   - key: filters.operators.in
-    t: is one of
+    t: เป็นหนึ่งใน
   - key: filters.operators.nin
-    t: is not one of
+    t: ไม่เป็นหนึ่งใน
   - key: filters.operators.lt
-    t: is lower than
+    t: น้อยกว่า
   - key: filters.operators.gt
-    t: is greater than
+    t: มากกว่า
   - key: filters.value.add
-    t: Add Value
+    t: เพิ่มค่า
   - key: filters.value.delete
-    t: Delete Value
+    t: ลบค่า
 
   - key: filters.legend.default
-    t: Default
+    t: ค่าเริ่มต้น
 
   - key: filters.cancel
-    t: Cancel
+    t: ยกเลิก
   - key: filters.submit
-    t: Update Chart
+    t: อัปเดตแผนภูมิ
   - key: filters.copy_link
-    t: Copy link to filters
+    t: คัดลอกลิงก์ไปยังตัวกรอง
   - key: filters.get_code
-    t: Get filters code
+    t: รับโค้ดตัวกรอง
 
   - key: filters.presets.title
-    t: "Presets:"
+    t: "ค่าตั้งต้น:"
   - key: filters.presets.save
-    t: Save current filters as preset…
+    t: บันทึกตัวกรองปัจจุบันเป็นค่าตั้งต้น…
   - key: filters.presets.delete
-    t: Delete Preset
+    t: ลบค่าตั้งต้น
   - key: filters.presets.enter_name
     t: |
-      Enter a name for your new preset:
+      ใส่ชื่อสำหรับค่าตั้งต้นใหม่ของคุณ:
   - key: filters.presets.previous_years
-    t: Previous Years
+    t: ปีก่อนหน้า
   - key: filters.presets.gender
-    t: Gender
+    t: เพศ
   - key: filters.presets.top_countries
-    t: Top Countries
+    t: ประเทศยอดนิยม
   - key: filters.presets.salary_low_high
     t: |
-      Low vs High Salary
+      รายได้ต่ำ vs สูง
   - key: filters.presets.experience_low_high
     t: |
-      Low vs High Experience
+      ประสบการณ์ต่ำ vs สูง
   - key: filters.presets.company_size_low_high
     t: |
-      Small vs Large Company
+      บริษัทขนาดเล็ก vs ใหญ่
 
   - key: filters.facet.select
-    t: Select a facet…
+    t: เลือกส่วนย่อย…
 
   - key: filters.by_x
-    t: By {name}
+    t: โดย {name}
 
   - key: filters.vs_x
-    t: Vs. {name}
+    t: เทียบกับ {name}
 
   - key: dataloader.failed_request
     t: >
-      Oh no! The API request failed with the following message:
+      พระเจ้าช่วย กล้วยทอด! การเรียก API ล้มเหลวด้วยข้อความต่อไปนี้:
   - key: dataloader.submit_report_prompt
     t: >
-      Submit a bug report to let us know about this issue, and we'll do our best to
-      fix it:
+      ส่งรายงานข้อผิดพลาดเพื่อแจ้งให้เราทราบถึงปัญหานี้ แล้วเราจะพยายามอย่างดีที่สุดในการแก้ไข:
   - key: dataloader.submit_issue
-    t: Submit Issue
+    t: ส่งปัญหา
 
   # advanced options
 
   - key: filters.advanced_options
-    t: Advanced Options
+    t: ตัวเลือกขั้นสูง
 
   - key: filters.options.cutoff
-    t: Cutoff Threshold
+    t: ค่าขั้นต่ำ
   - key: filters.options.cutoff.description
-    t: Exclude any value under this threshold from the data
+    t: ละเว้นค่าที่ต่ำกว่าค่านี้ออกจากข้อมูล
 
   - key: filters.options.limit
-    t: Limit
+    t: จำกัด
   - key: filters.options.limit.description
-    t: Limit the results to the first n items
+    t: จำกัดผลลัพธ์ให้กับ n รายการแรก
 
   - key: filters.options.showDefaultSeries
     aliasFor: filters.series.show_default
   - key: filters.options.showDefaultSeries.description
-    t: Show the default (unfiltered) data series when using Grid mode
+    t: แสดงชุดข้อมูลเริ่มต้น (ที่ไม่ได้กรอง) เมื่อใช้โหมดกริด
 
   ###########################################################################
   # Chart Controls
@@ -1706,102 +1699,102 @@ translations:
 
   - key: charts.group_by
     t: >
-      Group by:
+      จัดกลุ่มตาม:
   - key: charts.group.experience
-    t: Experience
+    t: ประสบการณ์
   - key: charts.group.sentiment
-    t: Sentiment
+    t: ความคิดเห็น
 
   - key: charts.display_mode
     t: >
-      Display mode:
+      โหมดแสดงผล:
   - key: charts.display_mode.split
-    t: Split View
+    t: มุมมองแยก
   - key: charts.display_mode.stacked
-    t: Stacked View
+    t: มุมมองซ้อนกัน
 
   - key: charts.order
     t: >
-      Sort order:
+      ลำดับการจัดเรียง:
 
   - key: charts.sort_by
     t: >
-      Sort by:
+      จัดเรียงตาม:
   - key: charts.sort_by_sort
     t: >
-      Sort by "**{sort}**""
+      จัดเรียงตาม "**{sort}**"
   - key: charts.sorted_by_sort_order
     t: >
-      Sorted by "**{sort}**"", **{order}**
+      จัดเรียงตาม "**{sort}**", **{order}**
   - key: charts.order.asc
-    t: Ascending
+    t: น้อยไปมาก
   - key: charts.order.desc
-    t: Descending
+    t: มากไปน้อย
 
   - key: charts.actions.customize
     aliasFor: filters.customize_chart
   - key: charts.actions.data
-    t: Get Chart Data
+    t: รับข้อมูลแผนภูมิ
   - key: charts.actions.share
-    t: Share Chart
+    t: แชร์แผนภูมิ
 
   - key: charts.vs
-    t: vs.
+    t: เทียบกับ
 
   - key: charts.custom_variant
-    t: Variant {index}
+    t: รูปแบบ {index}
   - key: charts.new_variant_name_prompt
-    t: Enter a short descriptive name for your new chart (e.g. “vs. Income”, “by Gender”, etc.)
+    t: ใส่ชื่อสั้น ๆ เพื่ออธิบายแผนภูมิใหม่ของคุณ (เช่น “เทียบกับรายได้”, “ตามเพศ” เป็นต้น)
 
   - key: charts.show_all_rows
-    t: Show All
+    t: แสดงทั้งหมด
   - key: charts.show_all_rows.x_hidden
-    t: Show All ({count} hidden)
+    t: แสดงทั้งหมด ({count} ที่ถูกซ่อนไว้)
 
   - key: charts.metadata.completion
     t: >
-      **{value}** completion rate (out of {total} survey participants)
+      อัตราการทำเสร็จ **{value}** (จากผู้เข้าร่วมทั้งหมด {total} คน)
   - key: charts.metadata.respondents
     t: >
-      **{value}** question respondents
+      ผู้ตอบคำถาม **{value}** คน
   - key: charts.metadata.average
     t: >
-      **{value}** mean (average) value
+      ค่าเฉลี่ย **{value}**
   - key: charts.metadata.median
     t: >
-      **{value}** median value
+      ค่ากลาง **{value}**
 
   ###########################################################################
-  # Multi Items Experience Chart
+  # แผนภูมิประสบการณ์หลายรายการ (Multi Items Experience Chart)
   ###########################################################################
 
   - key: charts.multiexp.cell_group_tooltip.experience
     t: >
-      **{value}%** of respondents answered "**{answer}**"
+      **{value}%** ของผู้ตอบตอบว่า "**{answer}**"
 
   - key: charts.multiexp.cell_group_tooltip.sentiment
     t: >
-      **{value}%** of respondents had a **{answer}** sentiment
+      **{value}%** ของผู้ตอบมีความรู้สึก **{answer}**
 
   - key: charts.multiexp.cell_tooltip
     t: >
-      **{value}%** of respondents answered "**{experience}**" and had a **{sentiment}** sentiment
+      **{value}%** ของผู้ตอบตอบว่า "**{experience}**" และมีความรู้สึก **{sentiment}**
 
   - key: charts.multiexp.cell_tooltip_neutral
     t: >
-      **{value}%** of respondents answered "**{experience}**" and did not pick any sentiment
+      **{value}%** ของผู้ตอบตอบว่า "**{experience}**" และไม่ได้เลือกความรู้สึกใด ๆ
 
   ###########################################################################
   # Raw Freeform Answers
   ###########################################################################
 
   - key: answers.answers
-    t: Freeform Answers
+    t: คำตอบแบบอิสระ
   - key: answers.answers_for
-    t: Answers matching “{name}”
+    t: คำตอบที่ตรงกับ “{name}”
   - key: answers.description
     t: |
-      These freeform answers were matched to the **{name}** keyword through a combination of
-      automated and manual data processing.
+      คำตอบแบบอิสระเหล่านี้ถูกจับคู่กับคีย์เวิร์ด **{name}** ผ่านการประมวลผลข้อมูล
+      ทั้งอัตโนมัติและด้วยมือ
   - key: answers.report_abuse
-    t: Report this answer
+    t: รายงานคำตอบนี้
