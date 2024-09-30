@@ -1,22 +1,22 @@
-# locale-en-US
+# locale-th-TH
 
-This repo contains the English language files for the State of JS/CSS/HTML/etc. surveys, which serve as a base to translate all the other languages. You can view a list of [all the locales repos here](https://github.com/orgs/Devographics/repositories?q=locale-&type=all&language=&sort=name).
+Repo สำหรับภาษาไทย ใน repo นี้ประกอบด้วยไฟล์ภาษาอังกฤษสำหรับการสำรวจ State of JS/CSS/HTML/อื่นๆ จาก repo `en-US`
 
-## How To Help
+## วิธีช่วย
 
-#### 1. Becoming a Translator
+#### 1. อาสาเป็นผู้แปล
 
-To start helping translate the survey, you should [join the Discord](https://discord.com/invite/zRDb35jfrt) and DM me (`SachaG`) your GitHub username, along with the locale code (`fr-FR`, `zh-Hant`, etc.) for the language you'd like to help with.
+หากคุณต้องการเริ่มช่วยแปลการสำรวจ คุณควรเข้าร่วม Discord และส่งข้อความถึง SachaG พร้อมระบุชื่อผู้ใช้ GitHub ของคุณและโค้ด locale (ของไทยคือ th-TH)
 
-I will then give you maintainer rights over a repo containing all the translation `yaml` files, and from now on you can manage it yourself along with other members of the translation team.
+หลังจากนั้น จะได้สิทธิ์การเป็นผู้ดูแล repo ซึ่งมีไฟล์ yaml สำหรับการแปลทั้งหมด และสามารถจัดการได้เองกับสมาชิกคนอื่นๆในทีมแปล
 
-#### 2. Finding Things to Translate
+#### 2. การหาสิ่งที่ต้องแปล
 
-You can either browse the survey-taking app, survey results site, etc. and find untranslated strings this way, or else use our API to get extra data such as the completion percentage for a locale or a list of all the untranslated strings:
+เพื่อค้นหาข้อความที่ยังไม่ได้แปล คุณสามารถเข้าไปเรียกดูแอปที่ใช้ในการทำแบบสำรวจ เว็บไซต์ผลลัพธ์การสำรวจ ฯลฯ หรือคุณสามารถใช้ API ของเราเพื่อรับข้อมูลเพิ่มเติม เช่น เปอร์เซ็นต์การแปลที่เสร็จสิ้นสำหรับ locale หรือรายการข้อความที่ยังไม่ได้แปล:
 
 - https://graphiql.devographics.com/
 
-Here is a sample query:
+ตัวอย่าง query:
 
 ```graphql
 query GetLocaleData {
@@ -30,23 +30,23 @@ query GetLocaleData {
 }
 ```
 
-#### 3. Getting Credit
+#### 3. การรับเครดิต
 
-Every translator will be credited on any site that makes use of the translations, starting with the survey-taking app. In order to receive credit, add your GitHub username to the `translators` array in each locale's `config.yml` file.
+ผู้แปลทุกคนจะได้รับเครดิตในทุกเว็บไซต์ที่ใช้การแปลเหล่านี้ โดยเริ่มต้นที่แอปที่ใช้ทำแบบสำรวจเพื่อรับเครดิต กรุณาเพิ่มชื่อผู้ใช้ GitHub ของคุณใน array `translators` ในไฟล์ `config.yml` ของแต่ละ locale
 
-Here is an example for the `de-DE` locale:
+ตัวอย่างสำหรับ locale `de-DE`:
 
-- https://github.com/Devographics/locale-de-DE/blob/main/config.yml#L3
+https://github.com/Devographics/locale-de-DE/blob/main/config.yml#L3
 
-#### 4. Pushing Your Changes Live
+#### 4. Push เข้าโปรดักชั่น
 
-There is currently no automated hook to update the production apps when a translation is updated, so for now the best way is to DM me on Discord to let me know when you're finished.
+ในปัจจุบันยังไม่มีการอัปเดตแอปผลิตโดยอัตโนมัติเมื่อมีการอัปเดตการแปล ดังนั้นวิธีที่ดีที่สุดตอนนี้คือส่งข้อความถึงคุณ SachaG ใน Discord เพื่อแจ้งเมื่อทำเสร็จแล้ว
 
-## Translation Files
+## ไฟล์การแปล
 
 #### Surveys App
 
-These strings are related to the app that you use to fill out the actual survey.
+ข้อความเหล่านี้เกี่ยวข้องกับแอปที่ใช้ในการทำแบบสำรวจ
 
 - `surveys.yml`
 - `accounts.yml`
@@ -54,32 +54,32 @@ These strings are related to the app that you use to fill out the actual survey.
 
 #### Results App
 
-These strings only appear in the static site that displays the survey results and stats.
+ข้อความเหล่านี้จะปรากฏเฉพาะในเว็บไซต์แบบสแตติกที่แสดงผลลัพธ์และสถิติของการสำรวจ
 
 - `results.yml`
 - `state_of_css_2020.yml`
 - `state_of_js_2020.yml`
 
-#### Both
+#### ทั้งสองอย่าง
 
-These strings appear in both.
+ข้อความเหล่านี้จะปรากฏในทั้งสองแอป
 
 - `common.yml`
 - `state_of_css.yml`
 - `state_of_js.yml`
 
-#### Other
+#### อื่นๆ
 
 - `homepage.yml`
 
-## Joining Translation Teams
+## เข้าร่วมทีมแปล
 
-It's recommended you join the [translation team](https://github.com/orgs/Devographics/teams/translators/teams) for the language you want to translate.
+เราแนะนำให้เข้า[ทีมแปล](https://github.com/orgs/Devographics/teams/translators/teams)
 
 ## Local Development
 
-There is currently no easy way to see your strings in context while developing locally. We are working on it.
+วิธีการเห็นสิ่งที่ตัวเองเปลี่ยนจาก local ยังไม่มีครับ #กำลังสร้างมองข้ามไปก่อน
 
 ## Getting Help
 
-Join [our Discord](https://discord.gg/zRDb35jfrt).
+เข้า[Discord ของเรา](https://discord.gg/zRDb35jfrt)

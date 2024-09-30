@@ -6,84 +6,83 @@ translations:
   ###########################################################################
   # Intro for stateofhtml.com
   - key: general.state_of_html.intro
-    # aliasFor: general.html2023.survey_intro # Can we do that?
     t: |
-      While web developers tend to focus on JavaScript and CSS, none of what we do would be possible without HTML acting as the foundation.
+      ในขณะที่นักพัฒนาเว็บส่วนใหญ่มักจะเน้นที่ JavaScript และ CSS แต่สิ่งที่เราทำทั้งหมดนี้จะเป็นไปไม่ได้เลยหากไม่มี HTML เป็นพื้นฐาน
 
-      It has long seemed like HTML wasn't evolving, but things may be changing.
-      New elements like `<selectlist>` are on the horizon, cool new features like popovers,
-      and a swath of related browser APIs (Web Components, PWAs, etc.).
+      นานแล้วที่ดูเหมือนว่า HTML จะไม่มีการพัฒนา แต่สิ่งต่างๆกำลังเปลี่ยนไป
+      มี Element ใหม่ๆเช่น `<selectlist>` ที่กำลังจะมา ฟีเจอร์ใหม่สุดเจ๋งเช่น popovers
+      และ API เบราว์เซอร์ที่เกี่ยวข้องจำนวนมาก (Web Components, PWAs ฯลฯ)
 
-      This year, [Lea Verou](https://lea.verou.me/) took on the formidable task of leading the design of this brand new survey, from content to UX and beyond.
+      ปีนี้ [Lea Verou](https://lea.verou.me/) ได้เข้ามารับภารกิจที่ท้าทายในการนำการออกแบบแบบสำรวจใหม่เอี่ยมนี้ ตั้งแต่เนื้อหาไปจนถึง UX และอื่นๆ
 
-      Building on the success of [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/), we introduce **State of HTML**;
-      the last missing piece that completes the trilogy, so we can track the evolution of the web platform as a whole.
+      สร้างต่อจากความสำเร็จของ [State of JS](http://stateofjs.com/) และ [State of CSS](https://stateofcss.com/) เราขอนำเสนอ **State of HTML**;
+      แบบสำรวจชิ้นสุดท้ายที่ทำให้ไตรภาคสมบูรณ์ เพื่อที่เราจะสามารถติดตามวิวัฒนาการของแพลตฟอร์มเว็บในภาพรวม
 
-      Benefits to you:
-      - Survey results are **used by browsers** and standards groups **for roadmap prioritization**.
-      Your responses can help get features you care about implemented, browser incompatibilities being prioritized, and gaps in the platform being addressed.
-      - Learn about new and upcoming features; add features to your reading list and get a list of resources at the end!
-      - Get a personalized knowledge score and see how you compare to other respondents
+      คุณได้อะไรบ้าง:
+      - ผลการสำรวจจะ**ถูกใช้โดยเบราว์เซอร์**และกลุ่มส่วนกลาง**สำหรับการจัดลำดับความสำคัญของโรดแมป**
+      คำตอบของคุณสามารถช่วยให้ฟีเจอร์ที่คุณสนใจได้รับการดำเนินการ ความไม่เข้ากันของเบราว์เซอร์ได้รับการแก้ไข และช่องว่างในแพลตฟอร์มได้รับการแก้ไข
+      - เรียนรู้เกี่ยวกับฟีเจอร์ใหม่และที่จะมาในอนาคต เพิ่มฟีเจอร์ไว้อ่านทีหลัง และรับแหล่งข้อมูลเมื่อเสร็จสิ้น!
+      - รับคะแนนความรู้ส่วนตัวและเปรียบเทียบมันกับผู้เข้าร่วมคนอื่น
 
-      The survey will be open for 3 weeks, but responses entered **within the first 9 days (until October 1st)** will have a much higher impact on the Web,
-      as preliminary data will be used for certain prioritization efforts that have deadlines before then.
+      แบบสำรวจจะเปิดเป็นเวลา 3 สัปดาห์ แต่คำตอบที่ป้อน**ภายใน 9 วันแรก (จนถึง 1 ตุลาคม)**จะมีผลกระทบมากขึ้นบนแพลตฟอร์มเว็บ
+      เนื่องจากข้อมูลเบื้องต้นจะถูกใช้เพื่อการจัดลำดับความสำคัญที่มีเส้นตายก่อนเวลานั้น
 
   - key: general.state_of_html.description
-    t: The annual developer survey about the web platform
+    t: แบบสำรวจนักพัฒนาซอฟแวร์ประจำปีเกี่ยวกับแพลตฟอร์มเว็บ
 
   ###########################################################################
   # Sections
   ###########################################################################
 
   - key: sections.forms.title
-    t: Forms
+    t: ฟอร์ม
   - key: sections.forms.description
-    t: Form-related elements and attributes
+    t: Elements and attributes ที่เกี่ยวกับฟอร์ม
 
   - key: sections.interactivity.title
-    t: Interactivity
+    t: Interactivity (การโต้ตอบ/ปฏิสัมพันธ์)
   - key: sections.interactivity.description
-    t: APIs that enable richer user interactions.
+    t: API ที่ช่วยให้เกิด Interactivity ที่สมบูรณ์ยิ่งขึ้น
 
   - key: sections.web_components.title
     t: Web Components
   - key: sections.web_components.description
-    t: Making & using web components.
+    t: การสร้างและการใช้ Web Components
 
   - key: sections.content.title
-    t: Content
+    t: เนื้อหา
   - key: sections.content.description
-    t: Embedding, multimedia, data, and other content-related features.
+    t: การฝังมัลติมีเดีย ข้อมูล และฟีเจอร์ที่เกี่ยวข้องกับเนื้อหาอื่นๆ
 
   - key: sections.external_content.title
-    t: External Content
+    t: เนื้อหาภายนอก
   - key: sections.external_content.description
-    t: Embedding external resources, and other multimedia APIs.
+    t: การฝังทรัพยากรภายนอก และ API มัลติมีเดียอื่นๆ
 
   - key: sections.accessibility.title
-    t: Accessibility
+    t: การเข้าถึง
   - key: sections.accessibility.description
-    t: Making sites and apps accessible by all.
+    t: การทำให้เว็บไซต์และแอปเข้าถึงได้สำหรับทุกคน
 
   - key: sections.mobile_web_apps.title
-    t: Native-like Web Apps
+    t: แอปเว็บที่คล้ายกับ Native
   - key: sections.mobile_web_apps.description
-    t: Authoring mobile and desktop-optimized web apps.
+    t: การพัฒนาเว็บแอปที่ปรับให้เหมาะสมกับมือถือและเดสก์ท็อป
 
   - key: sections.other_features.title
-    t: Other Features
+    t: ฟีเจอร์อื่นๆ
   - key: sections.other_features.description
-    t: Other HTML elements & browser APIs.
+    t: Element HTML อื่นๆและ API เบราว์เซอร์อื่นๆ
 
   - key: sections.other_tools.title
-    t: Other Tools & Features
+    t: เครื่องมืออื่นๆ
   - key: sections.other_tools.description
-    t: Other tools or features you use as part of your work.
+    t: เครื่องมืออื่นๆที่คุณใช้เป็นส่วนหนึ่งของงานของคุณ
 
   - key: sections.usage.title
-    t: Usage
+    t: การใช้งาน
   - key: sections.usage.description
-    t: How you use HTML.
+    t: วิธีการที่คุณใช้ HTML
 
   ###########################################################################
   # Features
@@ -92,33 +91,33 @@ translations:
   # forms
 
   - key: features.form_controls
-    t: Form Controls
+    t: การควบคุมฟอร์ม
   - key: features.form_controls.question
-    t: Which form controls have you used?
+    t: คุณเคยใช้การควบคุมฟอร์มแบบใดบ้าง?
 
   - key: features.form_input_types
-    t: Input Types
+    t: ประเภท Input
   - key: features.form_input_types.question
-    t: Which input types have you used?
+    t: คุณเคยใช้ประเภท Input ใดบ้าง?
   - key: options.form_input_types.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> ไม่มีเลย
 
   - key: features.form_validation_features
-    t: Form Validation
+    t: การตรวจสอบฟอร์ม (Form Validation)
   - key: features.form_validation_features.question
-    t: Which of the following form validation features have you used?
+    t: คุณเคยใช้ฟีเจอร์การตรวจสอบฟอร์มใดบ้าง?
   - key: options.form_validation_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> ไม่มีเลย
 
   - key: features.forms_pain_points
-    t: Form Pain Points
+    t: Pain Point ของฟอร์ม
   - key: features.forms_pain_points.question
-    t: What are your pain points around HTML forms?
-  - key: features.forms_pain_points.description
+    t: Pain Point ของคุณที่มี่ต่อฟอร์ม HTML มีอะไรบ้าง?
+  - key: features.forms_pain_points.prompt
     t: |
-      Think of the various form controls (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
-      behaviors (e.g. validation, autocomplete), handling forms via JS, editing APIs (e.g. `contentEditable`) etc.
-      Anything that bothers you is fair game — browser support, missing features, styling, etc.
+      นึกถึงการควบคุมฟอร์มต่างๆ (เช่น `<input>`, `<textarea>`, `<select>`, `<button>` ฯลฯ),
+      พฤติกรรม (เช่น การตรวจสอบ การเติมข้อมูลอัตโนมัติ), การจัดการฟอร์มด้วย JS, การใช้ API สำหรับแก้ไข (เช่น `contentEditable`) ฯลฯ
+      อะไรก็ตามที่กวนใจคุณถือว่าเป็นประเด็น ไม่ว่าการสนับสนุนเบราว์เซอร์ ฟีเจอร์ที่ขาดหาย การจัดสไตล์ ฯลฯ
   - key: features.forms_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -126,22 +125,22 @@ translations:
   # interactivity
 
   - key: features.dom_attribute_features
-    t: DOM Attribute-related methods
+    t: Method ที่เกี่ยวกับ DOM Attribute
   - key: features.dom_attribute_features.question
-    t: Which of the following DOM attribute-related methods have you used?
+    t: คุณเคยใช้ method ที่เกี่ยวกับ DOM Attribute ใดบ้าง?
 
   - key: features.dom_html_features
-    t: HTML String-handling Features
+    t: ฟีเจอร์การจัดการ String ของ HTML
   - key: features.dom_html_features.question
-    t: Which of the following DOM HTML string-handling features have you used?
+    t: คุณเคยใช้ฟีเจอร์การจัดการ String ของ HTML ใดบ้าง?
 
   - key: features.dom_methods
-    t: Element reparenting DOM Methods
+    t: วิธีการ Reparent DOM Element
 
   - key: features.dom_moving_element_features
-    t: Element-moving DOM Methods
+    t: วิธีการย้าย Element ใน DOM
   - key: features.dom_moving_element_features.question
-    t: Which of the following element-moving DOM methods have you used?
+    t: คุณเคยใช้วิธีการย้าย Element ใน DOM อะไรบ้าง?
   # - key: options.dom_methods.element_innerhtml.description
   #   t: |
   #     `element.innerHTML = rawHTML`
@@ -179,17 +178,16 @@ translations:
   #   t: |
   #     `let fragment = document.createDocumentFragment()`
   - key: options.dom_methods.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> ไม่มีเลย
 
   - key: features.interactivity_pain_points
-    t: Interactivity Pain Points
+    t: Pain Point ของ Interactivity
   - key: features.interactivity_pain_points.question
-    t: What are your pain points around dynamic HTML changes?
-  - key: features.interactivity_pain_points.description
+    t: Pain Point ของคุณเกี่ยวกับการเปลี่ยนแปลง HTML แบบไดนามิกมีอะไรบ้าง?
+  - key: features.interactivity_pain_points.prompt
     t: |
-      Browser incompatibilities or lack of support, missing features, and other problems you face
-      around interactive elements and behaviors (except forms), DOM manipulation, events, and related APIs.
-
+      ปัญหาการเข้ากันได้ของเบราว์เซอร์หรือการขาดการสนับสนุน, ฟีเจอร์ที่ขาดหาย, และปัญหาอื่นๆที่คุณเผชิญ
+      เกี่ยวกับ Element และความ Interactive (ยกเว้นฟอร์ม), การจัดการ DOM, events และ API ที่เกี่ยวข้อง
   - key: features.interactivity_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -197,26 +195,26 @@ translations:
   - key: features.interactivity_techniques
     t: Interactivity Methods
   - key: features.interactivity_techniques.question
-    t: Which of these methods have you used to add interactivity or dynamically modify HTML?
+    t: คุณเคยใช้วิธีใดในการเพิ่มความ Interactive หรือแก้ไข HTML แบบไดนามิก?
   - key: options.interactivity_techniques.css_for_interactivity
-    t: CSS for interactivity (toggles, tabs, etc.)
+    t: CSS สำหรับความ Interactive (การสลับ แท็บ ฯลฯ)
   - key: options.interactivity_techniques.js_dom_libraries
-    t: JavaScript DOM libraries (jQuery, etc.)
+    t: ไลบรารี DOM ของ JavaScript (เช่น jQuery)
   - key: options.interactivity_techniques.js_framework
-    t: JavaScript frameworks (React, Vue, etc.)
+    t: เฟรมเวิร์ก JavaScript (React, Vue ฯลฯ)
   - key: options.interactivity_techniques.vanilla_js
-    t: Plain JavaScript (no frameworks or libraries)
+    t: Plain JavaScript (ไม่ใช้เฟรมเวิร์กหรือไลบรารี)
   - key: options.interactivity_techniques.web_components
     t: Web Components
   - key: options.interactivity_techniques.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> ไม่มีเลย
 
   # content
 
   - key: features.machine_readable_features
-    t: Machine-Readable Data
+    t: ข้อมูลที่เครื่องสามารถอ่านได้
   - key: features.machine_readable_features.question
-    t: Which of the following have you used to include machine-readable data in HTML?
+    t: วิธีใดบ้างข้างต้นที่คุณเคยใช้ในการใส่ข้อมูลที่เครื่องอ่านได้เข้าใน HTML?
   - key: options.machine_readable_features.rdfa.description
     t: |
       `property`, `typeof`, etc.
@@ -228,24 +226,24 @@ translations:
       `itemprop`, `itemscope`, etc.
 
   - key: features.multiple_languages_support
-    t: Multiple-Language Support
+    t: การรองรับหลายภาษา
   - key: features.multiple_languages_support.question
-    t: How often do you work on projects that require supporting more than one language?
+    t: คุณทำงานในโปรเจกต์ที่ต้องรองรับมากกว่าหนึ่งภาษาบ่อยแค่ไหน?
   - key: options.multiple_languages_support.never
-    t: Never
+    t: ไม่เคย
   - key: options.multiple_languages_support.infrequently
-    t: Infrequently (less than once a year)
+    t: นานๆครั้ง (น้อยกว่าหนึ่งครั้งต่อปี)
   - key: options.multiple_languages_support.frequently
-    t: Frequently (more than once a year)
+    t: บ่อย (มากกว่าหนึ่งครั้งต่อปี)
   - key: options.multiple_languages_support.all_the_time
-    t: All the time
+    t: ตลอดเวลา
 
   - key: features.i18n_features
-    t: Internationalization Features
+    t: ฟีเจอร์การแปลภาษา
   - key: features.i18n_features.question
-    t: Which of the following internationalization features have you used?
+    t: คุณเคยใช้ฟีเจอร์การแปลภาษาใดบ้าง?
   - key: options.i18n_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> ไม่มีที่กล่าวมา
 
   # - key: options.i18n_features.intl_datetimeformat.description
   #   t:
@@ -267,13 +265,13 @@ translations:
   #   t:
 
   - key: features.content_pain_points
-    t: Content Pain Points
+    t: Pain Point ของเนื้อหา
   - key: features.content_pain_points.question
-    t: What are your pain points around managing content in HTML?
-  - key: features.content_pain_points.description
+    t: Pain Point ของคุณเกี่ยวกับการจัดการเนื้อหาใน HTML คืออะไรบ้าง?
+  - key: features.content_pain_points.prompt
     t: |
-      Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
-      Missing features, browser incompatibilities, and other problems you face are all fair game.
+      นึกถึงการฝัง (มัลติมีเดีย iframes SVG ฯลฯ), ข้อมูลที่เครื่องอ่านได้, การแปลและปรับภาษาให้เข้ากับท้องถิ่น, ความปลอดภัยและความเป็นส่วนตัว, ประสิทธิภาพ ฯลฯ
+      ฟีเจอร์ที่ขาดหาย การเข้ากันไม่ได้ของเบราว์เซอร์ และปัญหาอื่นๆที่คุณเผชิญทั้งหมดถือว่าเป็นประเด็นได้
   - key: features.content_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -281,26 +279,26 @@ translations:
   # Content
 
   - key: features.external_content_elements
-    t: External Content Elements
+    t: Element เนื้อหาภายนอก
   - key: features.external_content_elements.question
-    t: Which of the following elements have you used?
+    t: คุณเคยใช้ Element ใดบ้างในรายการต่อไปนี้?
   - key: options.external_content_elements.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> ไม่มีเลย
 
   - key: features.privacy_security_features
     t: |
-      Security & Privacy Features
+      ฟีเจอร์ความปลอดภัยและความเป็นส่วนตัว
   - key: features.privacy_security_features.question
     t: |
-      Which of the following security & privacy features have you used?
+      คุณเคยใช้ฟีเจอร์ความปลอดภัยและความเป็นส่วนตัวใดบ้างในรายการต่อไปนี้?
   - key: options.privacy_security_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> ไม่มีเลย
 
   - key: features.rel_attribute
-    t: Resource Hints
+    t: คำแนะนำแหล่งข้อมูล
   - key: features.rel_attribute.question
     t: |
-      Which of these values have you used for the `rel` attribute of `<link>` ?
+      คุณเคยใช้ค่าใดบ้างสำหรับ Attribute `rel` ของ `<link>` ?
 
   # - key: features.external_content_pain_points
   #   t: External Content Pain Points
@@ -316,427 +314,241 @@ translations:
   # Web Components
 
   - key: features.web_components_libraries
-    t: Web Components Libraries
+    t: ไลบรารี Web Components
   - key: features.web_components_libraries.question
-    t: Have you used any Web Components libraries?
+    t: คุณเคยใช้ไลบรารี Web Components ใดบ้าง?
 
   - key: features.web_components_features
-    t: Other Web Component Features
+    t: ฟีเจอร์ Web Component อื่นๆ
   - key: features.web_components_features.question
-    t: Which of the following web component features have you used?
+    t: คุณเคยใช้ฟีเจอร์ใดบ้างในรายการต่อไปนี้สำหรับ Web Components?
   - key: options.web_components_features.host_pseudos.description
     t: |
-      `:host` , `:host()` , `:host-context()`
+      `:host`, `:host()`, `:host-context()`
   - key: options.web_components_features.is_attribute.description
     t: |
       `<button is="fancy-button">`
   - key: options.web_components_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> ไม่มีเลย
 
   - key: features.using_web_components_pain_points
-    t: Using Web Components Pain Points
+    t: Pain Point ในการใช้ Web Components
   - key: features.using_web_components_pain_points.question
-    t: What are your biggest pain points around *consuming* web components?
-  - key: features.using_web_components_pain_points.description
-    t: Using Web Components that you or others have made. Missing features, browser incompatibilities, etc.
+    t: Pain Point ที่ใหญ่ที่สุดของคุณในการใช้ Web Components มีอะไรบ้าง?
+  - key: features.using_web_components_pain_points.prompt
+    t: การใช้ Web Components ที่คุณหรือผู้อื่นสร้างขึ้น, ฟีเจอร์ที่ขาดหาย, ความไม่เข้ากันของเบราว์เซอร์ ฯลฯ
   - key: features.using_web_components_pain_points.placeholder
     t: |
       Pain point #{index}…
 
   - key: features.making_web_components_pain_points
-    t: Making Web Components Pain Points
+    t: Pain Point ในการสร้าง Web Components
   - key: features.making_web_components_pain_points.question
-    t: What are your biggest pain points around *making* web components?
-  - key: features.making_web_components_pain_points.description
+    t: Pain Point ที่ใหญ่ที่สุดของคุณในการสร้าง Web Components มีอะไรบ้าง?
+  - key: features.making_web_components_pain_points.prompt
     t: |
-      What prevents you from creating the amazing components you envision? Missing features, browser incompatibilities, etc.
+      อะไรที่ขัดขวางไม่ให้คุณสร้าง Element ที่สุดแสนจะน่าทึ่งที่คุณจินตนาการไว้? ฟีเจอร์ที่ขาดหาย ความไม่เข้ากันของเบราว์เซอร์ ฯลฯ
   - key: features.making_web_components_pain_points.placeholder
     t: |
       Pain point #{index}…
 
   # Accessibility
 
-  - key: features.accessibility_features
-    t: Accessibility Features
-  - key: features.accessibility_features.question
-    t: Which of these accessibility features have you used?
+  # - key: features.accessibility_features
+  #   t: Accessibility Features
+  # - key: features.accessibility_features.question
+  #   t: Which of these accessibility features have you used?
 
   - key: features.accessibility_tools
-    t: Accessibility Tools
+    t: เครื่องมือการเข้าถึง
   - key: features.accessibility_tools.question
-    t: What tools do you use for accessibility testing?
+    t: คุณใช้เครื่องมือใดในการทดสอบการเข้าถึงบ้าง?
 
   - key: features.accessibility_pain_points
-    t: Accessibility Pain Points
+    t: Pain Point เกี่ยวกับการเข้าถึง
   - key: features.accessibility_pain_points.question
-    t: What are your biggest pain points around web accessibility?
+    t: Pain Point ใหญ่ที่สุดของคุณเกี่ยวกับการเข้าถึงเว็บไซต์คืออะไร? (Web Accessibility)
   - key: features.accessibility_pain_points.placeholder
     t: |
       Pain point #{index}…
 
   - key: features.accessibility_disabilities
-    t: User Disabilities
+    t: ความบกพร่องของผู้ใช้
   - key: features.accessibility_disabilities.question
-    t: What kind of user disabilities do you account for when making websites?
+    t: คุณคำนึงถึงความบกพร่องใดบ้างเมื่อสร้างเว็บไซต์?
 
   - key: options.accessibility_disabilities.hearing_impairments
-    t: Hearing impairments
+    t: การได้ยินบกพร่อง
   - key: options.accessibility_disabilities.hearing_impairments.description
-    t: Deafness, tinnitus, etc.
+    t: หูหนวก หูอื้อ ฯลฯ
 
   - key: options.accessibility_disabilities.mobility_impairments
-    t: Mobility impairments
+    t: การเคลื่อนไหวบกพร่อง
   - key: options.accessibility_disabilities.mobility_impairments.description
-    t: Arthritis, carpal tunnel, etc.
+    t: โรคข้ออักเสบ โรคการกดทับเส้นประสาท ฯลฯ
 
   - key: options.accessibility_disabilities.learning_disabilities
-    t: Learning disabilities
+    t: ความบกพร่องทางการเรียนรู้
   - key: options.accessibility_disabilities.learning_disabilities.description
-    t: Dyslexia, dyscalculia, etc.
+    t: โรคดิสเล็กเซีย ดิสคาลคูเลีย ฯลฯ
 
   - key: options.accessibility_disabilities.cognitive_impairments
     t: |
-      Other cognitive impairments
+      ความบกพร่องในการรู้
   - key: options.accessibility_disabilities.cognitive_impairments.description
     t: |
-      Anxiety, Autism, OCD, ADHD, etc.
+      วิตกกังวล, ออทิซึม, OCD, ADHD ฯลฯ
 
   - key: options.accessibility_disabilities.vestibular_disorders
-    t: Vestibular disorders
+    t: ความผิดปกติของการทรงตัว
   - key: options.accessibility_disabilities.vestibular_disorders.description
-    t: Epilepsy, vertigo, etc.
+    t: ลมชัก เวียนศีรษะ/บ้านหมุน ฯลฯ
 
   - key: options.accessibility_disabilities.low_vision
-    t: Low vision
+    t: การมองเห็นต่ำ
   - key: options.accessibility_disabilities.low_vision.description
-    t: Blindness, high myopia, etc.
+    t: ตาบอด สายตาสั้นขั้นรุนแรง ฯลฯ
 
   - key: options.accessibility_disabilities.atypical_vision
-    t: Atypical color vision
+    t: การมองเห็นสีผิดปกติ
   - key: options.accessibility_disabilities.atypical_vision.description
-    t: Color blindness
+    t: ตาบอดสี
 
   - key: features.accessibility_screenreaders
-    t: Screen Readers
+    t: เครื่องอ่านหน้าจอ
   - key: features.accessibility_screenreaders.question
-    t: Which screen readers do you use for accessibility testing?
+    t: คุณใช้เครื่องอ่านหน้าจอใดในการทดสอบการเข้าถึง?
 
   - key: features.accessibility_techniques
-    t: Other Accessibility Techniques
+    t: เทคนิคการเข้าถึงอื่นๆ
   - key: features.accessibility_techniques.question
-    t: What other techniques are part of your regular accessibility strategy?
+    t: เทคนิคอื่นๆที่คุณใช้เป็นส่วนหนึ่งเพื่อการเข้าถึงมีอะไรบ้าง?
 
   - key: options.accessibility_techniques.tabindex
     t: |
-      Improving focus order with `tabindex`
+      ปรับลำดับการโฟกัสด้วย `tabindex`
   - key: options.accessibility_techniques.tabindex.description
     t: |
-      Roving `tabindex`, `tabindex="0"` to enable focus, etc.
+      การใช้ `tabindex="0"` เพื่อเปิดการโฟกัส ฯลฯ
   - key: options.accessibility_techniques.keyboard_navigation
-    t: Intuitive keyboard navigation
+    t: การนำทางด้วยแป้นพิมพ์ที่ใช้งานง่าย
   - key: options.accessibility_techniques.keyboard_navigation.description
-    t: Other than tab order.
+    t: นอกเหนือจากลำดับแท็บ/โฟกัส
   - key: options.accessibility_techniques.aria_attributes
-    t: ARIA attributes
+    t: Attribute ARIA
   - key: options.accessibility_techniques.aria_attributes.description
     t: |
-      `role` and `aria-*` attributes
+      `role` และAttribute `aria-*`
   - key: options.accessibility_techniques.descriptive_alt_text
     t: |
-      Descriptive `alt` text
+      ข้อความ `alt` ที่อธิบายได้ดี
   - key: options.accessibility_techniques.descriptive_alt_text.description
-    t: Providing alt text that describes the purpose or content of an image.
+    t: การให้ข้อความ alt ที่อธิบายจุดประสงค์หรือเนื้อหาของรูปภาพ
   - key: options.accessibility_techniques.skip_to_content
-    t: Skip-to-content link
+    t: ลิงก์ข้ามไปยังเนื้อหา
   - key: options.accessibility_techniques.skip_to_content.description
-    t: Letting users skip straight to the main content of a page.
+    t: ให้ผู้ใช้ข้ามไปยังเนื้อหาหลักของหน้า
   - key: options.accessibility_techniques.fieldset_and_legend
     t: |
-      `<fieldset>` and `<legend>`
+      `<fieldset>` และ `<legend>`
   - key: options.accessibility_techniques.fieldset_and_legend.description
     t: |
-      Using `<fieldset>` and `<legend>`  to group related form elements.
+      การใช้ `<fieldset>` และ `<legend>` เพื่อจัดกลุ่มฟอร์มที่เกี่ยวข้อง
   - key: options.accessibility_techniques.headings_hierarchy
-    t: Information Hierarchy
+    t: ลำดับชั้นความสำคัญของข้อมูล (Information Hierarchy)
   - key: options.accessibility_techniques.headings_hierarchy.description
     t: |
-      Using headings (`<h1>` - `<h6>`) that correctly represent a page's information hierarchy.
+      การใช้หัวเรื่อง (`<h1>` - `<h6>`) ที่แทนลำดับชั้นความสำคัญในหน้าอย่างถูกต้อง
   - key: options.accessibility_techniques.meaningful_link_text
-    t: Meaningful Link Text
+    t: ข้อความลิงก์ที่มีความหมาย
   - key: options.accessibility_techniques.meaningful_link_text.description
-    t: Ensuring that link text makes sense out of context
+    t: ทำให้แน่ใจว่าข้อความลิงก์สามารถเข้าใจได้โดยไม่ต้องมีบริบท
   - key: options.accessibility_techniques.form_control_label
-    t: Form Control Labels
+    t: ป้ายกำกับของฟอร์มคอนโทรล
   - key: options.accessibility_techniques.form_control_label.description
     t: |
-      Ensuring every form control has a `<label>` (or `aria-label`, etc.).
+      ทำให้แน่ใจว่าฟอร์มคอนโทรลทุกตัวมี `<label>` หรือ `aria-label`)
   - key: options.accessibility_techniques.visible_focus
-    t: Visible Focus Ring
+    t: วงแหวนโฟกัสที่มองเห็นได้
   - key: options.accessibility_techniques.visible_focus.description
-    t: Ensuring focus ring outline is clearly visible when needed.
+    t: ทำให้แน่ใจว่าวงแหวนโฟกัสมองเห็นได้ชัดเจนเมื่อจำเป็น
   - key: options.accessibility_techniques.pointer_alternative
-    t: Not Relying on Pointer Only
+    t: ไม่พึ่งพา Pointer เพียงอย่างเดียว
   - key: options.accessibility_techniques.pointer_alternative.description
-    t: Ensuring pointer interactions (e.g. hover) have a keyboard alternative.
+    t: ทำให้แน่ใจว่าการโต้ตอบด้วยการชี้ (เช่น hover) มีทางเลือกในการใช้งานแป้นพิมพ์
   - key: options.accessibility_techniques.good_color_contrast
-    t: Sufficient Contrast
+    t: ความแตกต่างของสีที่เพียงพอ
   - key: options.accessibility_techniques.good_color_contrast.description
-    t: Using contrast checkers to ensure sufficient color contrast.
+    t: ใช้เครื่องมือตรวจสอบความแตกต่างของสีเพื่อให้แน่ใจว่ามันเพียงพอ
   - key: options.accessibility_techniques.color_alternative
-    t: Not Relying on Color Only
+    t: ไม่พึ่งพาสีเพียงอย่างเดียว
   - key: options.accessibility_techniques.color_alternative.description
-    t: Ensuring that no information is conveyed by color alone.
+    t: ทำให้แน่ใจว่าข้อมูลไม่ได้แสดงด้วยสีเพียงอย่างเดียว
   - key: options.accessibility_techniques.prefers_reduced_motion
     t: |
       `prefers-reduced-motion` media query
   - key: options.accessibility_techniques.prefers_reduced_motion.description
-    t: Providing alternative CSS for users who prefer reduced motion.
+    t: ให้ทางเลือก CSS สำหรับผู้ใช้ที่ชอบลดการเคลื่อนไหว
+
   - key: options.accessibility_techniques.prefers_contrast
     t: |
       `prefers-contrast` media query
   - key: options.accessibility_techniques.prefers_contrast.description
-    t: Providing alternative CSS for users who prefer increased contrast.
+    t: ให้ทางเลือก CSS สำหรับผู้ใช้ที่ต้องการความแตกต่างของสีเพิ่มขึ้น
 
   # PWAs
-
   - key: features.pwa_features
-    t: PWA Features
+    t: ฟีเจอร์ PWA
   - key: features.pwa_features.question
-    t: Have you used any of the following PWA technologies/APIs?
+    t: คุณเคยใช้เทคโนโลยี/API ของ PWA ข้างต้นไหม?
   - key: options.pwa_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> ไม่มี
 
   - key: features.local_storage_features
-    t: Local storage features
+    t: ฟีเจอร์ Local storage
   - key: features.local_storage_features.question
-    t: Have you used any of the following to store data client-side?
+    t: คุณเคยอะไรข้างต้นบ้างสำหรับเก็บข้อมูลไว้ฝั่ง Client?
   - key: options.local_storage_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> ไม่มี
 
   - key: features.pwa_app_manifest_fields
     t: App Manifest Fields
   - key: features.pwa_app_manifest_fields.question
     t: |
-      Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
+      คุณเคยใช้ app manifest fields อะไรบ้างเหล่านี้ (`<link rel="manifest">`)? (ถ้าเคย)
 
   - key: features.native_apps_tools
-    t: Native Apps Tools
+    t: เครื่องมือสำหรับ Native Apps
   - key: features.native_apps_tools.question
-    t: Have you used any of these tools to build native apps?
+    t: คุณเคยใช้เครื่องมือใดบ้างในการสร้างแอปเนทีฟ?
   - key: features.native_apps_tools.description
-    t: Excluding scripts, command-line apps, server-side code, etc.
+    t: ไม่รับ scripts, command-line apps, server-side code, ฯลฯ
   - key: options.native_apps_tools.na
-    t: <span aria-hidden="true">🚫</span> I haven't developed native apps
+    t: <span aria-hidden="true">🚫</span> ฉันไม่เคยพัฒนาแอป Native
   - key: options.native_apps_tools.native_languages
-    t: Native technologies
+    t: เทคโนโลยี Native
   - key: options.native_apps_tools.native_languages.description
-    t: Objective-C, Swift, Kotlin, .NET, etc.
+    t: Objective-C, Swift, Kotlin, .NET เป็นต้น
   - key: options.native_apps_tools.webviews
-    t: Web app loaded via Webviews
+    t: เว็บแอปที่โหลดผ่าน Webviews
   - key: options.native_apps_tools.js_frameworks
-    t: JavaScript-based frameworks
+    t: เฟรมเวิร์กที่ใช้ JavaScript
   - key: options.native_apps_tools.js_frameworks.description
-    t: React Native, Ionic, Electron, etc.
+    t: React Native, Ionic, Electron เป็นต้น
   - key: options.native_apps_tools.other_frameworks
-    t: Non-JavaScript frameworks
+    t: เฟรมเวิร์กที่ไม่ใช้ JavaScript
   - key: options.native_apps_tools.other_frameworks.description
-    t: Tauri, Flutter, etc.
+    t: Tauri, Flutter เป็นต้น
 
   - key: features.mobile_web_apps_pain_points
-    t: Native-like Web Apps Pain Points
+    t: ปัญหาของ Web Apps ที่คล้าย Native
   - key: features.mobile_web_apps_pain_points.question
-    t: What are your biggest pain points around making web apps that feel native?
+    t: ปัญหาใหญ่ที่สุดของคุณในการสร้างเว็บแอปที่ให้ความรู้สึกเหมือนแอปเนทีฟคืออะไร?
   - key: features.mobile_web_apps_pain_points.description
-    t: Capabilities the Web Platform doesn't yet have, browser differences in related APIs, etc.
+    t: ความสามารถที่แพลตฟอร์มเว็บยังไม่มี หรือความแตกต่างระหว่างเบราว์เซอร์ใน API ที่เกี่ยวข้อง
   - key: features.mobile_web_apps_pain_points.placeholder
     t: |
       Pain point #{index}
-
-  # Other Tools
-
-  - key: other_tools.site_generators
-    t: Site Generators
-  - key: other_tools.site_generators.question
-    t: Which of these static or dynamic site generators do you regularly use?
-
-  - key: other_tools.ai_tools
-    t: AI Tools
-  - key: other_tools.ai_tools.question
-    t: Which of these AI tools do you regularly use to help you write code?
-
-  - key: other_tools.machine_readable_features
-    aliasFor: features.machine_readable_features
-  - key: other_tools.machine_readable_features.question
-    aliasFor: features.machine_readable_features.question
-
-  - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
-
-  - key: other_tools.blast_from_the_past
-    t: Blast from the Past!
-  - key: other_tools.blast_from_the_past.question
-    t: Have you ever used any of the following old-school elements?
-  - key: other_tools.blast_from_the_past.description
-    t: Blast from the past!
-  - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> None of the above
-
-  # Usage
-
-  # - key: usage.html_existing_features
-  #   t: Unusable HTML Features
-  # - key: usage.html_existing_features.question
-  #   t: Which existing HTML features are you unable to use?
-  # - key: usage.html_existing_features.description
-  #   t: |
-  #     Existing HTML features that you find yourself recreating using custom components.
-  # - key: usage.html_existing_features.placeholder
-  #   t: |
-  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
-
-  - key: usage.html_interoperability_features
-    t: Browser Interoperability
-  - key: usage.html_interoperability_features.question
-    t: Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
-  # - key: usage.html_interoperability_features.description
-  #   t: |
-  #     Any type of API the survey has asked about is within scope.
-  - key: usage.html_interoperability_features.placeholder
-    t: |
-      Feature #{index}
-
-  - key: usage.html_functionality_features
-    t: Limited Functionality
-  - key: usage.html_functionality_features.question
-    t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
-  - key: usage.html_functionality_features.description
-    t: |
-      Good candidates might be existing HTML features that you often have to recreate or augment using JS.
-
-      Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
-
-  - key: usage.html_functionality_features.placeholder.1
-    t: |
-      Feature #1 (hard to style)
-  - key: usage.html_functionality_features.placeholder.2
-    t: |
-      Feature #2 (limited functionality, poor accessibility)
-
-  - key: usage.what_do_you_use_html_for
-    t: HTML Usage
-  - key: usage.what_do_you_use_html_for.question
-    t: What do you use HTML for?
-  - key: options.what_do_you_use_html_for.blogs
-    aliasFor: options.what_do_you_use_css_for.blogs
-  - key: options.what_do_you_use_html_for.design_systems
-    aliasFor: options.what_do_you_use_css_for.design_systems
-  - key: options.what_do_you_use_html_for.desktop_apps
-    aliasFor: options.what_do_you_use_css_for.desktop_apps
-  - key: options.what_do_you_use_html_for.emails
-    aliasFor: options.what_do_you_use_css_for.emails
-  - key: options.what_do_you_use_html_for.marketing_sites
-    aliasFor: options.what_do_you_use_css_for.marketing_sites
-  - key: options.what_do_you_use_html_for.mobile_apps
-    aliasFor: options.what_do_you_use_css_for.mobile_apps
-  - key: options.what_do_you_use_html_for.printed_documents
-    aliasFor: options.what_do_you_use_css_for.printed_documents
-  - key: options.what_do_you_use_html_for.web_apps
-    aliasFor: options.what_do_you_use_css_for.web_apps
-
-  - key: usage.tools_for_other_developers
-    t: Ecosystem Impact
-  - key: usage.tools_for_other_developers.question
-    t: Other than yourself, how many developers use the libraries, packages, components, APIs etc. that you create or maintain?
-  - key: usage.tools_for_other_developers.description
-    t: |
-      Total, if you work on multiple projects that are used by other developers.
-      If you’re not sure, pick the closest to your best estimate.
-      For open source code, npm downloads might offer a useful data point.
-  - key: options.tools_for_other_developers.na
-    t: 🚫 None (Just me)
-  - key: options.tools_for_other_developers.a_few
-    t: A few other developers (e.g. developers within a small team)
-  - key: options.tools_for_other_developers.less_than_100
-    t: Less than a hundred developers
-  - key: options.tools_for_other_developers.less_than_1000
-    t: Less than a thousand developers
-  - key: options.tools_for_other_developers.more_than_100
-    t: Hundreds of developers
-  - key: options.tools_for_other_developers.more_than_1000
-    t: Thousands of developers
-  - key: options.tools_for_other_developers.more_than_1000000
-    t: Millions of developers
-
-  - key: usage.html_missing_elements
-    t: Missing Elements
-  - key: usage.html_missing_elements.question
-    t: If you could add 3 elements to HTML, what would they be?
-  # - key: usage.html_missing_elements.description
-  #   t: |
-  #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
-
-  #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
-
-  - key: options.html_missing_elements.accordion
-    t: Accordion
-  - key: options.html_missing_elements.alert
-    t: Alert
-  - key: options.html_missing_elements.calendar
-    t: Calendar
-  - key: options.html_missing_elements.carousel
-    t: Carousel
-  - key: options.html_missing_elements.combobox_autocomplete
-    t: Combobox / Autocomplete
-  - key: options.html_missing_elements.command_palette
-    t: Command Palette
-  - key: options.html_missing_elements.context_menu
-    t: Context Menu / Right-Click Menu
-  - key: options.html_missing_elements.datatable
-    t: Data table (with sorting, filtering, etc.)
-  - key: options.html_missing_elements.dropdown_menu
-    t: Dropdown Menu
-  - key: options.html_missing_elements.image_zoom
-    t: Image Zoom
-  - key: options.html_missing_elements.progress_bar
-    t: Progress Bar
-  - key: options.html_missing_elements.skeleton_loading_placeholder
-    t: Skeleton UI / Loading Placeholder
-  - key: options.html_missing_elements.switch
-    t: Switch / Toggle
-  - key: options.html_missing_elements.tabs
-    t: Tabs
-  # - key: options.html_missing_elements.toast_message
-  #   t: Toast Message
-  - key: options.html_missing_elements.tooltip
-    t: Tooltip
-  - key: options.html_missing_elements.offcanvas
-    t: Off-Canvas Area
-  - key: options.html_missing_elements.spinner
-    t: Loading Spinner
-  - key: options.html_missing_elements.segmented_button
-    t: Segmented Button
-  - key: options.html_missing_elements.scroll_area
-    t: Infinite Scroll
-  - key: options.html_missing_elements.icon
-    t: Icon
-  - key: options.html_missing_elements.star_rating
-    t: Star Rating
-
-  - key: usage.html_pain_points_freeform
-    t: Other Pain Points
-  - key: usage.html_pain_points_freeform.question
-    t: Any other pain points around using HTML and related technologies?
-
-  - key: usage.html_css_js_balance
-    t: HTML/CSS vs JavaScript/TypeScript Balance
-  - key: usage.html_css_js_balance.question
-    t: How do you divide your time between writing HTML/CSS and JavaScript (or TypeScript) code?
-  - key: options.html_css_js_balance.0
-    t: 100% HTML/CSS
-  - key: options.html_css_js_balance.4
-    t: 50%–50%
-  - key: options.html_css_js_balance.8
-    t: 100% JS
 
   # other features
 
@@ -744,19 +556,19 @@ translations:
     t: "`{id}` attribute"
 
   - key: features.slot_assignment
-    t: Explicit slot assignment (`slot="foo"`)
+    t: การกำหนด slot (`slot="foo"`)
 
   - key: features.tabindex
     t: "`tabindex` attribute"
 
   - key: features.respimg
-    t: "`srcset` and `sizes` attributes"
+    t: "`srcset` และ `sizes` attribute"
 
   - key: features.model_element
-    t: "`<model>` for AR/VR/3D content"
+    t: "`<model>` สำหรับเนื้อหา AR/VR/3D"
 
   - key: features.slot_def
-    t: Defining slots (`<slot>` and `::slotted()`)
+    t: การกำหนด slot (`<slot>` และ `::slotted()`)
 
   - key: features.controlslist
     t: "`controlslist` attribute"
@@ -768,10 +580,10 @@ translations:
     t: Lazy loading
 
   - key: features.sandbox_attr
-    t: "`sandbox` attribute for iframes"
+    t: "`sandbox` attribute สำหรับ iframes"
 
   - key: features.details_element
-    t: "`<details>` and `<summary>`"
+    t: "`<details>` และ `<summary>`"
 
   - key: features.crossorigin
     t: "`crossorigin` attribute"
@@ -807,7 +619,7 @@ translations:
   #   t: "`focusgroup` attribute"
 
   - key: features.form_validation
-    t: Form validation
+    t: การตรวจสอบความถูกต้องของฟอร์ม (Form Validation)
 
   - key: features.aria
     t: ARIA
@@ -822,7 +634,7 @@ translations:
     t: "Resource Hints: preload (`<link rel=preload>`)"
 
   - key: features.resource_hints
-    t: Resource Hints (all)
+    t: Resource Hints ทั้งหมด
 
   - key: features.rh_prefetch
     t: "Resource Hints: prefetch (`<link rel=prefetch>`)"
@@ -840,10 +652,10 @@ translations:
     t: PWA manifest
 
   - key: features.part_attr
-    t: Exposing component parts (`part` attribute)
+    t: การเปิดเผยส่วนของ Component (`part` attribute)
 
   - key: features.part_selector
-    t: Styling component parts (`::part()`)
+    t: การจัดแต่งส่วนของ Component (`::part()`)
 
   - key: features.svg_element
     t: Inline SVG (`<svg>`)
@@ -858,13 +670,13 @@ translations:
     t: Navigation API
 
   - key: features.custom_elements_defining
-    t: Defining Custom Elements
+    t: การกำหนด Custom Elements
 
   - key: features.decoding
     t: "`decoding` attribute"
 
   - key: features.custom_elements_using
-    t: Using Custom Elements
+    t: การใช้ Custom Elements
 
   - key: features.fencedframe
     t: Fenced frames
@@ -876,7 +688,7 @@ translations:
     t: HTML Media Capture
 
   - key: features.contenteditable_plaintext
-    t: "`plaintext-only` value for `contenteditable`"
+    t: ค่า "`plaintext-only` สำหรับ `contenteditable`"
 
   - key: features.dom_parts
     t: DOM Parts
@@ -894,12 +706,270 @@ translations:
     t: HTTP client hints
 
   ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: other_tools.site_generators
+    t: Site Generators
+  - key: other_tools.site_generators.question
+    t: คุณใช้ Site Generators แบบ Static หรือไดนามิกใดเป็นประจำบ้าง?
+
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.question
+    aliasFor: tools_others.browsers.question
+
+  - key: other_tools.validation_tools
+    t: เครื่องมือตรวจสอบความถูกต้อง
+  - key: other_tools.validation_tools.question
+    t: คุณใช้เครื่องมือตรวจสอบความถูกต้องใดเป็นประจำบ้าง?
+
+  - key: other_tools.ai_tools
+    t: เครื่องมือ AI
+  - key: other_tools.ai_tools.question
+    t: คุณใช้เครื่องมือ AI ใดในการช่วยเขียนโค้ดเป็นประจำบ้าง?
+
+  - key: other_tools.machine_readable_features
+    aliasFor: features.machine_readable_features
+  - key: other_tools.machine_readable_features.question
+    aliasFor: features.machine_readable_features.question
+
+  - key: options.machine_readable_features.na
+    t: <span aria-hidden="true">🚫</span> ไม่มี
+
+  - key: other_tools.blast_from_the_past
+    t: ย้อนอดีต!
+  - key: other_tools.blast_from_the_past.question
+    t: คุณเคยใช้แท็ก HTML แบบเก่าดั้งเดิมใดบ้าง?
+  - key: other_tools.blast_from_the_past.description
+    t: ย้อนอดีต!
+  - key: options.blast_from_the_past.na
+    t: <span aria-hidden="true">🚫</span> ไม่มี
+
+  - key: other_tools.performance_tools
+    t: เครื่องมือวัดประสิทธิภาพ
+  - key: other_tools.performance_tools.question
+    t: คุณใช้เครื่องมือและบริการใดบ้างในการติดตามและปรับปรุงประสิทธิภาพของเว็บไซต์ของคุณ?
+
+  - key: options.performance_tools.browser_devtools
+    t: เครื่องมือสำหรับนักพัฒนาในเบราว์เซอร์
+
+  - key: other_tools.analytics_tools
+    t: เครื่องมือวิเคราะห์ข้อมูล
+  - key: other_tools.analytics_tools.question
+    t: คุณใช้เครื่องมือและบริการใดบ้างในการติดตามและวิเคราะห์เว็บไซต์ของคุณ?
+
+  ###########################################################################
+  # Usage
+  ###########################################################################
+
+  # - key: usage.html_existing_features
+  #   t: Unusable HTML Features
+  # - key: usage.html_existing_features.question
+  #   t: Which existing HTML features are you unable to use?
+  # - key: usage.html_existing_features.description
+  #   t: |
+  #     Existing HTML features that you find yourself recreating using custom components.
+  # - key: usage.html_existing_features.placeholder
+  #   t: |
+  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
+
+  - key: usage.html_interoperability_features
+    t: การทำงานร่วมกันของเบราว์เซอร์
+  - key: usage.html_interoperability_features.question
+    t: ฟีเจอร์ HTML หรือ API ของเบราว์เซอร์ใดบ้างที่คุณไม่สามารถใช้ได้เนื่องจากความแตกต่างระหว่างเบราว์เซอร์หรือการขาดการรองรับ?
+  # - key: usage.html_interoperability_features.description
+  #   t: |
+  #     Any type of API the survey has asked about is within scope.
+  - key: usage.html_interoperability_features.placeholder
+    t: |
+      ฟีเจอร์ #{index}
+
+  - key: usage.html_functionality_features
+    t: ฟีเจอร์ที่มีการทำงานจำกัด
+  - key: usage.html_functionality_features.question
+    t: ฟีเจอร์ HTML หรือ API ของเบราว์เซอร์ใดบ้างที่คุณไม่สามารถใช้งานได้ด้วยเหตุผลอื่น (และทำไม)?
+  - key: usage.html_functionality_features.description
+    t: |
+      ฟีเจอร์ HTML ปัจจุบันที่คุณต้องสร้างใหม่อยู่ดีหรือปรับปรุงด้วย JS อยู่บ่อยครั้ง
+  # - key: usage.html_functionality_features.description
+  #   t: |
+  #     Existing HTML features that you often have to recreate or augment using JS.
+
+  #     Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+
+  - key: usage.html_functionality_features.placeholder.1
+    t: |
+      ฟีเจอร์ #1 (ยากต่อการปรับสไตล์)
+  - key: usage.html_functionality_features.placeholder.2
+    t: |
+      ฟีเจอร์ #2 (ฟังก์ชันจำกัด, เข้าถึงได้ยาก)
+
+  - key: usage.html_new_features
+    t: ฟีเจอร์ใหม่
+  - key: usage.html_new_features.question
+    t: ฟีเจอร์ใหม่และที่กำลังจะมาถึงใดที่คุณตื่นเต้นที่สุด?
+
+  - key: usage.what_do_you_use_html_for
+    t: การใช้งาน HTML
+  - key: usage.what_do_you_use_html_for.question
+    t: คุณใช้ HTML เพื่อทำอะไรบ้าง?
+  - key: options.what_do_you_use_html_for.blogs
+    aliasFor: options.what_do_you_use_css_for.blogs
+  - key: options.what_do_you_use_html_for.design_systems
+    aliasFor: options.what_do_you_use_css_for.design_systems
+  - key: options.what_do_you_use_html_for.desktop_apps
+    aliasFor: options.what_do_you_use_css_for.desktop_apps
+  - key: options.what_do_you_use_html_for.emails
+    aliasFor: options.what_do_you_use_css_for.emails
+  - key: options.what_do_you_use_html_for.marketing_sites
+    aliasFor: options.what_do_you_use_css_for.marketing_sites
+  - key: options.what_do_you_use_html_for.mobile_apps
+    aliasFor: options.what_do_you_use_css_for.mobile_apps
+  - key: options.what_do_you_use_html_for.printed_documents
+    aliasFor: options.what_do_you_use_css_for.printed_documents
+  - key: options.what_do_you_use_html_for.web_apps
+    aliasFor: options.what_do_you_use_css_for.web_apps
+
+  - key: usage.tools_for_other_developers
+    t: ผลกระทบต่อระบบนิเวศ
+  - key: usage.tools_for_other_developers.question
+    t: นอกจากตัวคุณเองแล้ว มีนักพัฒนาอีกกี่คนที่ใช้ไลบรารี แพ็คเกจ คอมโพเนนต์ API ฯลฯ ที่คุณสร้างหรือดูแล?
+  - key: usage.tools_for_other_developers.description
+    t: |
+      รวมทั้งหมด หากคุณทำงานในหลายโปรเจกต์ที่ใช้โดยนักพัฒนาคนอื่น
+      หากคุณไม่แน่ใจ ให้เลือกค่าที่ใกล้เคียงกับการประมาณการที่ดีที่สุดของคุณ
+      สำหรับโค้ดโอเพ่นซอร์ส ยอดดาวน์โหลดจาก npm อาจช่วยเป็นตัวชี้วัดได้
+  - key: options.tools_for_other_developers.na
+    t: 🚫 ไม่มี (มีแค่ฉันเท่านั้น)
+  - key: options.tools_for_other_developers.a_few
+    t: นักพัฒนาคนอื่นไม่กี่คน (เช่น นักพัฒนาภายในทีมขนาดเล็ก)
+  - key: options.tools_for_other_developers.less_than_100
+    t: น้อยกว่าร้อยคน
+  - key: options.tools_for_other_developers.less_than_1000
+    t: น้อยกว่าพันคน
+  - key: options.tools_for_other_developers.more_than_100
+    t: หลายร้อยคน
+  - key: options.tools_for_other_developers.more_than_1000
+    t: หลายพันคน
+  - key: options.tools_for_other_developers.more_than_1000000
+    t: หลายล้านคน
+
+  - key: usage.html_missing_elements
+    t: Element ที่ขาดหายไป
+  - key: usage.html_missing_elements.question
+    t: ถ้าคุณสามารถเพิ่ม Element  3 อย่างใน HTML ได้ คุณจะเลือกอะไร?
+  # - key: usage.html_missing_elements.description
+  #   t: |
+  #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
+
+  #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
+
+  - key: options.html_missing_elements.accordion
+    t: Accordion
+  - key: options.html_missing_elements.alert
+    t: Alert
+  - key: options.html_missing_elements.calendar
+    t: Calendar
+  - key: options.html_missing_elements.carousel
+    t: Carousel
+  - key: options.html_missing_elements.combobox_autocomplete
+    t: Combobox / Autocomplete
+  - key: options.html_missing_elements.command_palette
+    t: Command Palette
+  - key: options.html_missing_elements.context_menu
+    t: Context Menu / Right-Click Menu
+  - key: options.html_missing_elements.datatable
+    t: Data table
+  - key: options.html_missing_elements.datatable.description
+    t: Data table with sorting, filtering, etc.
+  - key: options.html_missing_elements.dropdown_menu
+    t: Dropdown Menu
+  - key: options.html_missing_elements.image_zoom
+    t: Image Zoom
+  - key: options.html_missing_elements.progress_bar
+    t: Progress Bar
+  - key: options.html_missing_elements.skeleton_loading_placeholder
+    t: Skeleton UI / Loading Placeholder
+  - key: options.html_missing_elements.switch
+    t: Switch / Toggle
+  - key: options.html_missing_elements.tabs
+    t: Tabs
+  # - key: options.html_missing_elements.toast_message
+  #   t: Toast Message
+  - key: options.html_missing_elements.tooltip
+    t: Tooltip
+  - key: options.html_missing_elements.offcanvas
+    t: Off-Canvas Area
+  - key: options.html_missing_elements.spinner
+    t: Loading Spinner
+  - key: options.html_missing_elements.segmented_button
+    t: Segmented Button
+  - key: options.html_missing_elements.scroll_area
+    t: Infinite Scroll
+  - key: options.html_missing_elements.icon
+    t: Icon
+  - key: options.html_missing_elements.star_rating
+    t: Star Rating
+
+  - key: usage.html_pain_points_freeform
+    t: Pain Points อื่นๆ
+  - key: usage.html_pain_points_freeform.question
+    t: มี Pain Point อื่น ๆ เกี่ยวกับการใช้งาน HTML และเทคโนโลยีที่เกี่ยวข้องหรือไม่?
+
+  - key: usage.html_css_js_balance
+    t: สมดุลระหว่าง HTML/CSS และ JavaScript/TypeScript
+  - key: usage.html_css_js_balance.question
+    t: คุณแบ่งเวลาของคุณอย่างไรระหว่างการเขียนโค้ด HTML/CSS และ JavaScript (หรือ TypeScript)?
+  - key: options.html_css_js_balance.0
+    t: 100% HTML/CSS
+  - key: options.html_css_js_balance.4
+    t: 50%–50%
+  - key: options.html_css_js_balance.8
+    t: 100% JS
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  - key: resources.web_platform_resources
+    t: แหล่งข้อมูลเกี่ยวกับแพลตฟอร์มเว็บ
+  - key: resources.web_platform_resources.question
+    t: คุณใช้แหล่งข้อมูลใดในการติดตามฟีเจอร์ใหม่ ๆ ของแพลตฟอร์มเว็บ?
+
+  ###########################################################################
+  # Opinions
+  ###########################################################################
+
+  - key: opinions.opinions_intro
+    t: สำหรับคำถามต่อไปนี้ โปรดแจ้งให้เราทราบว่าคุณเห็นด้วยกับแต่ละข้อความมากน้อยเพียงใด
+
+  - key: opinions.accessibility_is_valued
+    t: ความสามารถในการเข้าถึง (Accessibility)
+  - key: opinions.accessibility_is_valued.question
+    t: การเข้าถึงเป็นสิ่งที่มีคุณค่าในที่ทำงานหรือสภาพแวดล้อมการทำงานของฉัน
+
+  - key: opinions.keeping_informed_is_challenging
+    t: การติดตามข้อมูลข่าวสาร
+  - key: opinions.keeping_informed_is_challenging.question
+    t: การติดตามข่าวสารเกี่ยวกับฟีเจอร์ใหม่ ๆ ของแพลตฟอร์มเว็บเป็นเรื่องที่ท้าทาย
+
+  - key: opinions.browser_interoperability_is_obstacle
+    t: การทำงานร่วมกันของเบราว์เซอร์
+  - key: opinions.browser_interoperability_is_obstacle.question
+    t: การขาดการทำงานร่วมกันระหว่างเบราว์เซอร์เป็นอุปสรรคสำคัญต่อการพัฒนาเว็บ
+
+  - key: opinions.web_platform_right_direction
+    t: แพลตฟอร์มเว็บ
+  - key: opinions.web_platform_right_direction.question
+    t: โดยรวมแล้ว แพลตฟอร์มเว็บกำลังก้าวไปในทิศทางที่ถูกต้อง
+
+  ###########################################################################
   # Survey Help
   ###########################################################################
 
   - key: features.features_intro_html
     t: |
-      Welcome to the survey! These first couple sections are all about figuring out
-      which **features** of HTML (and related APIs) you know about.
+      ยินดีต้อนรับสู่การทำแบบสำรวจ! ในสองส่วนแรกนี้ เราจะช่วยคุณค้นหาว่าคุณรู้จักฟีเจอร์ใดบ้างของ HTML (และ API ที่เกี่ยวข้อง)
 
-      By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!
+      ถ้าคุณต้องการเรียนรู้เพิ่มเติมเกี่ยวกับสิ่งใดในแบบสำรวจ คุณสามารถเพิ่มไว้อ่านทีหลังได้โดยการคลิกที่ไอคอน "+" เล็กๆนั่น!

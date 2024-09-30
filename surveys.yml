@@ -5,233 +5,240 @@ translations:
   ###########################################################################
 
   - key: general.title
-    t: Devographics Surveys
+    t: แบบสำรวจ Devographics
   - key: general.description
-    t: The State of JavaScript, State of CSS, State of HTML, and other developer surveys.
+    t: แบบสำรวจ The State of JavaScript, State of CSS, State of HTML และอื่น ๆสำหรับนักพัฒนา
 
   - key: general.no_preview_surveys
-    t: No surveys to preview
+    t: ไม่มีแบบสำรวจให้พรีวิว
   - key: general.global_nav
-    t: Global
+    t: ทั่วโลก
   - key: general.survey_status_preview
-    t: Preview
+    t: พรีวิว
   - key: general.survey_status_open
-    t: Open
+    t: เปิด
   - key: general.survey_status_closed
-    t: Closed
+    t: ปิด
   - key: general.survey_status_hidden
-    t: Hidden
+    t: ซ่อน
 
   - key: general.pick_up_to
-    t: Pick up to {limit} items.
+    t: เลือกได้สูงสุด {limit} รายการ
 
   - key: general.privacy_policy
-    t: Privacy Policy
+    t: นโยบายความเป็นส่วนตัว
   - key: general.privacy_policy.description
     t: >
-      ### 1. Data Collection
+      ### 1. การเก็บข้อมูล
 
-      In addition to the data collected through a survey's questions, we collect your device, browser, OS, browser version, and referrer.
+      นอกเหนือจากข้อมูลที่เก็บผ่านคำถามของแบบสำรวจ เรายังเก็บข้อมูลอุปกรณ์ เบราว์เซอร์ ระบบปฏิบัติการ เวอร์ชันของเบราว์เซอร์ และเว็บไซต์ที่อ้างอิงถึง
 
-      Note that all questions are entirely optional, and we never link any identifiable information (such as email addresses) to your survey answers.
+      โปรดทราบว่าคำถามทั้งหมดจะตอบหรือไม่ตอบก็ได้และเราไม่เคยเชื่อมโยงข้อมูลที่ระบุตัวตนได้ (เช่น อีเมล) กับคำตอบของแบบสำรวจของคุณ
 
-      ### 2. Email Collection
+      ### 2. การเก็บอีเมล
 
-      We may optionally collect your email to:
-
-
-      1. Generate a magic log-in link, after which we discard your email and only keep a one-way hash in our user database.
-
-      2. Contact you once survey results are available, as well as when we launch future editions of a survey and for infrequent announcements. You can unsubscribe from our mailing list at any time, and your email is discarded from our records once it is sent to our email newsletter provider.
-
-      3. Send you a recap list of features or tools you want to learn more about. We will discard your address once the email has been sent out through our transactional email provider.
+      เราอาจเก็บอีเมลของคุณเพื่อต่อไปนี้:
 
 
-      When we do collect your email address, it is never linked to your responses for a survey, or to your user account.
+      1. สร้างลิงก์ Magic Log-In จากนั้นเราจะลบอีเมลของคุณและเก็บเพียง One-Way Hash ในฐานข้อมูลผู้ใช้ของเรา
 
-      ### 3. Cookies
+      2. ติดต่อคุณเมื่อมีผลการสำรวจพร้อม รวมถึงเมื่อเราปล่อยเวอร์ชันของแบบสำรวจในอนาคตและประกาศสำคัญเป็นครั้งคราว คุณสามารถยกเลิกการสมัครรับข่าวสารได้ทุกเมื่อ และอีเมลของคุณจะถูกลบจากบันทึกของเราหลังจากส่งไปยังผู้ให้บริการอีเมลแล้ว
 
-      We set a log-in cookie, and our hosting provider (Vercel) may also sets its own cookie. We do not set any other cookie or use client-side analytics or ads.
+      3. ส่งรายการสรุปของฟีเจอร์หรือเครื่องมือที่คุณต้องการเรียนรู้เพิ่มเติม เราจะลบที่อยู่อีเมลของคุณเมื่ออีเมลถูกส่งออกผ่านผู้ให้บริการอีเมล
 
-      ### 4. Data Use
 
-      We process the data and then use it to publish reports. We also make the entire dataset publicly available.
+      เมื่อเรารวบรวมที่อยู่อีเมลของคุณ มันจะไม่ถูกเชื่อมโยงกับคำตอบของคุณสำหรับแบบสำรวจหรือบัญชีผู้ใช้ของคุณ
 
-      ### 5. Data/Account Deletion
+      ### 3. คุกกี้
 
-      You can email us at [hello@stateofjs.com](mailto:hello@stateofjs.com) if you'd like us to delete all or part of your data.
+      เราตั้งค่าคุกกี้ล็อกอิน และผู้ให้บริการโฮสต์ของเรา (Vercel) อาจตั้งค่าคุกกี้ของตนเองด้วย เราไม่ตั้งค่าคุกกี้อื่นหรือใช้การวิเคราะห์ฝั่งไคลเอ็นต์หรือโฆษณาใดๆ
+
+      ### 4. การใช้ข้อมูล
+
+      เราประมวลผลข้อมูลและใช้เพื่อเผยแพร่รายงาน นอกจากนี้เรายังเผยแพร่ชุดข้อมูลทั้งหมดให้สาธารณะเข้าถึงได้
+
+      ### 5. การลบข้อมูล/บัญชี
+
+      คุณสามารถส่งอีเมลถึงเราที่ [hello@stateofjs.com](mailto:hello@stateofjs.com) หากคุณต้องการให้เราลบข้อมูลทั้งหมดหรือบางส่วนของคุณ
 
   ###########################################################################
   # Other UI Strings
   ###########################################################################
 
   - key: textlist.placeholder
-    t: Item {index}…
+    t: รายการที่ {index}…
 
   - key: feature.unimplemented
-    t: No browser implementation yet
+    t: ยังไม่มีการใช้งานในเบราว์เซอร์
 
   - key: general.skip_question
-    t: Skip
+    t: ข้าม
 
   - key: general.unskip_question
-    t: Answer Question
+    t: ตอบคำถาม
 
   - key: general.skip_question.description
-    t: Skip question and mark it as completed
+    t: ข้ามคำถามและทำเครื่องหมายว่าเสร็จสมบูรณ์แล้ว
 
   - key: general.unskip_question.description
-    t: Unskip question and answer it
+    t: ยกเลิกการข้ามคำถามและตอบคำถาม
 
   - key: years.less_than_one_year
-    t: Less than one year
+    t: น้อยกว่าหนึ่งปี
 
   - key: years.years
-    t: years
+    t: ปี
 
   - key: likert.option.0
-    t: Very Unhappy
+    t: ไม่พอใจอย่างมาก
   - key: likert.option.1
-    t: Unhappy
+    t: ไม่พอใจ
   - key: likert.option.2
-    t: Neutral
+    t: ปานกลาง
   - key: likert.option.3
-    t: Happy
+    t: พอใจ
   - key: likert.option.4
-    t: Very Happy
+    t: พอใจอย่างมาก
 
   - key: general.numeric_input.invalid_input
-    t: Please make sure you enter a valid number.
+    t: โปรดตรวจสอบให้แน่ใจว่าคุณใส่ตัวเลขที่ถูกต้อง
+
+  - key: general.numeric_input.unit.years
+    t: ปี
+  - key: general.numeric_input.unit.years_old
+    t: อายุ {value} ปี
+  - key: general.numeric_input.unit.hours
+    t: ชั่วโมง
 
   ###########################################################################
   # Errors & Messages
   ###########################################################################
 
   - key: error.duplicate_response
-    t: Sorry, you already have a session in progress for this survey.
+    t: ขออภัย คุณมีเซสชันสำหรับแบบสำรวจนี้ที่กำลังดำเนินการอยู่แล้ว
 
   - key: error.report_issue
-    t: Report issue
+    t: รายงานปัญหา
 
   - key: success.data_saved
-    t: Data Saved
+    t: บันทึกข้อมูลแล้ว
   - key: success.data_saved.description
-    t: Your data has been saved.
+    t: ข้อมูลของคุณถูกบันทึกเรียบร้อยแล้ว
 
   ###########################################################################
   # Accounts
   ###########################################################################
 
   - key: accounts.create_account
-    t: Continue with Account
+    t: ดำเนินการด้วยบัญชี
   - key: accounts.create_account.description
-    t: Having an account lets you **access your own data in the future** and be notified when survey results are published.
+    t: การสร้างบัญชีช่วยให้คุณสามารถ**เข้าถึงข้อมูลของคุณในอนาคต**และรับการแจ้งเตือนเมื่อมีการเผยแพร่ผลการสำรวจ
   - key: accounts.create_account.note
-    t: If you **already have an account** we will send you a magic log-in link by email.
+    t: หากคุณ**มีบัญชีอยู่แล้ว**เราจะส่งลิงก์เข้าสู่ระบบให้ทางอีเมล
   - key: accounts.create_account.action
-    t: Continue with Account
+    t: ดำเนินการด้วยบัญชี
   - key: accounts.your_email
-    t: Your Email
+    t: อีเมลของคุณ
 
   - key: accounts.upgrade_account.action
-    t: Upgrade your account
+    t: อัปเกรดบัญชีของคุณ
   - key: accounts.upgrade_account.description
-    t: Upgrading your account with an email address will let you access your survey response after you end your session.
+    t: การอัปเกรดบัญชีด้วยที่อยู่อีเมลจะช่วยให้คุณเข้าถึงการตอบแบบสำรวจของคุณหลังจากสิ้นสุดเซสชัน
 
   - key: accounts.continue_as_guest
-    t: Continue as Guest
+    t: ดำเนินการในฐานะแขก
   - key: accounts.continue_as_guest.description
-    t: Taking the survey anonymously means you **won't be able to access your data again** after you end your session.
+    t: การทำแบบสำรวจโดยไม่ระบุตัวตนหมายความว่าคุณ**จะไม่สามารถเข้าถึงข้อมูลของคุณอีกครั้ง**หลังจากสิ้นสุดเซสชัน
   - key: accounts.continue_as_guest.action
-    t: Continue as Guest
+    t: ดำเนินการในฐานะแขก
 
   - key: accounts.magic_link.no_email
-    t: Please enter your email
+    t: กรุณาใส่อีเมลของคุณ
   - key: accounts.magic_link.success
-    t: Check your inbox! We sent you a magic link, just click it to confirm your account and log in.
+    t: ตรวจสอบกล่องจดหมายของคุณ! เราได้ส่งลิงก์เข้าสู่ระบบไปให้แล้ว เพียงคลิกเพื่อยืนยันบัญชีและเข้าสู่ระบบ
     # Open known mail provider directly in browser with the right search params
   - key: accounts.magic_link.browser
-    t: <a href="{link}">Click to open your inbox.</a>
+    t: <a href="{link}">คลิกเพื่อเปิดกล่องจดหมายของคุณ</a>
 
   ###########################################################################
   # FAQ
   ###########################################################################
 
   - key: general.faq
-    t: FAQ
+    t: คำถามที่พบบ่อย (FAQ)
   - key: faq.create_account
-    t: Why do I need to create an account?
+    t: ทำไมฉันต้องสร้างบัญชี?
   - key: faq.create_account.description
-    t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
+    t: เราขอให้คุณสร้างบัญชีเพื่อหลีกเลี่ยงการตอบซ้ำ บันทึกข้อมูลของคุณ และแจ้งเตือนคุณเมื่อมีการเผยแพร่ผลการสำรวจ
   - key: faq.anonymous_survey
-    t: Can I take the survey anonymously?
+    t: ฉันสามารถทำแบบสำรวจโดยไม่เปิดเผยตัวได้หรือไม่?
   - key: faq.anonymous_survey.description
-    t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access.
+    t: ได้ คุณสามารถใช้ที่อยู่อีเมลปลอม (เช่น something@example.com) หรืออีเมลที่ไม่สามารถระบุตัวตนได้ในการทำแบบสำรวจ โดยคุณต้องบันทึกที่อยู่นั้นเพื่อการเข้าถึงในอนาคต
   - key: faq.questions_required
-    t: Is answering every question required?
+    t: จำเป็นต้องตอบทุกคำถามหรือไม่?
   - key: faq.questions_required.description
-    t: No, every question of the survey is optional and can freely be skipped.
+    t: ไม่ ทุกคำถามในแบบสำรวจเป็นตัวเลือก และคุณสามารถข้ามได้ตามต้องการ
   - key: faq.data_published
-    t: Will my data be made public?
+    t: ข้อมูลของฉันจะถูกเผยแพร่สู่สาธารณะหรือไม่?
   - key: faq.data_published.description
-    t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
+    t: ใช่ ข้อมูลทั้งหมดจะถูกเผยแพร่สู่สาธารณะหลังจากลบข้อมูลที่สามารถระบุตัวตนได้ออกแล้ว (เช่น อีเมล, ชื่อผู้ใช้, รหัสต่างๆ)
   - key: faq.survey_design
-    t: How are the surveys designed?
+    t: แบบสำรวจถูกออกแบบอย่างไร?
   - key: faq.survey_design.description
-    t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+    t: แบบสำรวจถูกออกแบบตามข้อเสนอแนะจากชุมชน และผ่านการทบทวนโดยผู้เชี่ยวชาญ คุณสามารถ[เรียนรู้เพิ่มเติมได้ที่นี่](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)
   - key: faq.results_released
-    t: When will the results be released?
+    t: ผลการสำรวจจะถูกเผยแพร่เมื่อใด?
   - key: faq.results_released.description
-    t: Results are generally released a few weeks after the survey closes.
+    t: โดยทั่วไปผลการสำรวจจะถูกเผยแพร่หลังจากปิดการสำรวจไม่กี่สัปดาห์
   - key: faq.survey_deadline
-    t: When will the survey close?
+    t: การสำรวจจะปิดเมื่อใด?
   - key: faq.survey_deadline.description
-    t: This survey is scheduled to run until {date}
+    t: การสำรวจนี้มีกำหนดเปิดให้ทำจนถึง {date}
   - key: faq.team
-    t: Who runs this survey?
+    t: ใครเป็นผู้ดำเนินการสำรวจนี้?
   - key: faq.team.description
-    t: This survey is run by [Devographics](http://devographics.com) together with a collective of contributors, translators, and volunteers.
+    t: การสำรวจนี้จัดทำโดย [Devographics](http://devographics.com) ร่วมกับทีมผู้ร่วมมือ ผู้แปล และอาสาสมัคร
 
   ###########################################################################
   # Form Controls
   ###########################################################################
 
   - key: bracket.vs
-    t: VS
+    t: เทียบกับ
   - key: bracket.start_over
-    t: Start Over
+    t: เริ่มต้นใหม่
   - key: bracket.winner
     t: >
-    Winner:
+    ผู้ชนะ:
   - key: bracket.round
-    t: Round
+    t: รอบ
   - key: bracket.empty_bracket
-    t: Pending result (complete the previous round first)
+    t: กำลังรอผลลัพธ์ (กรุณาทำรอบก่อนหน้าให้เสร็จสิ้นก่อน)
   - key: bracket.result
-    t: Result
+    t: ผลลัพธ์
   - key: bracket.cancel
-    t: Cancel
+    t: ยกเลิก
 
   - key: experience.leave_comment
-    t: Leave a Comment (optional)
+    t: แสดงความคิดเห็น (ตัวเลือก)
   - key: experience.leave_comment_short
-    t: Leave a Comment
+    t: แสดงความคิดเห็น
   - key: experience.tell_us_more
-    t: "You answered “{response}”. Tell us more about your choice:"
+    t: "คุณตอบว่า “{response}” บอกเราเพิ่มเติมเกี่ยวกับตัวเลือกของคุณ:"
   - key: experience.tell_us_more_generic
-    t: "Tell us more about your answer:"
+    t: "บอกเราเพิ่มเติมเกี่ยวกับคำตอบของคุณ:"
   - key: experience.tell_us_more_no_value
-    t: "You didn't pick any response. Tell us why:"
+    t: "คุณยังไม่ได้เลือกคำตอบใด ๆ บอกเราว่าทำไม:"
 
   ###########################################################################
   # Response
   ###########################################################################
 
   - key: response.completion
-    t: "{completion}% completed"
+    t: "เสร็จสิ้นแล้ว {completion}%"
 
   - key: response.details
-    t: Started on {startedAt}, {completion}% completed.
+    t: เริ่มเมื่อ {startedAt} เสร็จสิ้นแล้ว {completion}%
 
   ###########################################################################
   # Reading List
@@ -239,63 +246,62 @@ translations:
 
   - key: readinglist.prompt
     t: >
-      You picked “{option}”. If you'd like to learn more about this feature at the end of the survey, you can click the "+" icon above to add it to your **reading list**.
+      คุณเลือก “{option}” หากคุณต้องการเรียนรู้เพิ่มเติมเกี่ยวกับฟีเจอร์นี้เมื่อสิ้นสุดการสำรวจ คุณสามารถคลิกไอคอน "+" ที่มุมด้านบนเพื่อเพิ่มไปยัง**รายการอ่าน**ของคุณ
 
   - key: readinglist.add_to_list
-    t: Add to Your Reading List
+    t: เพิ่มไปยังรายการอ่านของคุณ
 
   - key: readinglist.remove_from_list
-    t: Remove from Reading List
+    t: ลบออกจากรายการอ่าน
 
   - key: readinglist.added_to_list
-    t: Added “{label}” to your reading list.
+    t: เพิ่ม “{label}” ในรายการอ่านของคุณแล้ว
 
   - key: readinglist.title
-    t: Reading List
+    t: รายการอ่าน
 
   - key: readinglist.description
     t: >
-      Save items here using the "+" button, and you'll get a list of links to learn more about them at the end of the survey.
+      บันทึกรายการที่นี่โดยใช้ปุ่ม "+" และคุณจะได้รับรายการลิงก์เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับรายการเหล่านั้นเมื่อสิ้นสุดการสำรวจ
 
   - key: readinglist.empty
     t: >
-      You don't have any items in your reading list.
-      Try going back to the survey and adding features or libraries you'd like
-      to learn more about using the "+" button.
+      คุณยังไม่มีรายการใดๆในรายการอ่านของคุณ
+      ลองกลับไปที่การสำรวจและเพิ่มฟีเจอร์หรือลิบรารีที่คุณต้องการเรียนรู้เพิ่มเติมโดยใช้ปุ่ม "+"
 
   - key: readinglist.results
     t: >
-      Here are some resources to learn more about the items in your reading list:
+      นี่คือทรัพยากรที่จะช่วยคุณเรียนรู้เพิ่มเติมเกี่ยวกับรายการในรายการอ่านของคุณ:
 
   - key: readinglist.homepage_link
-    t: Homepage
+    t: หน้าแรก
 
   - key: readinglist.receive_copy
     t: >
-      Enter your email to get a copy of your reading list straight in your inbox:
+      ป้อนอีเมลของคุณเพื่อรับสำเนารายการอ่านของคุณในกล่องจดหมาย:
   - key: readinglist.send_by_email
-    t: Send
+    t: ส่ง
   - key: readinglist.email_sent
-    t: Thanks! Your reading list is on its way to your inbox.
+    t: ขอบคุณ! รายการอ่านของคุณกำลังเดินทางไปยังกล่องจดหมายของคุณ
 
   ###########################################################################
   # Score & Knowledge Ranks
   ###########################################################################
 
   - key: knowledge_rank.your_rank
-    t: "Your Rank:"
+    t: "อันดับของคุณ:"
   - key: knowledge_rank.rank1
-    t: Novice
+    t: มือใหม่
   - key: knowledge_rank.rank2
-    t: Apprentice
+    t: ผู้ฝึกหัด
   - key: knowledge_rank.rank3
-    t: Intermediate
+    t: ระดับกลาง
   - key: knowledge_rank.rank4
-    t: Expert
+    t: ผู้เชี่ยวชาญ
   - key: knowledge_rank.rank5
-    t: Scholar
+    t: นักวิชาการ
   - key: knowledge_rank.rank6
-    t: Elite
+    t: ระดับสูง
 
   ###########################################################################
   # Survey-Specific Intros
@@ -404,7 +410,7 @@ translations:
 
   # JS 2023
 
-  - key: general.js2023.survey_intro
+  - key: general.js2023.survey_intro_not_used
     t: |
       Between Astro, Vite, and Remix, 2022 kicked off a wave of JavaScript change that kept on growing in 2023 with Bun, Svelte 5, Tauri, and many others. 
 
