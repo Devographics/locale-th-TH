@@ -816,9 +816,9 @@ translations:
     t: "({count} ผู้ตอบ)"
 
   - key: charts.nth_percentile
-    t: เปอร์เซ็นต์ไทล์ที่ {percentile}
+    t: "เปอร์เซ็นต์ไทล์ที่ {percentile}"
   - key: charts.nth_percentile_value
-    t: เปอร์เซ็นต์ไทล์ที่ {percentile}: {value}
+    t: "เปอร์เซ็นต์ไทล์ที่ {percentile}: {value}"
 
   - key: charts.freeform_data_indicator
     t: (คำตอบแบบอิสระ)

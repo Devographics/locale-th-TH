@@ -449,7 +449,8 @@ translations:
   - key: options.accessibility_techniques.skip_to_content.description
     t: ให้ผู้ใช้ข้ามไปยังเนื้อหาหลักของหน้า
   - key: options.accessibility_techniques.fieldset_and_legend
-    t: `<fieldset>` และ `<legend>`
+    t: |
+      `<fieldset>` และ `<legend>`
   - key: options.accessibility_techniques.fieldset_and_legend.description
     t: |
       การใช้ `<fieldset>` และ `<legend>` เพื่อจัดกลุ่มฟอร์มที่เกี่ยวข้อง
