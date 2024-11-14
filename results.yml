@@ -1032,7 +1032,7 @@ translations:
   - key: share.site.title
     t: ค้นพบผลลัพธ์จาก {siteTitle}
   - key: share.site.twitter_text
-    t: "ค้นพบผลลัพธ์จาก {siteTitle} {link} {hashtag}"
+    t: "ค้นพบผลลัพธ์จาก {siteTitle} {link}"
   - key: share.site.subject
     t: "ผลการสำรวจ {siteTitle}"
   - key: share.site.body
@@ -1126,7 +1126,7 @@ translations:
     t: อันดับการรับรู้
 
   - key: table.would_not_use_percentage
-    t: ไม่ใช้ % 
+    t: ไม่ใช้ %
   - key: table.not_interested_percentage
     t: ไม่สนใจ %
   - key: table.would_use_percentage
@@ -1226,7 +1226,7 @@ translations:
       แท็บ<span class="hint-icon hint-export-button">ข้อมูล</span>ให้คุณดูข้อมูลดิบสำหรับกราฟใดๆดูในรูปแบบ JSON หรือรับคำสั่ง GraphQL ที่คุณสามารถใช้รันกับ API สาธารณะของเรา
 
   - key: hints.completion_hint
-    t: >      
+    t: >
       เนื่องจากทุกคำถามเป็นคำถามทางเลือก บางคำถามอาจมีผู้ตอบน้อยกว่าคำถามอื่นๆ ตัวบ่งชี้ความสำเร็จ (<span class="hint-completion-indicator">◕</span>) จะแสดงจำนวนคนที่ตอบคำถามแต่ละข้อ
   - key: hints.tool_modal_hint
     t: >
